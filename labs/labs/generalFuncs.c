@@ -504,8 +504,8 @@ OPTIONS* get_options(int argc, char** argv)
     //int optnum;
     //char * hold;
     OPTIONS* ret;
-    char* message;
-    message = NULL;
+    //char* message;
+    //message = NULL;
     
     
     SHOW("GETTING OPTIONS");
