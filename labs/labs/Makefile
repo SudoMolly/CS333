@@ -42,3 +42,4 @@ generalFuncs.o: generalFuncs.c generalFuncs.h
 
 clean cls: 
 	rm -f *.o cae-xor mystat *~ \#*
+#what
