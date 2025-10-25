@@ -6,6 +6,9 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"caexor",
+			"mystat",
+			"TESTCAEXOR",
 			"testk"
 		],
 		"makefile.configureOnOpen": false,

@@ -1,49 +1,101 @@
 #ifndef generalFuncs_h
-#include <string.h>
-#include <stdlib.h>
+#include <fcntl.h>
+#include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <sys/types.h>
+#include <stdlib.h>
+#include <string.h>
 #include <sys/stat.h>
-#include <fcntl.h>
+#include <sys/types.h>
 #include <unistd.h>
 
-#define TEST 
-//#define DEBUG 
+//#define TEST
+#define DEBUG
+typedef enum { Encrypt, Decrypt } encryptOrDecrypt;
+/*
+//Only part of code that I couldn't really figure out, union tag, gotten from:
+//https://stackoverflow.com/questions/4194506/how-to-know-that-which-variable-from-union-is-used**
+//Specifically answer by Tom Anderson**
+typedef enum { Size, Buffer} intStringUTag;
+typedef struct {
+    intStringUTag UTAG;
+    union {
+        int size;
+        char* buffer;
+    } Int_String_U_Data; 
+} intStringUStruct;
+*/
+
+
+typedef struct {
+  bool e;
+  bool d;
+  bool c;
+  char *c_opt;
+  bool x;
+  char *x_opt;
+  bool h;
+  bool D;
+  char *input;
+  encryptOrDecrypt expected;
+} OPTIONS;
 
 #ifdef TEST
-    #define testp "abcdef"
-    #define testk "!#!#"
-    #define OUTCOME(type, before, after) printf("Before %s: %s\nAfter: %s\n\n", type,before,after)
-#else 
-    #define testp
-    #define testk
+#define testp "abcdef"
+#define testk "!#!#"
+#define OUTCOME(type, before, after)                                           \
+  printf("Before %s: %s\nAfter: %s\n\n", type, before, after)
+#endif
+#ifndef TEST
+#define testp NULL
+#define testk NULL
 #endif
 
 #ifdef DEBUG
-    #define SHOW(name) fprintf(stderr, "Identifier: %s\nLine: %d, Function: %s, File: %s\n---\n", name, __LINE__, __func__, __FILE__)
-    #define VARSHOW(name, var) fprintf(stderr, "VARIABLE %s: %s \n", name, var)
-#else
-    #define SHOW(name)
-    #define VARSHOW(name, var)
+#define SHOW(name)                                                             \
+  fprintf(stderr, "Identifier: %s\nLine: %d, Function: %s, File: %s\n---\n",   \
+          name, __LINE__, __func__, __FILE__)
+#define VARSHOW(name, var) fprintf(stderr, "VARIABLE %s: %s \n", name, var)
+// Too many typos, just do it again
+#define SHOWVAR(name, var) fprintf(stderr, "VARIABLE %s: %s \n", name, var)
+#endif
+#ifndef DEBUG
+#define SHOW(name)
+#define VARSHOW(name, var)
+#define SHOWVAR(name, var)
 #endif
 
-//CAEXOR ACTIONS
+// CAEXOR ACTIONS
 char xorFromK(char p, char k);
 char shiftPfromK(char p, char k, bool dir);
 int keyToShift(char k);
 void checkProperKey(char k);
-char* strToCharStr(char k, char* prev);
-char* charToCharStr(char k);
+char *strToCharStr(char k, char *prev);
+char *charToCharStr(char k);
 int intToStrSize(int num);
-char* intToStr(int num, char* buffer);
+char *intToStr(int num, char *buffer);
 
-//CAEXOR MAINS
-char* encrypt(char* p, char* k, bool Cae, bool Xor);
-char* decrypt(char* p, char* k, bool Cae, bool Xor);
-//char* xoR(char* path, char* key, bool encrypt_decrypt);
-//char* cae(char* path, char* key, bool encrypt_decrypt);
+// CAEXOR MAINS
+char *encrypt(char *p, char *k, bool Cae, bool Xor);
+char *decrypt(char *p, char *k, bool Cae, bool Xor);
+// char* xoR(char* path, char* key, bool encrypt_decrypt);
+// char* cae(char* path, char* key, bool encrypt_decrypt);
 
-//INTERPRET COMMAND LINE
+// INTERPRET COMMAND LINE
+void exitFail(const char *msg, int numPointers, ...);
+char *strcatdup(char *begin, char *append, bool space);
+OPTIONS *initializeOPTIONS(void);
+void displayOPTIONS(OPTIONS *src);
+bool TESTCAEXOR(void);
+void debugERRMSG(const char *msg);
+void debugMSG(const char *msg);
+void debugVAR(int numArgs, ...);
+OPTIONS *get_options(int argc, char **argv);
+void option_h(void);
+char *option_e(char *cInput, char *xInput, char *path);
+char *option_d(char *cInput, char *xInput, char *path);
+void* deallocateOPTIONS(OPTIONS* data);
+void* freeAll(int numPointers, ...);
+char* strredup(char* buffer, const char* msg);
 
 #endif

@@ -6,6 +6,8 @@ typedef enum _Bool_
 #include "generalFuncs.c"
 */
 #include "generalFuncs.h"
+#include <unistd.h>
+extern bool globalDEBUG;
 
 char* encrypt(char* p, char* k, bool Cae, bool Xor)
 {
@@ -18,8 +20,27 @@ char* encrypt(char* p, char* k, bool Cae, bool Xor)
     char binarySHOW[80];
     char before;
     char after;
+    char* TRUE;
+    char* FALSE;
+    char* cae_p;
+    char* xor_p;
+    hold = NULL;
+    ret = NULL;
+    printVAR = NULL;
+    cae_p = NULL;
+    xor_p = NULL;
+
+    TRUE = strdup("true");
+    FALSE = strdup("false");
 
     SHOW("IN ENCRYPT");
+    if (globalDEBUG)
+    {
+        debugMSG("Encrypt Vars");
+        cae_p = (Cae ? TRUE : FALSE);
+        xor_p = (Xor ? TRUE : FALSE);
+        debugVAR(4, "Path", p, "Key", k, "Is Cae?", cae_p, "Is Xor?", xor_p);
+    }
     if (p == NULL || k == NULL)
     {
         perror("No path or key passed");
@@ -53,9 +74,9 @@ char* encrypt(char* p, char* k, bool Cae, bool Xor)
             after = shiftPfromK(before, k[keyI],0);
 
             printVAR = strToCharStr(k[keyI], printVAR);
-            VARSHOW("USING: ", printVAR);
+            VARSHOW("USING", printVAR);
             printVAR = intToStr(keyToShift(k[keyI]), printVAR);
-            VARSHOW("SHIFTING: ", printVAR);
+            VARSHOW("SHIFTING RIGHT", printVAR);
 
             ++keyI;
             keyI %= keyL;
@@ -84,7 +105,7 @@ char* encrypt(char* p, char* k, bool Cae, bool Xor)
             printVAR = strToCharStr(before, printVAR);
             after = xorFromK(before, k[keyI]);
 
-            sprintf(binarySHOW, "\n%.8B (%c)\n%.8B (%c)\n||||||||\nVVVVVVVV\n%.8B (%c)\n", before,before, k[keyI], k[keyI], after, after);
+            sprintf(binarySHOW, "\n%.8B (%c)\n%.8B (%c)\n||||||||\nVVVVVVVV\n%.8B (%d)\n", before,before, k[keyI], k[keyI], after, after);
             VARSHOW("ENCODED", binarySHOW);
             memset(binarySHOW,0,80);
 
@@ -103,6 +124,9 @@ char* encrypt(char* p, char* k, bool Cae, bool Xor)
     SHOW("OUT ENCRYPT");
     free(hold);
     free(printVAR);
+    free(TRUE);
+    free(FALSE);
+    hold = printVAR = TRUE = FALSE = NULL;
     return ret;
 }
 
@@ -149,7 +173,7 @@ char* decrypt(char* p, char* k, bool Cae, bool Xor)
             VARSHOW("BEFORE", printVAR);
             after = xorFromK(before, k[keyI]);
             VARSHOW("DECODED", binarySHOW);
-            sprintf(binarySHOW, "\n%B (%c)\n%B (%c)\n||||||||\nVVVVVVVV\n%B (%c)", before,before, k[keyI], k[keyI], after, after);
+            sprintf(binarySHOW, "\n%.8B (%c)\n%.8B (%c)\n||||||||\nVVVVVVVV\n%.8B (%d)", before,before, k[keyI], k[keyI], after, (int) after);
             memset(binarySHOW,0,80);
 
 
@@ -176,9 +200,9 @@ char* decrypt(char* p, char* k, bool Cae, bool Xor)
             VARSHOW("BEFORE", printVAR);
             after = shiftPfromK(before, k[keyI],1);
             printVAR = strToCharStr(k[keyI], printVAR);
-            VARSHOW("USING: ", printVAR);
+            VARSHOW("USING", printVAR);
             printVAR = intToStr(k[keyI], printVAR);
-            VARSHOW("SHIFTING: ", printVAR);
+            VARSHOW("SHIFTING", printVAR);
             ++keyI;
             keyI %= keyL;
             ret[pathI] = after;

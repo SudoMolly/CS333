@@ -1,5 +1,6 @@
-#include "generalFuncs.h"
-
+#include <stdlib.h>
+//#include "generalFuncs.h"
+/*
 typedef enum {
     READ,
     WRITE,
@@ -21,4 +22,9 @@ char* perms(mode_t list)
     char octal[10];
     sprintf(octal, "%.9o", list);
     
+}
+*/
+int main(void)
+{
+    exit(EXIT_SUCCESS);
 }
