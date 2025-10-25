@@ -880,4 +880,5 @@ int main(int argc, char** argv)
     free(end);
     end = NULL;
     options = deallocateOPTIONS(options);
+    exit(EXIT_SUCCESS);
 }
