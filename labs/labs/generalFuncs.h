@@ -10,7 +10,7 @@
 #include <unistd.h>
 
 //#define TEST
-#define DEBUG
+//#define DEBUG
 typedef enum { Encrypt, Decrypt } encryptOrDecrypt;
 /*
 //Only part of code that I couldn't really figure out, union tag, gotten from:
@@ -36,7 +36,7 @@ typedef struct {
   char *x_opt;
   bool h;
   bool D;
-  char *input;
+  //char *input;
   encryptOrDecrypt expected;
 } OPTIONS;
 
@@ -97,5 +97,6 @@ char *option_d(char *cInput, char *xInput, char *path);
 void* deallocateOPTIONS(OPTIONS* data);
 void* freeAll(int numPointers, ...);
 char* strredup(char* buffer, const char* msg);
+char* getInput(char* buffer, bool* END);
 
 #endif
