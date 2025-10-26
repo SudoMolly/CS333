@@ -746,11 +746,11 @@ char* getInput(char* buffer)
     if (buffer != NULL) free(buffer);
     buffer = NULL;
     curr = getchar();
-    if (curr != EOF && curr != '\n')
+    if (curr != EOF)
         hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
 
 
-    while (curr != EOF && curr != '\n')
+    while (curr != EOF)
     {
         ++total_count;
         hunHold[curr_count] = curr;
@@ -780,8 +780,6 @@ char* getInput(char* buffer)
     }
     if (hunHold != NULL)
     {
-        if (curr != '\n')
-            ++total_count;
         if (buffer == NULL)
             buffer = (char*) calloc(total_count, sizeof(char));
         else
@@ -795,7 +793,7 @@ char* getInput(char* buffer)
         }
 
         buffer = strcat(buffer, hunHold);
-        buffer[strlen(buffer)] = '\n';
+        //buffer[strlen(buffer)] = '\n';
     }
     else if (hunHold == NULL)
     {
