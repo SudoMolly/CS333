@@ -501,9 +501,16 @@ char shiftPfromK(char p, char k, bool dir)
         fprintf(stderr, "HOLD CALC: %d (%c) %s %d (%c)= %d (%c) \n", p,p,(dir ? "-" : "+"),k,k,hold,hold);
         SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
     }
-    hold = ((hold + 32) % 127);
-    if (hold < 32)
-        hold += 32;
+    if (hold < 0)
+    {
+        hold = 127 - abs(hold % 127);
+    }
+    else
+    {
+        hold = ((hold + 32) % 127);
+        if (hold < 32)
+            hold += 32;
+    }
 
     if (globalDEBUG)
     {
