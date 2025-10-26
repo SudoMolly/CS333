@@ -795,7 +795,7 @@ char* getInput(char* buffer)
         }
 
         buffer = strcat(buffer, hunHold);
-        buffer[strlen(buffer) - 1] = '\n';
+        buffer[strlen(buffer)] = '\n';
     }
     else if (hunHold == NULL)
     {
@@ -932,7 +932,7 @@ int main(int argc, char** argv)
 
             if(globalDEBUG)
                 fprintf(stderr, "\n\n\n=============\nTHE RESULT: -->%s<--\n\n\n==============\n", retText);
-            write(1, retText, strlen(retText) + 1);
+            write(1, retText, strlen(retText));
             
             free(retText); //somehow set to options?
             retText = NULL;
