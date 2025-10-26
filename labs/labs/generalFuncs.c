@@ -483,7 +483,7 @@ char shiftPfromK(char p, char k, bool dir)
         fprintf(stderr, "right\n");
     #endif
 
-    if (dir) hold = shiftP - shiftK;
+    if (dir) hold = abs(shiftP - shiftK);
     else if (!dir) hold = shiftP + shiftK;
 
     #ifdef DEBUG
