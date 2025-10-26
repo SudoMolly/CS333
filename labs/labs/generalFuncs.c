@@ -431,11 +431,17 @@ void checkProperKey(char k)
     //if k greater than 0 OR less than -128
     //AND IF OUT OF BOUNDS
     //AND if k is less than 32 OR greater than 126
+    char* message;
+    SHOW(message = charToCharStr(k));
+    free(message);
+    message = NULL;
     if ( k > 0 && (k < 32 || k > 126))
     {
+        SHOW("IS NOT VALID");
         perror("Cannot use non-printable ascii key");
-        exit(EXIT_FAILURE);
+        //exit(EXIT_FAILURE);
     }
+    SHOW("IS VALID");
 }
 
 int keyToShift(char k)
@@ -726,6 +732,7 @@ char* getInput(char* buffer)
 {
     char* hunHold;
     char* hold;
+    char* message;
     char curr;
     int total_count;
     int curr_count;
@@ -739,14 +746,21 @@ char* getInput(char* buffer)
     }
     //if (END != NULL) exitFail("PROGRAM DIDN\'T END AT EOF!", 1, END);
 
+    message = NULL;
+    if (message == NULL) SHOW("SUPRESS ERR");
     hunHold = NULL;
     hold = NULL;
     total_count = 1;
-    curr_count = 0;
+    curr_count = 1;
     if (buffer != NULL) free(buffer);
     buffer = NULL;
     hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
     curr = (char) read(STDIN_FILENO, hunHold, 1);
+    if (globalDEBUG)
+    {
+        debugVAR(1, "READ IN", message = charToCharStr(curr));
+        free(message);
+    }
     if (curr == -1)
     {
         free(hunHold);
