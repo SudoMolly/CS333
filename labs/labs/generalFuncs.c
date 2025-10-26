@@ -735,9 +735,9 @@ char* getInput(char* buffer)
     char* message;
     char curr;
     int total_count;
-    int curr_count;
+    //int curr_count;
     //int len;
-    const int LIMIT = 10000;
+    const int LIMIT = 100;
     if (feof(stdin)) 
     {
         if (buffer != NULL) free(buffer);
@@ -750,53 +750,43 @@ char* getInput(char* buffer)
     if (message == NULL) SHOW("SUPRESS ERR");
     hunHold = NULL;
     hold = NULL;
-    total_count = 1;
-    curr_count = 1;
+    total_count = 0;
+    //curr_count = 1;
     if (buffer != NULL) free(buffer);
     buffer = NULL;
     hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
-    curr = (char) read(STDIN_FILENO, hunHold, 1);
+    curr = read(STDIN_FILENO, hunHold, LIMIT);
+    if (curr == -1) SHOW("GOT ERROR");
     if (globalDEBUG)
     {
-        debugVAR(1, "READ IN", message = charToCharStr(curr));
-        free(message);
+        debugVAR(1, "READ IN", hunHold);
     }
-    if (curr == -1)
-    {
-        free(hunHold);
-        hunHold = NULL;
-    }
+    total_count  += strlen(hunHold);
 
-
-    while (curr != -1)
+    while (feof(stdin))
     {
-        ++total_count;
-        hunHold[curr_count] = curr;
-        ++curr_count;
-        if (curr_count == LIMIT)
+        total_count += LIMIT;
+        if (buffer == NULL)
         {
-            if (buffer == NULL)
-            {
-                buffer = (char*) calloc (LIMIT + 1, sizeof(char));
-                buffer = strcpy(buffer, hunHold);
-            }
-            else 
-            {
-                hold = (char*) calloc(total_count, sizeof(char));
-                hold = strcpy(hold, buffer);
-                //buffer = (char*) realloc(buffer, total_count);
-                free(buffer);
-                buffer = hold;
-                hold = NULL;
-                buffer = strcat(buffer, hunHold);
-            }
-            free(hunHold);
-            hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
-            curr_count = 0;
+            buffer = (char*) calloc (LIMIT + 1, sizeof(char));
+            buffer = strcpy(buffer, hunHold);
         }
-        curr = getchar();
+        else 
+        {
+            hold = (char*) calloc(total_count, sizeof(char));
+            hold = strcpy(hold, buffer);
+            //buffer = (char*) realloc(buffer, total_count);
+            free(buffer);
+            buffer = hold;
+            hold = NULL;
+            buffer = strcat(buffer, hunHold);
+        }
+        free(hunHold);
+        hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
+        //curr_count = 0;
+        curr = read(STDIN_FILENO, hunHold, LIMIT);
     }
-    if (hunHold != NULL)
+    if (strlen(hunHold) != 0)
     {
         if (buffer == NULL)
             buffer = (char*) calloc(total_count, sizeof(char));
@@ -813,14 +803,18 @@ char* getInput(char* buffer)
         buffer = strcat(buffer, hunHold);
         //buffer[strlen(buffer)] = '\n';
     }
-    else if (hunHold == NULL)
+    else 
     {
-        if (buffer != NULL) free(buffer);
-        buffer = NULL;
-        return NULL;
+        if (buffer != NULL)
+        {
+            if (strlen(buffer) == 0) free(buffer);
+            buffer = NULL;
+        }
     }
     free(hunHold);
     hunHold = NULL;
+    SHOW("GETTING OUT");
+    SHOWVAR("WITH VALUE", buffer);
     return buffer;
 }
 
