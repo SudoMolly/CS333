@@ -438,7 +438,6 @@ void checkProperKey(char k)
     if ( k > 0 && (k < 32 || k > 126))
     {
         SHOW("IS NOT VALID");
-        perror("Cannot use non-printable ascii key");
         //exit(EXIT_FAILURE);
     }
     SHOW("IS VALID");
@@ -470,8 +469,8 @@ char shiftPfromK(char p, char k, bool dir)
     char* msg;
     msg = NULL;
     if (p == '\n' || p == EOF || k == '\n' || k == EOF) return p;
-    shiftK = keyToShift(k);
-    shiftP = keyToShift(p);
+    shiftK = ((int) k) - 32;
+    shiftP = ((int) p) - 32;
     ret = 0;
     hold = 0;
     SHOWVAR("path", msg = charToCharStr(shiftP));
@@ -737,7 +736,7 @@ char* getInput(char* buffer)
     int total_count;
     //int curr_count;
     //int len;
-    const int LIMIT = 10000;
+    const int LIMIT = 35000;
     if (feof(stdin)) 
     {
         if (buffer != NULL) free(buffer);
