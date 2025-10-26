@@ -480,22 +480,20 @@ char shiftPfromK(char p, char k, bool dir)
     if (dir) hold = shiftP - shiftK;
     else if (!dir) hold = shiftP + shiftK;
 
-    if (hold < 32 && !dir)
+    if (hold < 32)
     {
         SHOW("TOO LOW");
-        hold = 126 - hold;
     }
     else if (hold > 126)
     {
         SHOW("TOO HIGH");
-        if (globalDEBUG)
-            fprintf(stderr, "HOLD CALC: %d (%c) + %d (%c)= %d (%c) \n", p,p,k,k,hold,hold);
-        SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
-        hold = ((hold + 32) % 126);
-        if (globalDEBUG)
-            fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 126 = %d (%c) \n", p,p,k,k,hold,hold);
-        SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));
     }
+    if (globalDEBUG)
+        fprintf(stderr, "HOLD CALC: %d (%c) + %d (%c)= %d (%c) \n", p,p,k,k,hold,hold);
+    SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
+    if (globalDEBUG)
+        fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 126 = %d (%c) \n", p,p,k,k,hold,hold);
+    SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));    hold = ((hold + 32) % 126);
     free(msg);
     msg = NULL;
     checkProperKey(hold);
