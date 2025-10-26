@@ -745,12 +745,16 @@ char* getInput(char* buffer)
     curr_count = 0;
     if (buffer != NULL) free(buffer);
     buffer = NULL;
-    curr = getchar();
-    if (curr != EOF)
-        hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
+    hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
+    curr = (char) read(STDIN_FILENO, hunHold, 1);
+    if (curr == -1)
+    {
+        free(hunHold);
+        hunHold = NULL;
+    }
 
 
-    while (curr != EOF)
+    while (curr != -1)
     {
         ++total_count;
         hunHold[curr_count] = curr;
