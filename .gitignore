@@ -16,3 +16,6 @@ labs/labs/cae-xor
 labs/labs/generalFuncs.h.gch
 labs/labs/mystat.o
 .gitignore
+labs/labs/cae-xor
+labs/labs/generalFuncs.h.gch
+labs/labs/output.cae
