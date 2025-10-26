@@ -467,12 +467,14 @@ char shiftPfromK(char p, char k, bool dir)
     int hold;
     char ret;
     char* msg;
+    bool overflow;
     msg = NULL;
     if (p == '\n' || p == EOF || k == '\n' || k == EOF) return p;
     shiftK = ((int) k) - 32;
     shiftP = ((int) p) - 32;
     ret = 0;
     hold = 0;
+    overflow = false;
     #ifdef DEBUG
     SHOWVAR("path", msg = charToCharStr(shiftP));
     SHOWVAR("key", msg = strToCharStr(shiftK, msg));
@@ -493,6 +495,7 @@ char shiftPfromK(char p, char k, bool dir)
     }
     else if (hold > 126)
     {
+        overflow = true;
         SHOW("TOO HIGH");
     }
     #endif
@@ -508,7 +511,7 @@ char shiftPfromK(char p, char k, bool dir)
     else
     {
         hold = ((hold + 32) % 127);
-        if (hold < 32)
+        if (hold < 32 || overflow)
             hold += 32;
     }
 
