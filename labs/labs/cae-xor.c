@@ -199,6 +199,8 @@ char* decrypt(char* p, char* k, bool Cae, bool Xor)
         for (int pathI = 0; pathI < pathL; ++pathI)
         {
             before = hold[pathI];
+            if (before == '\n' || before == EOF)
+                continue;
             printVAR = strToCharStr(before, printVAR);
             VARSHOW("BEFORE", printVAR);
             after = shiftPfromK(before, k[keyI],1);
