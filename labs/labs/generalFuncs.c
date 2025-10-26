@@ -730,7 +730,7 @@ char* getInput(char* buffer)
     int total_count;
     int curr_count;
     //int len;
-    const int LIMIT = 99;
+    const int LIMIT = 10000;
     if (feof(stdin)) 
     {
         if (buffer != NULL) free(buffer);

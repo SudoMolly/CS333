@@ -11,3 +11,8 @@ labs/generalFuncs.o
 labs/lab1
 labs/mystat.c
 labs/mystat.o
+labs/labs/output
+labs/labs/cae-xor
+labs/labs/generalFuncs.h.gch
+labs/labs/mystat.o
+.gitignore
