@@ -72,6 +72,8 @@ char* encrypt(char* p, char* k, bool Cae, bool Xor)
             VARSHOW("BEFORE", printVAR);
 
             after = shiftPfromK(before, k[keyI],0);
+            printVAR = strToCharStr(after, printVAR);
+            VARSHOW("AFTER", printVAR);
 
             printVAR = strToCharStr(k[keyI], printVAR);
             VARSHOW("USING", printVAR);

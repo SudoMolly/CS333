@@ -97,6 +97,6 @@ char *option_d(char *cInput, char *xInput, char *path);
 void* deallocateOPTIONS(OPTIONS* data);
 void* freeAll(int numPointers, ...);
 char* strredup(char* buffer, const char* msg);
-char* getInput(char* buffer, bool* END);
+char* getInput(char* buffer);
 
 #endif

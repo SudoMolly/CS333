@@ -441,9 +441,17 @@ void checkProperKey(char k)
 int keyToShift(char k)
 {
     int hold;
+    int ret;
+    char* message;
+    message = NULL;
     checkProperKey(k);
     hold = (int) k;
-    return hold - 32;
+    ret = hold - 32;
+    SHOWVAR("ADJUSTING SPACE FROM", message = intToStr(hold, message));
+    SHOWVAR("ADJUSTING SPACE TO", message = intToStr(ret, message));
+    if (message != NULL) free(message);
+    message = NULL;
+    return ret;
 }
 
 
@@ -480,8 +488,13 @@ char shiftPfromK(char p, char k, bool dir)
     else if (hold > 126)
     {
         SHOW("TOO HIGH");
+        if (globalDEBUG)
+            fprintf(stderr, "HOLD CALC: %d (%c) + %d (%c)= %d (%c) \n", p,p,k,k,hold,hold);
+        SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
         hold = ((hold + 32) % 126);
-        SHOWVAR("HOLD", msg = intToStr(hold, msg));
+        if (globalDEBUG)
+            fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 126 = %d (%c) \n", p,p,k,k,hold,hold);
+        SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));
     }
     free(msg);
     msg = NULL;
@@ -504,8 +517,12 @@ OPTIONS* get_options(int argc, char** argv)
     //int optnum;
     //char * hold;
     OPTIONS* ret;
-    //char* message;
-    //message = NULL;
+    char* message;
+    message = NULL;
+    if (message == NULL) 
+    {
+        SHOW("supress error");
+    }
     
     
     SHOW("GETTING OPTIONS");
@@ -703,7 +720,7 @@ char* option_d(char* cInput, char* xInput, char* path)
 
 //Didn't know how to get EOF, manpage didn't example (or maybe i didn't read fully :<)
 //**https://stackoverflow.com/questions/1428911/detecting-eof-in-c
-char* getInput(char* buffer, bool* END)
+char* getInput(char* buffer)
 {
     char* hunHold;
     char curr;
@@ -711,7 +728,12 @@ char* getInput(char* buffer, bool* END)
     int curr_count;
     //int len;
     const int LIMIT = 99;
-    if (END != NULL) exitFail("PROGRAM DIDN\'T END AT EOF!", 1, END);
+    if (feof(stdin)) 
+    {
+        free(buffer);
+        return NULL;
+    }
+    //if (END != NULL) exitFail("PROGRAM DIDN\'T END AT EOF!", 1, END);
 
     hunHold = NULL;
     total_count = 1;
@@ -744,16 +766,14 @@ char* getInput(char* buffer, bool* END)
     }
     if (hunHold != 0)
     {
-        buffer = (char*) realloc(buffer, total_count);
+        if (buffer == NULL)
+            buffer = (char*) calloc(total_count, sizeof(char));
+        else
+            buffer = (char*) realloc(buffer, total_count);
         buffer = strcat(buffer, hunHold);
     }
     free(hunHold);
     hunHold = NULL;
-    if (feof(stdin))
-    {
-        END = (bool*) malloc(sizeof(_Bool));
-        *END = true;
-    }
     return buffer;
 }
 
@@ -763,12 +783,12 @@ int main(int argc, char** argv)
     char* retText;
     char* buff;
     char* message;
-    bool* end;
+    //bool* end;
     
     message = NULL;
     options = NULL;
     retText = NULL;
-    end = NULL;
+    //end = NULL;
     buff = NULL;
     //Test
     #ifdef TEST
@@ -828,57 +848,70 @@ int main(int argc, char** argv)
     }
     //Handle options
     
-    while (!end)
+    do 
     {
-        buff = getInput(buff, end);
-
-        //#Option e
-        if (options->expected == Encrypt)
+        buff = getInput(buff);
+        SHOWVAR("BUFFER GOTTEN", buff);
+        if (!buff) SHOW("\n\n\n===BUFFER END===\n\n\n");
+        else if (buff != NULL)
         {
-            if (options->d)
-                exitFail("Somehow decrypt option picked w/ encrypt chosen instead of decrypt", 2, options, buff);
-
-            if (globalDEBUG)
+            //#Option e
+            if (options->expected == Encrypt)
             {
-                if (!options->e && !options->d)
-                    debugMSG("No command line given, assuming encrypt...");
-                else if (options->e)
-                    debugMSG("Encrypt option given, encrypting...");
+                if (options->d)
+                    exitFail("Somehow decrypt option picked w/ encrypt chosen instead of decrypt", 2, options, buff);
+
+                if (globalDEBUG)
+                {
+                    if (!options->e && !options->d)
+                        debugMSG("No command line given, assuming encrypt...");
+                    else if (options->e)
+                        debugMSG("Encrypt option given, encrypting...");
+                }
+                retText = option_e(options->c_opt, options->x_opt, buff);
+                #ifdef DEBUG
+                    SHOW("ENCRYPT CHOSEN");
+                    VARSHOW("INPUT", buff);
+                    VARSHOW("OUTPUT", retText);
+                #endif
             }
-            retText = option_e(options->c_opt, options->x_opt, buff);
+            //#OPTION d
+            else if (options->expected == Decrypt) //if unnecessary, helps with readability
+            {
+                if (options->e)
+                    exitFail("Somehow encrypt option picked w/ decrypt chosen instead of encrypt", 2, options, buff);
+                if (!options->d)
+                    exitFail("Decrypt option chosen without decrypt option set to true", 2, options, buff);
+                retText = option_d(options->c_opt, options->x_opt,buff);
+
             #ifdef DEBUG
-                SHOW("ENCRYPT CHOSEN");
+                SHOW("DECRYPT CHOSEN");
                 VARSHOW("INPUT", buff);
+                if (options->c)
+                    VARSHOW("CAE USED", options->c_opt);
+                else
+                    VARSHOW("NO CAE USED", " ");
+                if (options->x)
+                    VARSHOW("XOR USED", options->x_opt);
+                else
+                    VARSHOW("NO XOR USED", " ");
                 VARSHOW("OUTPUT", retText);
             #endif
-        }
-        //#OPTION d
-        else if (options->expected == Decrypt) //if unnecessary, helps with readability
-        {
-            if (options->e)
-                exitFail("Somehow encrypt option picked w/ decrypt chosen instead of encrypt", 2, options, buff);
-            if (!options->d)
-                exitFail("Decrypt option chosen without decrypt option set to true", 2, options, buff);
-            retText = option_d(options->c_opt, options->x_opt,buff);
+            }
 
-        #ifdef DEBUG
-            SHOW("DECRYPT CHOSEN");
-            VARSHOW("INPUT", buff);
-            VARSHOW("OUTPUT", retText);
-        #endif
+            if(globalDEBUG)
+                printf("\n\n\n=============\nTHE RESULT: -->%s<--\n\n\n==============\n", retText);
+            write(1, retText, strlen(retText) + 1);
+            
+            free(retText); //somehow set to options?
+            retText = NULL;
+            free(message);
+            message = NULL;
         }
-
-        if(globalDEBUG)
-            printf("\n\n\n=============\nTHE RESULT: -->%s<--\n\n\n==============\n", retText);
-        write(1, retText, strlen(retText) + 1);
-        
-        free(retText); //somehow set to options?
-        retText = NULL;
-        free(message);
-        message = NULL;
-    }
-    free(end);
-    end = NULL;
+    } while ((buff != NULL));
+    //free(end);
+    //end = NULL;
     options = deallocateOPTIONS(options);
+    SHOW("REACHED EXIT");
     exit(EXIT_SUCCESS);
 }
