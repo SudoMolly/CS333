@@ -463,6 +463,7 @@ char shiftPfromK(char p, char k, bool dir)
     char ret;
     char* msg;
     msg = NULL;
+    if (p == '\n' || p == EOF || k == '\n' || k == EOF) return p;
     shiftK = keyToShift(k);
     shiftP = keyToShift(p);
     ret = 0;
@@ -491,9 +492,12 @@ char shiftPfromK(char p, char k, bool dir)
     if (globalDEBUG)
         fprintf(stderr, "HOLD CALC: %d (%c) + %d (%c)= %d (%c) \n", p,p,k,k,hold,hold);
     SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
+
+    hold = ((hold + 32) % 126);
+
     if (globalDEBUG)
         fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 126 = %d (%c) \n", p,p,k,k,hold,hold);
-    SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));    hold = ((hold + 32) % 126);
+    SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));    
     free(msg);
     msg = NULL;
     checkProperKey(hold);
@@ -721,6 +725,7 @@ char* option_d(char* cInput, char* xInput, char* path)
 char* getInput(char* buffer)
 {
     char* hunHold;
+    char* hold;
     char curr;
     int total_count;
     int curr_count;
@@ -734,6 +739,7 @@ char* getInput(char* buffer)
     //if (END != NULL) exitFail("PROGRAM DIDN\'T END AT EOF!", 1, END);
 
     hunHold = NULL;
+    hold = NULL;
     total_count = 1;
     curr_count = 0;
     hunHold = (char*) calloc(LIMIT + 1, sizeof(char));
@@ -749,12 +755,17 @@ char* getInput(char* buffer)
         {
             if (buffer == NULL)
             {
-                buffer = (char*) malloc (LIMIT + 1);
+                buffer = (char*) calloc (LIMIT + 1, sizeof(char));
                 buffer = strcpy(buffer, hunHold);
             }
             else 
             {
-                buffer = (char*) realloc(buffer, total_count);
+                hold = (char*) calloc(total_count, sizeof(char));
+                hold = strcpy(hold, buffer);
+                //buffer = (char*) realloc(buffer, total_count);
+                free(buffer);
+                buffer = hold;
+                hold = NULL;
                 buffer = strcat(buffer, hunHold);
             }
             free(hunHold);
@@ -764,11 +775,22 @@ char* getInput(char* buffer)
     }
     if (hunHold != 0)
     {
+        if (curr != '\n')
+            ++total_count;
         if (buffer == NULL)
             buffer = (char*) calloc(total_count, sizeof(char));
         else
-            buffer = (char*) realloc(buffer, total_count);
+        {
+            hold = (char*) calloc(total_count, sizeof(char));
+            hold = strcpy(hold,buffer);
+            free(buffer);
+            buffer = hold;
+            hold = NULL;
+            //buffer = (char*) realloc(buffer, total_count);
+        }
+
         buffer = strcat(buffer, hunHold);
+        buffer[strlen(buffer) - 1] = '\n';
     }
     free(hunHold);
     hunHold = NULL;

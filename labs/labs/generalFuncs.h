@@ -9,6 +9,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+//**MACRO DEFINE */
 //#define TEST
 //#define DEBUG
 typedef enum { Encrypt, Decrypt } encryptOrDecrypt;
