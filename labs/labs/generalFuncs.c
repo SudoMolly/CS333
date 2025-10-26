@@ -493,10 +493,10 @@ char shiftPfromK(char p, char k, bool dir)
         fprintf(stderr, "HOLD CALC: %d (%c) + %d (%c)= %d (%c) \n", p,p,k,k,hold,hold);
     SHOWVAR("HOLD BEFORE", msg = intToStr(hold, msg));
 
-    hold = ((hold + 32) % 126);
+    hold = ((hold + 32) % 127);
 
     if (globalDEBUG)
-        fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 126 = %d (%c) \n", p,p,k,k,hold,hold);
+        fprintf(stderr, "HOLD CALC: [[%d (%c) + %d (%c)] + 32] %% 127 = %d (%c) \n", p,p,k,k,hold,hold);
     SHOWVAR("HOLD AFTER", msg = intToStr(hold, msg));    
     free(msg);
     msg = NULL;
