@@ -467,10 +467,12 @@ char shiftPfromK(char p, char k, bool dir)
     int hold;
     char ret;
     char* msg;
+    bool overflow;
     msg = NULL;
+    overflow = false;
     if (p == '\n' || p == EOF || k == '\n' || k == EOF) return p;
-    shiftK = ((int) k) - 32;
-    shiftP = ((int) p) - 32;
+    shiftK = ((int) k);
+    shiftP = ((int) p);
     ret = 0;
     hold = 0;
     #ifdef DEBUG
@@ -486,16 +488,15 @@ char shiftPfromK(char p, char k, bool dir)
     if (dir) hold = shiftP - shiftK;
     else if (!dir) hold = shiftP + shiftK;
 
-    #ifdef DEBUG
     if (hold < 32)
     {
         SHOW("TOO LOW");
     }
-    else if (hold > 126)
+    else if (hold > 126) //account for mod overflow
     {
+        overflow = true;
         SHOW("TOO HIGH");
     }
-    #endif
     if (globalDEBUG)
     {
         fprintf(stderr, "HOLD CALC: %d (%c) %s %d (%c)= %d (%c) \n", p,p,(dir ? "-" : "+"),k,k,hold,hold);
@@ -511,6 +512,11 @@ char shiftPfromK(char p, char k, bool dir)
         if (hold < 32)
             hold += 32;
     }
+
+    if (overflow)
+        hold += 31;
+    if (p == '~' && k == '~') //can you tell this is stitched together?
+        hold += 30;
 
     if (globalDEBUG)
     {
