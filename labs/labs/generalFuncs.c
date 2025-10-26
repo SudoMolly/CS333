@@ -920,8 +920,8 @@ int main(int argc, char** argv)
             }
 
             if(globalDEBUG)
-                printf("\n\n\n=============\nTHE RESULT: -->%s<--\n\n\n==============\n", retText);
-            write(1, retText, strlen(retText) + 1);
+                fprintf(stderr, "\n\n\n=============\nTHE RESULT: -->%s<--\n\n\n==============\n", retText);
+            write(1, retText, strlen(retText));
             
             free(retText); //somehow set to options?
             retText = NULL;

@@ -11,7 +11,7 @@
 
 //**MACRO DEFINE */
 //#define TEST
-//#define DEBUG
+#define DEBUG
 typedef enum { Encrypt, Decrypt } encryptOrDecrypt;
 /*
 //Only part of code that I couldn't really figure out, union tag, gotten from:
