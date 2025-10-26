@@ -733,7 +733,8 @@ char* getInput(char* buffer)
     const int LIMIT = 99;
     if (feof(stdin)) 
     {
-        free(buffer);
+        if (buffer != NULL) free(buffer);
+        buffer = NULL;
         return NULL;
     }
     //if (END != NULL) exitFail("PROGRAM DIDN\'T END AT EOF!", 1, END);
