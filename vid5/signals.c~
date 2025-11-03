@@ -1,0 +1,44 @@
+//gcc -Wall -o signals signals.c
+
+#include <stdio.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <time.h>
+#include <sys/wait.h>
+
+#define DELAY 2
+#define NUM_FORK 4
+
+static volatile sig_atomic_t alarm_count = 5;
+static volatile sig_atomic_t num_fork = 0;
+
+//no choice in these..
+void sigint_handler(int);
+void sigchld_handler(int);
+void alarm_handler(int);
+
+int main(void)
+{
+    signal(SIGALRM,alarm_handler); //depricated, sigaction is newer
+    signal(SIGCHLD, sigchld_handler);
+    signal(SIGINT, sigint_handler);
+
+    alarm(DELAY);
+    while(alarm_count) pause();
+    raise(SIGINT); //alternatively kill(getpid(),SIGINT) 
+    {
+        pid_t cpid = 0;
+        for (int i = 0; i < NUM_FORK; ++i)
+        {
+            cpid = fork();
+            if (cpid == 0) execlp("sleep","sleep","2",NULL);
+            ++num_fork;
+        }
+        while(1) pause();
+
+    }
+
+
+    return (EXIT_SUCCESS);
+}

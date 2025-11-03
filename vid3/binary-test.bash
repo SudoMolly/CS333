@@ -1,0 +1,1 @@
+/u/rchaney/Classes/cs333/VideoAssignments/data/binary-test.bash

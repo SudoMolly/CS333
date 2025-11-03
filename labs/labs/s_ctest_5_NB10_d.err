@@ -1,0 +1,2736 @@
+Identifier: COMMAND LINE OPTIONS BEFORE
+Line: 868, Function: main, File: generalFuncs.c
+---
+VARIABLE OPTION COUNT: 4 
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -d 
+VARIABLE 2: -c 
+VARIABLE 3: 3846751209 
+Identifier: supress error
+Line: 547, Function: get_options, File: generalFuncs.c
+---
+Identifier: GETTING OPTIONS
+Line: 551, Function: get_options, File: generalFuncs.c
+---
+Identifier: --OPTIONS BEGIN--
+Line: 553, Function: get_options, File: generalFuncs.c
+---
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -d 
+VARIABLE 2: -c 
+VARIABLE 3: 3846751209 
+Identifier: --OPTIONS END--
+Line: 561, Function: get_options, File: generalFuncs.c
+---
+Identifier: COMMAND LINE OPTIONS AFTER
+Line: 888, Function: main, File: generalFuncs.c
+---
+VARIABLE OPTION COUNT: 4 
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -d 
+VARIABLE 2: -c 
+VARIABLE 3: 3846751209 
+Identifier: SUPRESS ERR
+Line: 765, Function: getInput, File: generalFuncs.c
+---
+Identifier: GETTING OUT
+Line: 831, Function: getInput, File: generalFuncs.c
+---
+VARIABLE WITH VALUE: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+VARIABLE BUFFER GOTTEN: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+Identifier: INTO OPTION DECRYPT
+Line: 699, Function: option_d, File: generalFuncs.c
+---
+VARIABLE CAE INPUT: 3846751209 
+VARIABLE XOR INPUT: (null) 
+VARIABLE PATH: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+Identifier: IN DECRYPT
+Line: 148, Function: decrypt, File: cae-xor.c
+---
+Identifier: SETTING PATH TO RET
+Line: 165, Function: decrypt, File: cae-xor.c
+---
+VARIABLE PATH: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+VARIABLE RET: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+Identifier: INTO CAE
+Line: 198, Function: decrypt, File: cae-xor.c
+---
+VARIABLE BEFORE: T 
+VARIABLE path: 4 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 3 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: A1 
+VARIABLE BEFORE: '1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: n6 
+VARIABLE BEFORE: x6 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: d2 
+VARIABLE BEFORE: 62 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER:  4 
+VARIABLE BEFORE: +4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: s5 
+VARIABLE BEFORE: %5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: o3 
+VARIABLE BEFORE: ~3 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: m9 
+VARIABLE BEFORE: w9 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: e0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: .8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: t7 
+VARIABLE BEFORE: {7 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: h1 
+VARIABLE BEFORE: "1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: i6 
+VARIABLE BEFORE: #6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: n2 
+VARIABLE BEFORE: }2 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: g4 
+VARIABLE BEFORE: +4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: s5 
+VARIABLE BEFORE: 55 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER:  3 
+VARIABLE BEFORE: &3 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: t9 
+VARIABLE BEFORE: z9 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: h0 
+VARIABLE BEFORE: q0 
+VARIABLE path: Q 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: a8 
+VARIABLE BEFORE: .8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: t7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: ,1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: s6 
+VARIABLE BEFORE: |6 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: h2 
+VARIABLE BEFORE: &2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: o4 
+VARIABLE BEFORE: -4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: u5 
+VARIABLE BEFORE: "5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: l3 
+VARIABLE BEFORE: u3 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: d9 
+VARIABLE BEFORE: 29 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER:  0 
+VARIABLE BEFORE: ~0 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: n8 
+VARIABLE BEFORE: )8 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: o7 
+VARIABLE BEFORE: (7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: t1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: |6 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: h2 
+VARIABLE BEFORE: w2 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: a4 
+VARIABLE BEFORE: .4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: v5 
+VARIABLE BEFORE: z5 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: e3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: t9 
+VARIABLE path: T 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: b0 
+VARIABLE BEFORE: u0 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: e8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE: "7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: n1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: z6 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: f2 
+VARIABLE BEFORE: &2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: o4 
+VARIABLE BEFORE: *4 
+VARIABLE path: 
+ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: r5 
+VARIABLE BEFORE: |5 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: g3 
+VARIABLE BEFORE: !3 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: o9 
+VARIABLE BEFORE: '9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: t0 
+VARIABLE BEFORE: %0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: t8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE: "7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: n1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: ,6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: w2 
+VARIABLE BEFORE: {2 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: e4 
+VARIABLE BEFORE: *4 
+VARIABLE path: 
+ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: r5 
+VARIABLE BEFORE: z5 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: e3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: ~9 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: l0 
+VARIABLE BEFORE:  0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: o8 
+VARIABLE BEFORE: -8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: s7 
+VARIABLE BEFORE: (7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: t1 
+VARIABLE BEFORE: F1 
+VARIABLE path: & 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: .6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: ^2 
+VARIABLE path: > 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: H4 
+VARIABLE BEFORE: !4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: i5 
+VARIABLE BEFORE: )5 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: s3 
+VARIABLE BEFORE: &3 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: t9 
+VARIABLE BEFORE: "9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: o0 
+VARIABLE BEFORE: #0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: r8 
+VARIABLE BEFORE: 38 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: y7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: z1 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: b6 
+VARIABLE BEFORE: y6 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: e2 
+VARIABLE BEFORE: y2 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: c4 
+VARIABLE BEFORE: x4 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: a5 
+VARIABLE BEFORE: #5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: m3 
+VARIABLE BEFORE: v3 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: e9 
+VARIABLE BEFORE: ~9 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: l0 
+VARIABLE BEFORE: u0 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: e8 
+VARIABLE BEFORE: !8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: g7 
+VARIABLE BEFORE: x7 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: e1 
+VARIABLE BEFORE: '1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: n6 
+VARIABLE BEFORE: x6 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: d2 
+VARIABLE BEFORE: D2 
+VARIABLE path: $ 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: .4 
+VARIABLE BEFORE: 74 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER:  5 
+VARIABLE BEFORE: a5 
+VARIABLE path: A 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: L3 
+VARIABLE BEFORE: v3 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: e9 
+VARIABLE BEFORE: y9 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: g0 
+VARIABLE BEFORE: u0 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: e8 
+VARIABLE BEFORE: (8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: n7 
+VARIABLE BEFORE: w7 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: d1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: v6 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: b2 
+VARIABLE BEFORE: {2 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: e4 
+VARIABLE BEFORE: z4 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: c5 
+VARIABLE BEFORE: v5 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: a3 
+VARIABLE BEFORE: ~3 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: m9 
+VARIABLE BEFORE: w9 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: e0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: '8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: m7 
+VARIABLE BEFORE: -7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: y1 
+VARIABLE BEFORE: -1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: t6 
+VARIABLE BEFORE: |6 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: h2 
+VARIABLE BEFORE: D2 
+VARIABLE path: $ 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: .4 
+VARIABLE BEFORE: 74 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER:  5 
+VARIABLE BEFORE: V5 
+VARIABLE path: 6 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: A3 
+VARIABLE BEFORE:  3 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: n9 
+VARIABLE BEFORE: v9 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: d0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE:  8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: f7 
+VARIABLE BEFORE: #7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: o1 
+VARIABLE BEFORE: +1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: r6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: +2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: t4 
+VARIABLE BEFORE: /4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: w5 
+VARIABLE BEFORE: %5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: o3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: s9 
+VARIABLE path: S 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: a0 
+VARIABLE BEFORE: ~0 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: n8 
+VARIABLE BEFORE: }8 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: d7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: y1 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: a6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: ~2 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: h4 
+VARIABLE BEFORE: x4 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: a5 
+VARIABLE BEFORE: "5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: l3 
+VARIABLE BEFORE: w3 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: f9 
+VARIABLE BEFORE: 29 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER:  0 
+VARIABLE BEFORE: %0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: t8 
+VARIABLE BEFORE: "8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: h7 
+VARIABLE BEFORE: #7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: o1 
+VARIABLE BEFORE: .1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: u6 
+VARIABLE BEFORE: (6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: s2 
+VARIABLE BEFORE: w2 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: a4 
+VARIABLE BEFORE: &4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: n5 
+VARIABLE BEFORE: y5 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: d3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: ,9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: y0 
+VARIABLE BEFORE: u0 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: e8 
+VARIABLE BEFORE: z8 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: a7 
+VARIABLE BEFORE: &7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: r1 
+VARIABLE BEFORE: ,1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: s6 
+VARIABLE BEFORE: @6 
+VARIABLE path:   
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: ,2 
+VARIABLE BEFORE: 62 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER:  4 
+VARIABLE BEFORE: ,4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: t5 
+VARIABLE BEFORE: }5 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: h3 
+VARIABLE BEFORE: v3 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: e9 
+VARIABLE BEFORE: 29 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER:  0 
+VARIABLE BEFORE: #0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: r8 
+VARIABLE BEFORE: #8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: i7 
+VARIABLE BEFORE: "7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: n1 
+VARIABLE BEFORE:  1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: g6 
+VARIABLE BEFORE: %6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: p2 
+VARIABLE BEFORE: w2 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: a4 
+VARIABLE BEFORE: +4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: s5 
+VARIABLE BEFORE: )5 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: s3 
+VARIABLE BEFORE: v3 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: e9 
+VARIABLE BEFORE: v9 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: d0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: )8 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: o7 
+VARIABLE BEFORE: )7 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: u1 
+VARIABLE BEFORE: -1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: t6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: &2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: o4 
+VARIABLE BEFORE: }4 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: f5 
+VARIABLE BEFORE: 55 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER:  3 
+VARIABLE BEFORE: r3 
+VARIABLE path: R 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: a9 
+VARIABLE BEFORE: ~9 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: l0 
+VARIABLE BEFORE: |0 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: l8 
+VARIABLE BEFORE: 98 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER:  7 
+VARIABLE BEFORE: ~7 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: k1 
+VARIABLE BEFORE: '1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: n6 
+VARIABLE BEFORE: $6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: o2 
+VARIABLE BEFORE: .2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: w4 
+VARIABLE BEFORE: $4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: l5 
+VARIABLE BEFORE: z5 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: e3 
+VARIABLE BEFORE: u3 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: d9 
+VARIABLE BEFORE: y9 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: g0 
+VARIABLE BEFORE: u0 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: e8 
+VARIABLE BEFORE: G8 
+VARIABLE path: ' 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: .7 
+VARIABLE BEFORE: @7 
+VARIABLE path:   
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: -1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: [6 
+VARIABLE path: ; 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: G2 
+VARIABLE BEFORE: w2 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: a4 
+VARIABLE BEFORE: $4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: l5 
+VARIABLE BEFORE: v5 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: a3 
+VARIABLE BEFORE: u3 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: d9 
+VARIABLE BEFORE: %9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: r0 
+VARIABLE BEFORE: y0 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: i8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE:  7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: l1 
+VARIABLE BEFORE: 81 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER:  6 
+VARIABLE BEFORE: }6 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: i2 
+VARIABLE BEFORE: %2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: n4 
+VARIABLE BEFORE: 74 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER:  5 
+VARIABLE BEFORE: i5 
+VARIABLE path: I 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: T3 
+VARIABLE BEFORE: y3 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: h9 
+VARIABLE BEFORE: w9 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: e0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: e8 
+VARIABLE path: E 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: L7 
+VARIABLE BEFORE: #7 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: o1 
+VARIABLE BEFORE: +1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: r6 
+VARIABLE BEFORE: x6 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: d2 
+VARIABLE BEFORE: 62 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER:  4 
+VARIABLE BEFORE: '4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: o5 
+VARIABLE BEFORE: {5 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: f3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: '9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: t0 
+VARIABLE BEFORE: x0 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: h8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: j1 
+VARIABLE path: J 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: R6 
+VARIABLE BEFORE: }6 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: i2 
+VARIABLE BEFORE: %2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: n4 
+VARIABLE BEFORE: ~4 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: g5 
+VARIABLE BEFORE: )5 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: s3 
+VARIABLE BEFORE: K3 
+VARIABLE path: + 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: :9 
+VARIABLE BEFORE: 29 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER:  0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: m8 
+VARIABLE path: M 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: T7 
+VARIABLE BEFORE: {7 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: h1 
+VARIABLE BEFORE: }1 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: e6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: \2 
+VARIABLE path: < 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: F4 
+VARIABLE BEFORE: |4 
+VARIABLE path: \ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: e5 
+VARIABLE BEFORE: "5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: l3 
+VARIABLE BEFORE: }3 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: l9 
+VARIABLE BEFORE: "9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: o0 
+VARIABLE BEFORE: (0 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: w8 
+VARIABLE BEFORE: -8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: s7 
+VARIABLE BEFORE: {7 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: h1 
+VARIABLE BEFORE: "1 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: i6 
+VARIABLE BEFORE: %6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: p2 
+VARIABLE BEFORE: 62 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER:  4 
+VARIABLE BEFORE: '4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: o5 
+VARIABLE BEFORE: {5 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: f3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: '9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: t0 
+VARIABLE BEFORE: x0 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: h8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: j1 
+VARIABLE path: J 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: R6 
+VARIABLE BEFORE: }6 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: i2 
+VARIABLE BEFORE: %2 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: n4 
+VARIABLE BEFORE: ~4 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: g5 
+VARIABLE BEFORE: A5 
+VARIABLE path: ! 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: ,3 
+VARIABLE BEFORE: 13 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: f9 
+VARIABLE path: F 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: T0 
+VARIABLE BEFORE: x0 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER: h8 
+VARIABLE BEFORE: ~8 
+VARIABLE path: ^ 
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: e7 
+VARIABLE BEFORE: 37 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER:  1 
+VARIABLE BEFORE: d1 
+VARIABLE path: D 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: L6 
+VARIABLE BEFORE: $6 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER: o2 
+VARIABLE BEFORE: )2 
+VARIABLE path: 	 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: r4 
+VARIABLE BEFORE: {4 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: d5 
+VARIABLE BEFORE: 55 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER:  3 
+VARIABLE BEFORE: !3 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: o9 
+VARIABLE BEFORE: x9 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: f0 
+VARIABLE BEFORE: 00 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 0 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 00 
+VARIABLE SHIFTING: 48 
+VARIABLE AFTER:  8 
+VARIABLE BEFORE: .8 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 9 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 98 
+VARIABLE SHIFTING: 57 
+VARIABLE AFTER: t7 
+VARIABLE BEFORE: {7 
+VARIABLE path: [ 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+left
+VARIABLE USING: 37 
+VARIABLE SHIFTING: 51 
+VARIABLE AFTER: h1 
+VARIABLE BEFORE: }1 
+VARIABLE path: ] 
+VARIABLE key:  
+VARIABLE SHIFTING: 8 
+left
+VARIABLE USING: 81 
+VARIABLE SHIFTING: 56 
+VARIABLE AFTER: e6 
+VARIABLE BEFORE: 46 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 46 
+VARIABLE SHIFTING: 52 
+VARIABLE AFTER:  2 
+VARIABLE BEFORE: h2 
+VARIABLE path: H 
+VARIABLE key:  
+VARIABLE SHIFTING: 6 
+left
+VARIABLE USING: 62 
+VARIABLE SHIFTING: 54 
+VARIABLE AFTER: R4 
+VARIABLE BEFORE: !4 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 7 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 74 
+VARIABLE SHIFTING: 55 
+VARIABLE AFTER: i5 
+VARIABLE BEFORE: $5 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 55 
+VARIABLE SHIFTING: 53 
+VARIABLE AFTER: n3 
+VARIABLE BEFORE: x3 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+left
+VARIABLE USING: 13 
+VARIABLE SHIFTING: 49 
+VARIABLE AFTER: g9 
+VARIABLE BEFORE: &9 
+VARIABLE path:  
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+left
+Identifier: TOO LOW
+Line: 494, Function: shiftPfromK, File: generalFuncs.c
+---
+VARIABLE USING: 29 
+VARIABLE SHIFTING: 50 
+VARIABLE AFTER: s0 
+Identifier: OUT CAE
+Line: 217, Function: decrypt, File: cae-xor.c
+---
+Identifier: OUT DECRYPT
+Line: 222, Function: decrypt, File: cae-xor.c
+---
+Identifier: DECRYPT CHOSEN
+Line: 944, Function: main, File: generalFuncs.c
+---
+VARIABLE INPUT: T'x6+%~w0.{"#}+5&zq.3,|&-"u2~)(8|w.z1tu~"8z&*|!'%~"8,{*z1~ -(F4^!)&"#33zyyx#v
+~u!x'xD7avyu(w8v{zv~w0'--|D7V v0 #+4+/%1s~}3y4~x"w2%"#.(w&y1,uz&,@6,}v2##" 
+%w+)vv0))-4&}5r~|9~'$.$zuyuG
+@8[w$vu%y~ 8}%7iyw0e#+x6'{1'x~3j}%~)K
+20m{}4\|"}"(-{"%6'{1'x~3j}%~A1fx~3d$){5!x0.{}4h!$x&
+ 
+VARIABLE CAE USED: 3846751209 
+VARIABLE NO XOR USED:   
+VARIABLE OUTPUT: And some things that should not have been forgotten were lost. History became
+legend. Legend became myth. And for two and a half thousand years, the ring
+passed out of all knowledge.
+- Galadriel in The Lord of the Rings:
+  The Fellowship of the Ring, The Lord of the Rings
+ 
+Identifier: SUPRESS ERR
+Line: 765, Function: getInput, File: generalFuncs.c
+---
+Identifier: GETTING OUT
+Line: 831, Function: getInput, File: generalFuncs.c
+---
+VARIABLE WITH VALUE: (null) 
+VARIABLE BUFFER GOTTEN: (null) 
+Identifier: 
+
+
+===BUFFER END===
+
+
+
+Line: 911, Function: main, File: generalFuncs.c
+---
+Identifier: REACHED EXIT
+Line: 971, Function: main, File: generalFuncs.c
+---

@@ -1,0 +1,2232 @@
+caesar key = '1579468230'
+xor key    = NULL
+ce   shift char 1  shift num  17  char W -> h
+ce   shift char 5  shift num  21  char E -> Z
+ce   shift char 7  shift num  23  char S -> j
+ce   shift char 9  shift num  25  char T -> m
+ce   shift char 4  shift num  20  char M -> a
+ce   shift char 6  shift num  22  char O -> e
+ce   shift char 8  shift num  24  char R -> j
+ce   shift char 2  shift num  18  char E -> W
+ce   shift char 3  shift num  19  char L -> _
+ce   shift char 0  shift num  16  char A -> Q
+ce   shift char 1  shift num  17  char N -> _
+ce   shift char 5  shift num  21  char D -> Y
+ce   shift char 7  shift num  23  char . -> E
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char O -> c
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char B -> Z
+ce   shift char 2  shift num  18  char u -> (
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char u -> +
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char f -> y
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char E -> ^
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char g -> }
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char T -> e
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char k ->  
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char - -> @
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char ! -> 8
+ce   shift char 9  shift num  25  char K -> d
+ce   shift char 4  shift num  20  char I -> ]
+ce   shift char 6  shift num  22  char N -> d
+ce   shift char 8  shift num  24  char G -> _
+ce   shift char 2  shift num  18  char . -> @
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char W -> g
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char ' -> @
+ce   shift char 4  shift num  20  char s -> (
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char w -> ,
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char ? -> X
+ce   shift char 4  shift num  20  char M -> a
+ce   shift char 6  shift num  22  char y -> 0
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char c -> u
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char W -> k
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char l -> $
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char ? -> W
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char N -> a
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char , -> =
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char f -> |
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char ; -> S
+ce   shift char 2  shift num  18  char I -> [
+ce   shift char 3  shift num  19  char f -> y
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char m ->  
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char k -> |
+ce   shift char 5  shift num  21  char ' -> <
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char , -> =
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char w -> /
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char w -> /
+ce   shift char 9  shift num  25  char T -> m
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char u -> '
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char c -> |
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char u -> ,
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char s -> (
+ce   shift char 6  shift num  22  char ; -> Q
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char f -> }
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char v -> '
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char , -> A
+ce   shift char 7  shift num  23  char T -> k
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char f -> ~
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char w -> +
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char , -> B
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char g -> |
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char f -> ~
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char . -> B
+ce   shift char 6  shift num  22  char G -> ]
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char ' -> :
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char ! -> 7
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char I -> [
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char p -> !
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char y -> 1
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char , -> ?
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char m ->  
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char . -> C
+ce   shift char 7  shift num  23  char B -> Y
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char J -> `
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char v -> )
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char , -> <
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char I -> ^
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char m -> "
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char v -> .
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char u -> .
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char f -> v
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char g -> !
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char , -> >
+ce   shift char 3  shift num  19  char N -> a
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char c -> z
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char I -> [
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char w -> (
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char f -> y
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char p -> %
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char c -> x
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char ; -> Q
+ce   shift char 8  shift num  24  char I -> a
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char s -> (
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char f -> z
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char g -> !
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char w -> /
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char ; -> S
+ce   shift char 2  shift num  18  char S -> e
+ce   shift char 3  shift num  19  char u -> )
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char w -> .
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char g -> {
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char w -> +
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char . -> ?
+ce   shift char 5  shift num  21  char B -> W
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char f -> ~
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char b -> w
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char c -> |
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char v -> -
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char , -> B
+ce   shift char 8  shift num  24  char I -> a
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char m -> }
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char f -> {
+ce   shift char 7  shift num  23  char f -> }
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char g -> z
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char v -> *
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char . -> ?
+ce   shift char 5  shift num  21  char N -> c
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char , -> E
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char f -> |
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char , -> =
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char c -> y
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char z -> -
+ce   shift char 3  shift num  19  char , -> ?
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char m -> #
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char f -> |
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char E -> V
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char g -> ~
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char . -> @
+ce   shift char 3  shift num  19  char G -> Z
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char ' -> <
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char p -> %
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char c -> u
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char ! -> 1
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char I -> ^
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char w -> 1
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char u -> ,
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char g -> |
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char u -> *
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char A -> Y
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char m ->  
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char k -> ~
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char f ->  
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char F -> W
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char b -> u
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char p -> '
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char I -> \
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char v -> .
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char . -> B
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char O -> g
+ce   shift char 2  shift num  18  char , -> >
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char ! -> 1
+ce   shift char 1  shift num  17  char R -> c
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char p -> #
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char m -> "
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char , -> ?
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char W -> h
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char m -> "
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char , -> C
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char u -> )
+ce   shift char 0  shift num  16  char g -> w
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char , -> <
+ce   shift char 1  shift num  17  char T -> e
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char w -> +
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char c -> x
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char c -> u
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char f -> y
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char g -> x
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char , -> E
+ce   shift char 4  shift num  20  char L -> `
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char p -> %
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char ; -> N
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char p -> %
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char p -> $
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char b -> r
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char , -> D
+ce   shift char 2  shift num  18  char A -> S
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char c -> x
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char w -> ,
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char f -> y
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char c -> z
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char v -> -
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char y -> ,
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char p -> !
+ce   shift char 1  shift num  17  char u -> '
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char p -> (
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char ; -> M
+ce   shift char 3  shift num  19  char W -> j
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char ' -> ?
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char m -> #
+ce   shift char 7  shift num  23  char p -> (
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char y -> 0
+xe   no xor key
+ce   shift char 8  shift num  24  char T -> l
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char f -> {
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char f -> {
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char w -> (
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char u -> *
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char . -> F
+ce   shift char 2  shift num  18  char T -> f
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char y -> .
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char l -> $
+ce   shift char 9  shift num  25  char ' -> @
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char f -> w
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char f -> x
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char C -> S
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char . -> @
+ce   shift char 3  shift num  19  char H -> [
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char u -> (
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char l -> |
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char v -> ,
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char y -> 1
+ce   shift char 9  shift num  25  char , -> E
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char m -> #
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char f -> x
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char , -> @
+ce   shift char 6  shift num  22  char W -> m
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 5  shift num  21  char - -> B
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char s -> (
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char y -> -
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char ' -> ?
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char , -> ?
+ce   shift char 0  shift num  16  char A -> Q
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char u -> ,
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char m -> #
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char f -> ~
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char C -> V
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char p -> (
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char . -> F
+ce   shift char 2  shift num  18  char H -> Z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char t -> .
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char l -> |
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char v -> 0
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char , -> @
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char g -> w
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char , -> A
+ce   shift char 7  shift num  23  char W -> n
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char y -> ,
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char y -> 1
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char v -> ,
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char g -> !
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char f -> x
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char g -> x
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char b -> y
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char u -> *
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char , -> >
+ce   shift char 3  shift num  19  char A -> T
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char y -> .
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char ' -> ?
+ce   shift char 2  shift num  18  char T -> f
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char - -> =
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char w -> .
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char S -> d
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char C -> [
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char . -> B
+ce   shift char 6  shift num  22  char ' -> =
+ce   shift char 8  shift num  24  char T -> l
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char v -> 0
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char w -> 1
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char , -> @
+ce   shift char 6  shift num  22  char A -> W
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char ' -> @
+ce   shift char 4  shift num  20  char T -> h
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char I -> [
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char C -> [
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char ' -> ;
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char . -> ?
+ce   shift char 5  shift num  21  char ' -> <
+ce   shift char 7  shift num  23  char O -> f
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char f -> w
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char g -> !
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char ; -> S
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char y -> -
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char l -> |
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char b -> y
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char f -> |
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char g -> z
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char , -> A
+ce   shift char 7  shift num  23  char B -> Y
+ce   shift char 9  shift num  25  char u -> /
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char ' -> :
+ce   shift char 0  shift num  16  char l -> |
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char m -> "
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char m -> &
+ce   shift char 2  shift num  18  char b -> t
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char , -> =
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char w -> /
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char v -> '
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char g -> {
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char , -> >
+ce   shift char 3  shift num  19  char W -> j
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char f ->  
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char . -> B
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char T -> l
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char l -> !
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char u -> )
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char , -> D
+ce   shift char 2  shift num  18  char F -> X
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char m -> }
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char u -> ,
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char h ->  
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char u -> *
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char l -> |
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char w -> /
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char - -> ?
+ce   shift char 3  shift num  19  char H -> [
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char y -> 1
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char K -> ^
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char g -> |
+ce   shift char 7  shift num  23  char , -> C
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char B -> V
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char f -> x
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char E -> ]
+ce   shift char 2  shift num  18  char x -> +
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char , -> C
+ce   shift char 9  shift num  25  char W -> p
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char c -> v
+ce   shift char 0  shift num  16  char k -> {
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char T -> j
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char b -> u
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char , -> A
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char S -> l
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char l -> #
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char b -> u
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char G -> Y
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char u -> '
+ce   shift char 5  shift num  21  char c -> x
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char - -> ?
+ce   shift char 3  shift num  19  char B -> U
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char i -> ~
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char f -> w
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char w -> 1
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char g ->  
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char c -> v
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char f ->  
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char m -> '
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char b -> z
+ce   shift char 2  shift num  18  char ' -> 9
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 5  shift num  21  char . -> C
+ce   shift char 7  shift num  23  char T -> k
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char g -> !
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char c -> y
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char ; -> Q
+ce   shift char 8  shift num  24  char A -> Y
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char C -> T
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char p -> %
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char C -> V
+ce   shift char 0  shift num  16  char r -> #
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char p -> (
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char ' -> =
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char r -> %
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char g -> w
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char b -> y
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char , -> @
+ce   shift char 6  shift num  22  char F -> \
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char m -> !
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char d -> z
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char y -> ,
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char t -> %
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char n -> !
+ce   shift char 3  shift num  19  char d -> w
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char g -> |
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char f -> z
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char , -> B
+ce   shift char 8  shift num  24  char B -> Z
+ce   shift char 2  shift num  18  char u -> (
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char n -> #
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char l -> $
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char b -> x
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char b -> {
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char r -> )
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char - -> @
+ce   shift char 0  shift num  16  char W -> g
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char f -> }
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char w -> ,
+ce   shift char 6  shift num  22  char , -> B
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char w -> *
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char p -> (
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char y -> .
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char f -> ~
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char w -> +
+ce   shift char 0  shift num  16  char , -> <
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char b -> v
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char f -> w
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char b -> y
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char s -> $
+ce   shift char 1  shift num  17  char ; -> L
+ce   shift char 5  shift num  21  char F -> [
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char   -> 2
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char o ->  
+ce   shift char 1  shift num  17  char - -> >
+ce   shift char 5  shift num  21  char d -> y
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char s -> (
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char b -> s
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char o -> '
+ce   shift char 9  shift num  25  char o -> )
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char w -> 0
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char m -> #
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char S -> l
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char b -> r
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char   -> 5
+xe   no xor key
+ce   shift char 7  shift num  23  char m -> %
+ce   shift char 9  shift num  25  char y -> 3
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char b -> x
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char ; -> R
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char b -> v
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char ' -> >
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char v -> '
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char , -> E
+ce   shift char 4  shift num  20  char T -> h
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char d -> t
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 5  shift num  21  char y -> /
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char s -> -
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char l -> %
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char g -> w
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char l -> &
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char s -> '
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 5  shift num  21  char o -> %
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char i -> "
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char ; -> K
+ce   shift char 1  shift num  17  char A -> R
+ce   shift char 5  shift num  21  char n -> $
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char g -> {
+ce   shift char 6  shift num  22  char e -> {
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char t -> '
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char i -> }
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char E -> W
+ce   shift char 3  shift num  19  char n -> "
+ce   shift char 0  shift num  16  char g -> w
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char o -> (
+ce   shift char 2  shift num  18  char w -> *
+ce   shift char 3  shift num  19  char - -> @
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char - -> >
+ce   shift char 5  shift num  21  char b -> w
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char S -> g
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char a -> y
+ce   shift char 2  shift num  18  char l -> ~
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char i -> !
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char k ->  
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char m -> }
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char l -> $
+ce   shift char 9  shift num  25  char v -> 0
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char s -> *
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char a -> s
+ce   shift char 3  shift num  19  char c -> v
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char u -> '
+ce   shift char 5  shift num  21  char r -> (
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char ' -> @
+ce   shift char 4  shift num  20  char d -> x
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char y -> *
+ce   shift char 1  shift num  17  char   -> 1
+ce   shift char 5  shift num  21  char w -> -
+ce   shift char 7  shift num  23  char e -> |
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char o -> "
+ce   shift char 3  shift num  19  char t -> (
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char r -> *
+ce   shift char 9  shift num  25  char e -> ~
+ce   shift char 4  shift num  20  char , -> @
+ce   shift char 6  shift num  22  char A -> W
+ce   shift char 8  shift num  24  char n -> '
+ce   shift char 2  shift num  18  char d -> v
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char h -> x
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char d -> {
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 6  shift num  22  char h -> ~
+ce   shift char 8  shift num  24  char e -> }
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char r -> &
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 5  shift num  21  char a -> v
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char o -> &
+ce   shift char 8  shift num  24  char d -> |
+ce   shift char 2  shift num  18  char s -> &
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char c -> s
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char   -> 4
+ce   shift char 6  shift num  22  char w -> .
+ce   shift char 8  shift num  24  char h -> !
+ce   shift char 2  shift num  18  char i -> {
+ce   shift char 3  shift num  19  char l ->  
+ce   shift char 0  shift num  16  char e -> u
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char a -> x
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char 4  shift num  20  char y -> .
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char p -> #
+ce   shift char 3  shift num  19  char e -> x
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char k -> |
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char T -> k
+ce   shift char 9  shift num  25  char h -> "
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char t -> +
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char f -> x
+ce   shift char 3  shift num  19  char o -> #
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char 1  shift num  17  char g -> x
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char 7  shift num  23  char t -> ,
+ce   shift char 9  shift num  25  char   -> 9
+ce   shift char 4  shift num  20  char w -> ,
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char t -> -
+ce   shift char 2  shift num  18  char h -> z
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 5  shift num  21  char   -> 5
+ce   shift char 7  shift num  23  char u -> -
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char o -> $
+ce   shift char 6  shift num  22  char n -> %
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char S -> e
+ce   shift char 3  shift num  19  char a -> t
+ce   shift char 0  shift num  16  char i -> y
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 5  shift num  21  char t -> *
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char C -> \
+ce   shift char 4  shift num  20  char r -> '
+ce   shift char 6  shift num  22  char i ->  
+ce   shift char 8  shift num  24  char s -> ,
+ce   shift char 2  shift num  18  char p -> #
+ce   shift char 3  shift num  19  char i -> |
+ce   shift char 0  shift num  16  char n -> ~
+ce   shift char 1  shift num  17  char ' -> 8
+ce   shift char 5  shift num  21  char s -> )
+ce   shift char 7  shift num  23  char   -> 7
+ce   shift char 9  shift num  25  char d -> }
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char y -> 0
+ce   shift char 8  shift num  24  char . -> F
+ce   shift char 2  shift num  18  char - -> ?
+ce   shift char 3  shift num  19  char   -> 3
+ce   shift char 0  shift num  16  char W -> g
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 5  shift num  21  char l -> "
+ce   shift char 7  shift num  23  char l -> $
+ce   shift char 9  shift num  25  char i -> #
+ce   shift char 4  shift num  20  char a -> u
+ce   shift char 6  shift num  22  char m -> $
+ce   shift char 8  shift num  24  char   -> 8
+ce   shift char 2  shift num  18  char S -> e
+ce   shift char 3  shift num  19  char h -> {
+ce   shift char 0  shift num  16  char a -> q
+ce   shift char 1  shift num  17  char k -> |
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char s -> +
+ce   shift char 9  shift num  25  char p -> *
+ce   shift char 4  shift num  20  char e -> y
+ce   shift char 6  shift num  22  char a -> w
+ce   shift char 8  shift num  24  char r -> +
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char 3  shift num  19  char , -> ?
+ce   shift char 0  shift num  16  char   -> 0
+ce   shift char 1  shift num  17  char H -> Y
+ce   shift char 5  shift num  21  char e -> z
+ce   shift char 7  shift num  23  char n -> &
+ce   shift char 9  shift num  25  char r -> ,
+ce   shift char 4  shift num  20  char y -> .
+ce   shift char 6  shift num  22  char   -> 6
+ce   shift char 8  shift num  24  char V -> n
+xe   no xor key

@@ -1,0 +1,271 @@
+caesar key = 'eDcaB'
+xor key    = NULL
+ce   shift char e  shift num  69  char A -> '
+ce   shift char D  shift num  36  char n -> 3
+ce   shift char c  shift num  67  char d -> H
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char s -> 6
+ce   shift char e  shift num  69  char o -> U
+ce   shift char D  shift num  36  char m -> 2
+ce   shift char c  shift num  67  char e -> I
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char t -> 7
+ce   shift char e  shift num  69  char h -> N
+ce   shift char D  shift num  36  char i -> .
+ce   shift char c  shift num  67  char n -> R
+ce   shift char a  shift num  65  char g -> I
+ce   shift char B  shift num  34  char s -> 6
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char t -> 9
+ce   shift char c  shift num  67  char h -> L
+ce   shift char a  shift num  65  char a -> C
+ce   shift char B  shift num  34  char t -> 7
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char s -> 8
+ce   shift char c  shift num  67  char h -> L
+ce   shift char a  shift num  65  char o -> Q
+ce   shift char B  shift num  34  char u -> 8
+ce   shift char e  shift num  69  char l -> R
+ce   shift char D  shift num  36  char d -> )
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char n -> P
+ce   shift char B  shift num  34  char o -> 2
+ce   shift char e  shift num  69  char t -> Z
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char h -> L
+ce   shift char a  shift num  65  char a -> C
+ce   shift char B  shift num  34  char v -> 9
+ce   shift char e  shift num  69  char e -> K
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char b -> F
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char n -> T
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char f -> J
+ce   shift char a  shift num  65  char o -> Q
+ce   shift char B  shift num  34  char r -> 5
+ce   shift char e  shift num  69  char g -> M
+ce   shift char D  shift num  36  char o -> 4
+ce   shift char c  shift num  67  char t -> X
+ce   shift char a  shift num  65  char t -> V
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char n -> T
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char w -> [
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char r -> 5
+ce   shift char e  shift num  69  char e -> K
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char l -> P
+ce   shift char a  shift num  65  char o -> Q
+ce   shift char B  shift num  34  char s -> 6
+ce   shift char e  shift num  69  char t -> Z
+ce   shift char D  shift num  36  char . -> R
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char H -> *
+ce   shift char B  shift num  34  char i -> ,
+ce   shift char e  shift num  69  char s -> Y
+ce   shift char D  shift num  36  char t -> 9
+ce   shift char c  shift num  67  char o -> S
+ce   shift char a  shift num  65  char r -> T
+ce   shift char B  shift num  34  char y -> <
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char b -> '
+ce   shift char c  shift num  67  char e -> I
+ce   shift char a  shift num  65  char c -> E
+ce   shift char B  shift num  34  char a -> $
+ce   shift char e  shift num  69  char m -> S
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char l -> P
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char g -> *
+ce   shift char e  shift num  69  char e -> K
+ce   shift char D  shift num  36  char n -> 3
+ce   shift char c  shift num  67  char d -> H
+ce   shift char a  shift num  65  char . -> o
+ce   shift char B  shift num  34  char   -> B
+ce   shift char e  shift num  69  char L -> 2
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char g -> K
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char n -> 1
+ce   shift char e  shift num  69  char d -> J
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char b -> F
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char c -> &
+ce   shift char e  shift num  69  char a -> G
+ce   shift char D  shift num  36  char m -> 2
+ce   shift char c  shift num  67  char e -> I
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char m -> 0
+ce   shift char e  shift num  69  char y -> _
+ce   shift char D  shift num  36  char t -> 9
+ce   shift char c  shift num  67  char h -> L
+ce   shift char a  shift num  65  char . -> o
+ce   shift char B  shift num  34  char   -> B
+ce   shift char e  shift num  69  char A -> '
+ce   shift char D  shift num  36  char n -> 3
+ce   shift char c  shift num  67  char d -> H
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char f -> )
+ce   shift char e  shift num  69  char o -> U
+ce   shift char D  shift num  36  char r -> 7
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char t -> V
+ce   shift char B  shift num  34  char w -> :
+ce   shift char e  shift num  69  char o -> U
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char a -> E
+ce   shift char a  shift num  65  char n -> P
+ce   shift char B  shift num  34  char d -> '
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char a -> &
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char h -> J
+ce   shift char B  shift num  34  char a -> $
+ce   shift char e  shift num  69  char l -> R
+ce   shift char D  shift num  36  char f -> +
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char t -> V
+ce   shift char B  shift num  34  char h -> +
+ce   shift char e  shift num  69  char o -> U
+ce   shift char D  shift num  36  char u -> :
+ce   shift char c  shift num  67  char s -> W
+ce   shift char a  shift num  65  char a -> C
+ce   shift char B  shift num  34  char n -> 1
+ce   shift char e  shift num  69  char d -> J
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char y -> ]
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char a -> $
+ce   shift char e  shift num  69  char r -> X
+ce   shift char D  shift num  36  char s -> 8
+ce   shift char c  shift num  67  char , -> o
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char t -> 7
+ce   shift char e  shift num  69  char h -> N
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char r -> T
+ce   shift char B  shift num  34  char i -> ,
+ce   shift char e  shift num  69  char n -> T
+ce   shift char D  shift num  36  char g -> ,
+ce   shift char c  shift num  67  char p -> T
+ce   shift char a  shift num  65  char a -> C
+ce   shift char B  shift num  34  char s -> 6
+ce   shift char e  shift num  69  char s -> Y
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char d -> H
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char o -> 2
+ce   shift char e  shift num  69  char u -> [
+ce   shift char D  shift num  36  char t -> 9
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char o -> Q
+ce   shift char B  shift num  34  char f -> )
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char a -> &
+ce   shift char c  shift num  67  char l -> P
+ce   shift char a  shift num  65  char l -> N
+ce   shift char B  shift num  34  char   -> B
+ce   shift char e  shift num  69  char k -> Q
+ce   shift char D  shift num  36  char n -> 3
+ce   shift char c  shift num  67  char o -> S
+ce   shift char a  shift num  65  char w -> Y
+ce   shift char B  shift num  34  char l -> /
+ce   shift char e  shift num  69  char e -> K
+ce   shift char D  shift num  36  char d -> )
+ce   shift char c  shift num  67  char g -> K
+ce   shift char a  shift num  65  char e -> G
+ce   shift char B  shift num  34  char . -> P
+ce   shift char e  shift num  69  char - -> r
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char G -> +
+ce   shift char a  shift num  65  char a -> C
+ce   shift char B  shift num  34  char l -> /
+ce   shift char e  shift num  69  char a -> G
+ce   shift char D  shift num  36  char d -> )
+ce   shift char c  shift num  67  char r -> V
+ce   shift char a  shift num  65  char i -> K
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char l -> R
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char i -> M
+ce   shift char a  shift num  65  char n -> P
+ce   shift char B  shift num  34  char   -> B
+ce   shift char e  shift num  69  char T -> :
+ce   shift char D  shift num  36  char h -> -
+ce   shift char c  shift num  67  char e -> I
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char L -> n
+ce   shift char e  shift num  69  char o -> U
+ce   shift char D  shift num  36  char r -> 7
+ce   shift char c  shift num  67  char d -> H
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char o -> 2
+ce   shift char e  shift num  69  char f -> L
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char t -> X
+ce   shift char a  shift num  65  char h -> J
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char R -> v
+ce   shift char c  shift num  67  char i -> M
+ce   shift char a  shift num  65  char n -> P
+ce   shift char B  shift num  34  char g -> *
+ce   shift char e  shift num  69  char s -> Y
+ce   shift char D  shift num  36  char : -> ^
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char T -> v
+ce   shift char e  shift num  69  char h -> N
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char F -> (
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char l -> R
+ce   shift char D  shift num  36  char l -> 1
+ce   shift char c  shift num  67  char o -> S
+ce   shift char a  shift num  65  char w -> Y
+ce   shift char B  shift num  34  char s -> 6
+ce   shift char e  shift num  69  char h -> N
+ce   shift char D  shift num  36  char i -> .
+ce   shift char c  shift num  67  char p -> T
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char o -> 2
+ce   shift char e  shift num  69  char f -> L
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char t -> X
+ce   shift char a  shift num  65  char h -> J
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char R -> v
+ce   shift char c  shift num  67  char i -> M
+ce   shift char a  shift num  65  char n -> P
+ce   shift char B  shift num  34  char g -> *
+ce   shift char e  shift num  69  char , -> q
+ce   shift char D  shift num  36  char   -> D
+ce   shift char c  shift num  67  char T -> 8
+ce   shift char a  shift num  65  char h -> J
+ce   shift char B  shift num  34  char e -> (
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char L -> p
+ce   shift char c  shift num  67  char o -> S
+ce   shift char a  shift num  65  char r -> T
+ce   shift char B  shift num  34  char d -> '
+ce   shift char e  shift num  69  char   -> e
+ce   shift char D  shift num  36  char o -> 4
+ce   shift char c  shift num  67  char f -> J
+ce   shift char a  shift num  65  char   -> a
+ce   shift char B  shift num  34  char t -> 7
+ce   shift char e  shift num  69  char h -> N
+ce   shift char D  shift num  36  char e -> *
+ce   shift char c  shift num  67  char   -> c
+ce   shift char a  shift num  65  char R -> 4
+ce   shift char B  shift num  34  char i -> ,
+ce   shift char e  shift num  69  char n -> T
+ce   shift char D  shift num  36  char g -> ,
+ce   shift char c  shift num  67  char s -> W
+xe   no xor key

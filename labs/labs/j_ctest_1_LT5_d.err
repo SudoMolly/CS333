@@ -1,0 +1,29 @@
+caesar key = 'eBcaD'
+xor key    = NULL
+xd   no xor key
+cd   shift char e  shift num  69  char G -> a
+cd   shift char B  shift num  34  char % -> b
+cd   shift char c  shift num  67  char G -> c
+cd   shift char a  shift num  65  char F -> d
+cd   shift char D  shift num  36  char * -> e
+cd   shift char e  shift num  69  char L -> f
+cd   shift char B  shift num  34  char * -> g
+cd   shift char c  shift num  67  char L -> h
+cd   shift char a  shift num  65  char K -> i
+cd   shift char D  shift num  36  char / -> j
+cd   shift char e  shift num  69  char Q -> k
+cd   shift char B  shift num  34  char / -> l
+cd   shift char c  shift num  67  char Q -> m
+cd   shift char a  shift num  65  char P -> n
+cd   shift char D  shift num  36  char 4 -> o
+cd   shift char e  shift num  69  char V -> p
+cd   shift char B  shift num  34  char 4 -> q
+cd   shift char c  shift num  67  char V -> r
+cd   shift char a  shift num  65  char U -> s
+cd   shift char D  shift num  36  char 9 -> t
+cd   shift char e  shift num  69  char [ -> u
+cd   shift char B  shift num  34  char 9 -> v
+cd   shift char c  shift num  67  char [ -> w
+cd   shift char a  shift num  65  char Z -> x
+cd   shift char D  shift num  36  char > -> y
+cd   shift char e  shift num  69  char ` -> z
