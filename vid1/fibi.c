@@ -1,0 +1,36 @@
+//hold
+
+#include <stdio.h> //printf
+#include <stdlib.h> //macros
+                    //
+
+int main(int argc, char* argv[])
+{
+    long num = 0;
+    unsigned long t1 = 0ul;
+    unsigned long t2 = 1ul;
+    unsigned long num_next = t1+t2;
+
+    if (argc < 2)
+    {
+        printf("Argument must be given on command line");
+        exit(EXIT_FAILURE);
+    }
+
+    num = strtol(argv[1],NULL,10);
+    if (num > 93 || num < 1){
+        printf("Enter number between 1 & 93");
+        exit(EXIT_FAILURE);
+    }
+    printf("%6d: %lu\n",0,t1);
+    printf("%6d: %lu\n",1,t2);
+
+
+    for (long i = 2; i <= num; ++i){
+        printf("%6ld: %lu\n", i, num_next);
+        t1 = t2;
+        t2 = num_next;
+        num_next = t1+t2;
+    }
+    return EXIT_SUCCESS;
+}
