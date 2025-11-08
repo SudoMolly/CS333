@@ -1,0 +1,271 @@
+caesar key = 'a'
+xor key    = NULL
+xd   no xor key
+cd   shift char a  shift num  65  char # -> A
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char O -> m
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char W -> u
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char X -> v
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char D -> b
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Y -> w
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char o -> .
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char * -> H
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char [ -> y
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char D -> b
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char E -> c
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char O -> m
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char o -> .
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char . -> L
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char D -> b
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char E -> c
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char O -> m
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char O -> m
+cd   shift char a  shift num  65  char [ -> y
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char o -> .
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char # -> A
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char Y -> w
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char W -> u
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char [ -> y
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char m -> ,
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char R -> p
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char W -> u
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char M -> k
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char Y -> w
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char o -> .
+cd   shift char a  shift num  65  char n -> -
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char ) -> G
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char C -> a
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 6 -> T
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char . -> L
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 4 -> R
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char { -> :
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 6 -> T
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char ( -> F
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char N -> l
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char Y -> w
+cd   shift char a  shift num  65  char U -> s
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char R -> p
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 4 -> R
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char m -> ,
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 6 -> T
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char . -> L
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char T -> r
+cd   shift char a  shift num  65  char F -> d
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char Q -> o
+cd   shift char a  shift num  65  char H -> f
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char V -> t
+cd   shift char a  shift num  65  char J -> h
+cd   shift char a  shift num  65  char G -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char a  shift num  65  char 4 -> R
+cd   shift char a  shift num  65  char K -> i
+cd   shift char a  shift num  65  char P -> n
+cd   shift char a  shift num  65  char I -> g
+cd   shift char a  shift num  65  char U -> s

@@ -1,0 +1,544 @@
+Identifier: COMMAND LINE OPTIONS BEFORE
+Line: 868, Function: main, File: generalFuncs.c
+---
+VARIABLE OPTION COUNT: 3 
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -c 
+VARIABLE 2: 53421 
+Identifier: supress error
+Line: 547, Function: get_options, File: generalFuncs.c
+---
+Identifier: GETTING OPTIONS
+Line: 551, Function: get_options, File: generalFuncs.c
+---
+Identifier: --OPTIONS BEGIN--
+Line: 553, Function: get_options, File: generalFuncs.c
+---
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -c 
+VARIABLE 2: 53421 
+Identifier: --OPTIONS END--
+Line: 561, Function: get_options, File: generalFuncs.c
+---
+Identifier: COMMAND LINE OPTIONS AFTER
+Line: 888, Function: main, File: generalFuncs.c
+---
+VARIABLE OPTION COUNT: 3 
+VARIABLE 0: ./cae-xor 
+VARIABLE 1: -c 
+VARIABLE 2: 53421 
+Identifier: SUPRESS ERR
+Line: 765, Function: getInput, File: generalFuncs.c
+---
+Identifier: GETTING OUT
+Line: 831, Function: getInput, File: generalFuncs.c
+---
+VARIABLE WITH VALUE: abcdefghijklmnopqrstuvwxyz
+ 
+VARIABLE BUFFER GOTTEN: abcdefghijklmnopqrstuvwxyz
+ 
+Identifier: INTO OPTION ENCRYPT
+Line: 643, Function: option_e, File: generalFuncs.c
+---
+VARIABLE CAE INPUT: 53421 
+VARIABLE XOR INPUT: (null) 
+VARIABLE PATH: abcdefghijklmnopqrstuvwxyz
+ 
+Identifier: NO XOR
+Line: 669, Function: option_e, File: generalFuncs.c
+---
+Identifier: IN ENCRYPT
+Line: 36, Function: encrypt, File: cae-xor.c
+---
+Identifier: SETTING PATH TO RET
+Line: 60, Function: encrypt, File: cae-xor.c
+---
+VARIABLE PATH: abcdefghijklmnopqrstuvwxyz
+ 
+VARIABLE RET: abcdefghijklmnopqrstuvwxyz
+ 
+Identifier: INTO CAE
+Line: 66, Function: encrypt, File: cae-xor.c
+---
+VARIABLE BEFORE: a 
+VARIABLE path: A 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: v 
+VARIABLE USING: 5 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: v1 
+VARIABLE BEFORE: b1 
+VARIABLE path: B 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+right
+VARIABLE AFTER: u1 
+VARIABLE USING: 31 
+Identifier: 3
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 51 
+VARIABLE ADJUSTING SPACE TO: 19 
+VARIABLE SHIFTING RIGHT: 19 
+VARIABLE AFTER: u9 
+VARIABLE BEFORE: c9 
+VARIABLE path: C 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+right
+VARIABLE AFTER: w9 
+VARIABLE USING: 49 
+Identifier: 4
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 52 
+VARIABLE ADJUSTING SPACE TO: 20 
+VARIABLE SHIFTING RIGHT: 20 
+VARIABLE AFTER: w0 
+VARIABLE BEFORE: d0 
+VARIABLE path: D 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+right
+VARIABLE AFTER: v0 
+VARIABLE USING: 20 
+Identifier: 2
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 50 
+VARIABLE ADJUSTING SPACE TO: 18 
+VARIABLE SHIFTING RIGHT: 18 
+VARIABLE AFTER: v8 
+VARIABLE BEFORE: e8 
+VARIABLE path: E 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+right
+VARIABLE AFTER: v8 
+VARIABLE USING: 18 
+Identifier: 1
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 49 
+VARIABLE ADJUSTING SPACE TO: 17 
+VARIABLE SHIFTING RIGHT: 17 
+VARIABLE AFTER: v7 
+VARIABLE BEFORE: f7 
+VARIABLE path: F 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: {7 
+VARIABLE USING: 57 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: {1 
+VARIABLE BEFORE: g1 
+VARIABLE path: G 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+right
+VARIABLE AFTER: z1 
+VARIABLE USING: 31 
+Identifier: 3
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 51 
+VARIABLE ADJUSTING SPACE TO: 19 
+VARIABLE SHIFTING RIGHT: 19 
+VARIABLE AFTER: z9 
+VARIABLE BEFORE: h9 
+VARIABLE path: H 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+right
+VARIABLE AFTER: |9 
+VARIABLE USING: 49 
+Identifier: 4
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 52 
+VARIABLE ADJUSTING SPACE TO: 20 
+VARIABLE SHIFTING RIGHT: 20 
+VARIABLE AFTER: |0 
+VARIABLE BEFORE: i0 
+VARIABLE path: I 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+right
+VARIABLE AFTER: {0 
+VARIABLE USING: 20 
+Identifier: 2
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 50 
+VARIABLE ADJUSTING SPACE TO: 18 
+VARIABLE SHIFTING RIGHT: 18 
+VARIABLE AFTER: {8 
+VARIABLE BEFORE: j8 
+VARIABLE path: J 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+right
+VARIABLE AFTER: {8 
+VARIABLE USING: 18 
+Identifier: 1
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 49 
+VARIABLE ADJUSTING SPACE TO: 17 
+VARIABLE SHIFTING RIGHT: 17 
+VARIABLE AFTER: {7 
+VARIABLE BEFORE: k7 
+VARIABLE path: K 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: !7 
+VARIABLE USING: 57 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: !1 
+VARIABLE BEFORE: l1 
+VARIABLE path: L 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+right
+VARIABLE AFTER:  1 
+VARIABLE USING: 31 
+Identifier: 3
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 51 
+VARIABLE ADJUSTING SPACE TO: 19 
+VARIABLE SHIFTING RIGHT: 19 
+VARIABLE AFTER:  9 
+VARIABLE BEFORE: m9 
+VARIABLE path: M 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+right
+VARIABLE AFTER: "9 
+VARIABLE USING: 49 
+Identifier: 4
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 52 
+VARIABLE ADJUSTING SPACE TO: 20 
+VARIABLE SHIFTING RIGHT: 20 
+VARIABLE AFTER: "0 
+VARIABLE BEFORE: n0 
+VARIABLE path: N 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+right
+VARIABLE AFTER: !0 
+VARIABLE USING: 20 
+Identifier: 2
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 50 
+VARIABLE ADJUSTING SPACE TO: 18 
+VARIABLE SHIFTING RIGHT: 18 
+VARIABLE AFTER: !8 
+VARIABLE BEFORE: o8 
+VARIABLE path: O 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+right
+VARIABLE AFTER: !8 
+VARIABLE USING: 18 
+Identifier: 1
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 49 
+VARIABLE ADJUSTING SPACE TO: 17 
+VARIABLE SHIFTING RIGHT: 17 
+VARIABLE AFTER: !7 
+VARIABLE BEFORE: p7 
+VARIABLE path: P 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: &7 
+VARIABLE USING: 57 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: &1 
+VARIABLE BEFORE: q1 
+VARIABLE path: Q 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+right
+VARIABLE AFTER: %1 
+VARIABLE USING: 31 
+Identifier: 3
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 51 
+VARIABLE ADJUSTING SPACE TO: 19 
+VARIABLE SHIFTING RIGHT: 19 
+VARIABLE AFTER: %9 
+VARIABLE BEFORE: r9 
+VARIABLE path: R 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+right
+VARIABLE AFTER: '9 
+VARIABLE USING: 49 
+Identifier: 4
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 52 
+VARIABLE ADJUSTING SPACE TO: 20 
+VARIABLE SHIFTING RIGHT: 20 
+VARIABLE AFTER: '0 
+VARIABLE BEFORE: s0 
+VARIABLE path: S 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+right
+VARIABLE AFTER: &0 
+VARIABLE USING: 20 
+Identifier: 2
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 50 
+VARIABLE ADJUSTING SPACE TO: 18 
+VARIABLE SHIFTING RIGHT: 18 
+VARIABLE AFTER: &8 
+VARIABLE BEFORE: t8 
+VARIABLE path: T 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+right
+VARIABLE AFTER: &8 
+VARIABLE USING: 18 
+Identifier: 1
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 49 
+VARIABLE ADJUSTING SPACE TO: 17 
+VARIABLE SHIFTING RIGHT: 17 
+VARIABLE AFTER: &7 
+VARIABLE BEFORE: u7 
+VARIABLE path: U 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: +7 
+VARIABLE USING: 57 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: +1 
+VARIABLE BEFORE: v1 
+VARIABLE path: V 
+VARIABLE key:  
+VARIABLE SHIFTING: 3 
+right
+VARIABLE AFTER: *1 
+VARIABLE USING: 31 
+Identifier: 3
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 51 
+VARIABLE ADJUSTING SPACE TO: 19 
+VARIABLE SHIFTING RIGHT: 19 
+VARIABLE AFTER: *9 
+VARIABLE BEFORE: w9 
+VARIABLE path: W 
+VARIABLE key:  
+VARIABLE SHIFTING: 4 
+right
+VARIABLE AFTER: ,9 
+VARIABLE USING: 49 
+Identifier: 4
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 52 
+VARIABLE ADJUSTING SPACE TO: 20 
+VARIABLE SHIFTING RIGHT: 20 
+VARIABLE AFTER: ,0 
+VARIABLE BEFORE: x0 
+VARIABLE path: X 
+VARIABLE key:  
+VARIABLE SHIFTING: 2 
+right
+VARIABLE AFTER: +0 
+VARIABLE USING: 20 
+Identifier: 2
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 50 
+VARIABLE ADJUSTING SPACE TO: 18 
+VARIABLE SHIFTING RIGHT: 18 
+VARIABLE AFTER: +8 
+VARIABLE BEFORE: y8 
+VARIABLE path: Y 
+VARIABLE key:  
+VARIABLE SHIFTING: 1 
+right
+VARIABLE AFTER: +8 
+VARIABLE USING: 18 
+Identifier: 1
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 49 
+VARIABLE ADJUSTING SPACE TO: 17 
+VARIABLE SHIFTING RIGHT: 17 
+VARIABLE AFTER: +7 
+VARIABLE BEFORE: z7 
+VARIABLE path: Z 
+VARIABLE key:  
+VARIABLE SHIFTING: 5 
+right
+VARIABLE AFTER: 07 
+VARIABLE USING: 57 
+Identifier: 5
+Line: 435, Function: checkProperKey, File: generalFuncs.c
+---
+Identifier: IS VALID
+Line: 443, Function: checkProperKey, File: generalFuncs.c
+---
+VARIABLE ADJUSTING SPACE FROM: 53 
+VARIABLE ADJUSTING SPACE TO: 21 
+VARIABLE SHIFTING RIGHT: 21 
+VARIABLE AFTER: 01 
+Identifier: OUT CAE
+Line: 95, Function: encrypt, File: cae-xor.c
+---
+VARIABLE PATH: abcdefghijklmnopqrstuvwxyz
+ 
+VARIABLE KEY: 53421 
+VARIABLE HOLDING: vuwvv{z|{{! "!!&%'&&+*,++0
+ 
+VARIABLE RETURNING: vuwvv{z|{{! "!!&%'&&+*,++0
+ 
+Identifier: OUT ENCRYPT
+Line: 127, Function: encrypt, File: cae-xor.c
+---
+Identifier: ENCRYPT CHOSEN
+Line: 929, Function: main, File: generalFuncs.c
+---
+VARIABLE INPUT: abcdefghijklmnopqrstuvwxyz
+ 
+VARIABLE OUTPUT: vuwvv{z|{{! "!!&%'&&+*,++0
+ 
+Identifier: SUPRESS ERR
+Line: 765, Function: getInput, File: generalFuncs.c
+---
+Identifier: GETTING OUT
+Line: 831, Function: getInput, File: generalFuncs.c
+---
+VARIABLE WITH VALUE: (null) 
+VARIABLE BUFFER GOTTEN: (null) 
+Identifier: 
+
+
+===BUFFER END===
+
+
+
+Line: 911, Function: main, File: generalFuncs.c
+---
+Identifier: REACHED EXIT
+Line: 971, Function: main, File: generalFuncs.c
+---

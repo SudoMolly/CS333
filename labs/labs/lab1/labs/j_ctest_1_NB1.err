@@ -1,0 +1,29 @@
+caesar key = '1'
+xor key    = NULL
+ce   shift char 1  shift num  17  char a -> r
+ce   shift char 1  shift num  17  char b -> s
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char 1  shift num  17  char d -> u
+ce   shift char 1  shift num  17  char e -> v
+ce   shift char 1  shift num  17  char f -> w
+ce   shift char 1  shift num  17  char g -> x
+ce   shift char 1  shift num  17  char h -> y
+ce   shift char 1  shift num  17  char i -> z
+ce   shift char 1  shift num  17  char j -> {
+ce   shift char 1  shift num  17  char k -> |
+ce   shift char 1  shift num  17  char l -> }
+ce   shift char 1  shift num  17  char m -> ~
+ce   shift char 1  shift num  17  char n ->  
+ce   shift char 1  shift num  17  char o -> !
+ce   shift char 1  shift num  17  char p -> "
+ce   shift char 1  shift num  17  char q -> #
+ce   shift char 1  shift num  17  char r -> $
+ce   shift char 1  shift num  17  char s -> %
+ce   shift char 1  shift num  17  char t -> &
+ce   shift char 1  shift num  17  char u -> '
+ce   shift char 1  shift num  17  char v -> (
+ce   shift char 1  shift num  17  char w -> )
+ce   shift char 1  shift num  17  char x -> *
+ce   shift char 1  shift num  17  char y -> +
+ce   shift char 1  shift num  17  char z -> ,
+xe   no xor key

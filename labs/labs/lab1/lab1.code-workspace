@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"caexor",
+			"mystat",
+			"TESTCAEXOR",
+			"testk"
+		],
+		"makefile.configureOnOpen": false,
+		"folder-color.pathColors": [
+			{
+				"folderPath": "bash",
+				"color": "foldercolorizer.color_99cc00",
+				"isForExtension": true
+			}
+		]
+	}
+}

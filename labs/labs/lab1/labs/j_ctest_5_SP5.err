@@ -1,0 +1,271 @@
+caesar key = '     '
+xor key    = NULL
+ce   shift char    shift num   0  char A -> A
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char m -> m
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char u -> u
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char v -> v
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char b -> b
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char w -> w
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char . -> .
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char H -> H
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char y -> y
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char b -> b
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char c -> c
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char m -> m
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char . -> .
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char L -> L
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char b -> b
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char c -> c
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char m -> m
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char m -> m
+ce   shift char    shift num   0  char y -> y
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char . -> .
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char A -> A
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char w -> w
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char u -> u
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char y -> y
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char , -> ,
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char p -> p
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char u -> u
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char k -> k
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char w -> w
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char . -> .
+ce   shift char    shift num   0  char - -> -
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char G -> G
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char a -> a
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char T -> T
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char L -> L
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char R -> R
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char : -> :
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char T -> T
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char F -> F
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char l -> l
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char w -> w
+ce   shift char    shift num   0  char s -> s
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char p -> p
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char R -> R
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char , -> ,
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char T -> T
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char L -> L
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char r -> r
+ce   shift char    shift num   0  char d -> d
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char o -> o
+ce   shift char    shift num   0  char f -> f
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char t -> t
+ce   shift char    shift num   0  char h -> h
+ce   shift char    shift num   0  char e -> e
+ce   shift char    shift num   0  char   ->  
+ce   shift char    shift num   0  char R -> R
+ce   shift char    shift num   0  char i -> i
+ce   shift char    shift num   0  char n -> n
+ce   shift char    shift num   0  char g -> g
+ce   shift char    shift num   0  char s -> s
+xe   no xor key
