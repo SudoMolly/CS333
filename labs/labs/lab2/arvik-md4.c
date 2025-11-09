@@ -5,6 +5,8 @@
 #include <getopt.h>
 #include <string.h>
 #include <unistd.h>
+#include <fcntl.h> 
+#include <sys/stat.h>
 
 
 static bool extract = false;
@@ -14,9 +16,11 @@ static bool filename = false;
 static bool help = false;
 static bool verbose = false;
 static bool verify = false;
-
 static char* filename_string = NULL;
+
+static bool FAILURE = false;
 static bool global_debug = false;
+static int argCount = 0;
 
 
 # define DEBUG 
@@ -52,10 +56,14 @@ Usage: arvik-md4 -[cxtvVf:h] archive-file file...\n\
 int main(int argc, char**argv)
 {
     char c;
-    FILE* IN [[maybe_unused]];
-    FILE* OUT [[maybe_unused]];
-    IN = stdin;
-    OUT = stdout;
+    int argIn [[maybe_unused]];
+    int IN [[maybe_unused]];
+    int OUT [[maybe_unused]];
+    struct stat* hold;
+    char * currentARG;
+    IN = STDIN_FILENO;
+    OUT = STDOUT_FILENO;
+    hold = (struct stat*) malloc(sizeof(struct stat));
     for (int i = 0; i < argc; ++i)
     {
         SHOWI("arg", i);
@@ -97,9 +105,27 @@ if (global_debug)
 {
 
 }
-if (!help)
-{
-
-}
+    
+    argCount = argc - (optind + 1);
+    //argIn = optind;
+    if (!help)
+    {
+        if (create)
+        {
+            if (argCount > 0)
+            {
+                for (int i = optind; i < argCount; ++i)
+                {
+                    currentARG = argv[argIn];
+                    IN = open(currentARG, S_IRUSR);
+                    if (IN == -1 || lstat(currentARG, hold))
+                    {
+                        break;
+                    }
+                    
+                }
+            }
+        }
+    }
     exit(EXIT_SUCCESS);
 }
