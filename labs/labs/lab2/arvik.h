@@ -18,6 +18,8 @@
 # define ARVIK_SIZE_LEN 12
 # define ARVIK_TERM_LEN 2
 
+# define MD4_DIGEST_LENGTH 16
+
 typedef struct arvik_header_s {
 	char arvik_name[ARVIK_NAME_LEN];          // Member file name, sometimes < terminated.
 	char arvik_date[ARVIK_DATE_LEN];          // File date, decimal seconds since Epoch.

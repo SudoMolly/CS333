@@ -12,8 +12,8 @@ debug: all
 $(FILENAME): arvik-md4.o
 	$(OCC) $(FILENAME) arvik-md4.o
 
-arvik-md4.o: arvik-md4.h arvik-md4.c
-	$(CCC) arvik-md4.h arvik-md4.c
+arvik-md4.o: arvik-md4.c arvik.h
+	$(CCC) -lmd arvik-md4.c
 
 clean cls:
 	rm -f *.o arvik-md4 *~ \#*
