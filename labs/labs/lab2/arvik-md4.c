@@ -38,13 +38,13 @@ void displayHelp(void)
 {
     printf("\n\
 Usage: arvik-md4 -[cxtvVf:h] archive-file file...\n\
-\t-c\tcreate a new archive file\n\
-\t-x\textract members from an existing archive file\n\
-\t-t\tshow the table of contents of archive file\n\
-\t-f filename\tname of archive file to use\n\
-\t-V\tValidate the md4 values for the header and data\n\
-\t-v\tverbose output\n\
-\t-h\tshow help text\n\
+\t-c           create a new archive file\n\
+\t-x           extract members from an existing archive file\n\
+\t-t           show the table of contents of archive file\n\
+\t-f filename  name of archive file to use\n\
+\t-V           Validate the md4 values for the header and data\n\
+\t-v           verbose output\n\
+\t-h           show help text\n\
 ");
 }
 
