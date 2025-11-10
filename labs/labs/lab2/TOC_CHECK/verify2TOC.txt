@@ -1,0 +1,3 @@
+/u/modiaz/rchaney/Classes/cs33  
+    header passes validation
+    data passes validation

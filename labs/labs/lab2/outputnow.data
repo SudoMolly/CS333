@@ -1,0 +1,9 @@
+
+Usage: arvik-md4 -[cxtvVf:h] archive-file file...
+	-c           create a new archive file
+	-x           extract members from an existing archive file
+	-t           show the table of contents of archive file
+	-f filename  name of archive file to use
+	-V           Validate the md4 values for the header and data
+	-v           verbose output
+	-h           show help text

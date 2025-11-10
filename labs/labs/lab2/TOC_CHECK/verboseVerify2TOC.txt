@@ -1,0 +1,5 @@
+/u/modiaz/rchaney/Classes/cs33  
+    header passes validation
+    header md4:         168a0942b662929719d9d3b58ea0bd2c
+    data passes validation
+    data md4:           31d6cfe0d16ae931b73c59d7e0c089c0

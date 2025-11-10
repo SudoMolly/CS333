@@ -1,0 +1,24 @@
+file name: 1-s.txt
+    mode:       r--r-xrw-
+    uid:            18781  rchaney
+    gid:            10265  cs333-rjc
+    size:              41  bytes
+    mtime:      Feb  1 19:10 1997
+    header md4: a8f8757d92c 67db5d2a1a57b7d96a37
+    data md4:   bb1a936595d591b5f9a51f8791123712
+file name: 2-s.txt
+    mode:       r--r-xrw-
+    uid:            18781  rchaney
+    gid:            10265  cs333-rjc
+    size:              82  bytes
+    mtime:      Aug  4 03:11 1966
+    header md4: 6990cf6921299b1a4407b45ebaf3e649
+    data md4:   9dd69190ec234b7d51dcaa30b0089ada
+file name: 3-s.txt
+    mode:       rwxr-xr-x
+    uid:            18781  rchaney
+    gid:            10265  cs333-rjc
+    size:             123  bytes
+    mtime:      Jul 15 03:11 1962
+    header md4: 45c3164294a87ccaa0030a90e16701b7
+    data md4:   e95f4e32a916f95f5efcd4b2544ffea6

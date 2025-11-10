@@ -1,0 +1,18 @@
+1-s.txt                    
+    **** header fails validation ****
+    header md4 content: a8f8757d92c867db5d2a1a57b7d96a37
+    header md4 footer : a8f8757d92c 67db5d2a1a57b7d96a37
+    **** data fails validation ****
+    data md4 content:   5d0bedb43b1561881d03968832c0fcfc
+    data md4 footer :   bb1a936595d591b5f9a51f8791123712
+2-s.txt                    
+    header passes validation
+    header md4:         6990cf6921299b1a4407b45ebaf3e649
+    data passes validation
+    data md4:           9dd69190ec234b7d51dcaa30b0089ada
+3-s.txt                    
+    header passes validation
+    header md4:         45c3164294a87ccaa0030a90e16701b7
+    data passes validation
+    data md4:           e95f4e32a916f95f5efcd4b2544ffea6
+**** validation failure for 1 or more archive members ****

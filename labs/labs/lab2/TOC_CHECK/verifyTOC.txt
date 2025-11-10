@@ -1,0 +1,13 @@
+1-s.txt                    
+    **** header fails validation ****
+    header md4 content: a8f8757d92c867db5d2a1a57b7d96a37
+    header md4 footer : a8f8757d92c 67db5d2a1a57b7d96a37
+    **** data fails validation ****
+    data md4 content:   5d0bedb43b1561881d03968832c0fcfc
+    data md4 footer :   bb1a936595d591b5f9a51f8791123712
+2-s.txt                    
+    header passes validation
+    data passes validation
+3-s.txt                    
+    header passes validation
+    data passes validation
