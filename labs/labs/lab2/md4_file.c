@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include <md4.h>
+#include <openssl/md4.h>
 
 #define BUFFER_SIZE 10
 

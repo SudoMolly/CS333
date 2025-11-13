@@ -1,7 +1,6 @@
 COMPILER = gcc 
 CFLAGS =-Wall -Wextra -Wshadow -Wunreachable-code -Wredundant-decls  -Wmissing-declarations -Wold-style-definition  -Wmissing-prototypes -Wdeclaration-after-statement  -Wno-return-local-addr -Wunsafe-loop-optimizations  -Wuninitialized -Werror 
-CCC = $(COMPILER) $(CFLAGS) -c
-OCC = $(COMPILER) $(CFLAGS) -o
+CCC = $(COMPILER) $(CFLAGS)
 FILENAME = arvik-md4
 
 default: all
@@ -9,11 +8,14 @@ default: all
 debug: CFLAGS += -ggdb -gdwarf-2 -g3
 debug: all
 
-$(FILENAME): arvik-md4.o
-	$(OCC) $(FILENAME) arvik-md4.o
+$(FILENAME).o: arvik-md4.c arvik.h
+	$(CCC) -c arvik-md4.c -o $(FILENAME).o
 
-arvik-md4.o: arvik-md4.c arvik.h
-	$(CCC) -lmd arvik-md4.c
+# Then link
+$(FILENAME): $(FILENAME).o
+	$(COMPILER) -o $(FILENAME) $(FILENAME).o -lcrypto
+#arvik-md4.o: arvik-md4.c arvik.h
+#$(CCC)  arvik-md4.c
 
 clean cls:
 	rm -f *.o arvik-md4 *~ \#*
