@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "number_test.txt": false,
+        "alphabet_test.txt": false,
+        "f25-cs333-Lab2-arvik (1)-9.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-8.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-1.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-2.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-3.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-4.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-5.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-6.jpeg": false,
+        "f25-cs333-Lab2-arvik (1)-7.jpeg": false
+    }
+}
