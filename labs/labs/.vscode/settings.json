@@ -56,7 +56,168 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "folder-color.pathColors": [],
+  "folder-color.pathColors": [
+    {
+      "folderPath": "labs/lab3/",
+      "color": "foldercolorizer.color_66cc99",
+      "isFolderOnly": true
+    },
+    {
+      "folderPath": "labs/lab1/",
+      "color": "foldercolorizer.color_660000",
+      "isFolderOnly": true
+    },
+    {
+      "folderPath": "labs/lab2/",
+      "color": "foldercolorizer.color_660000",
+      "isFolderOnly": true
+    },
+    {
+      "folderPath": "labs/lab1/"
+    },
+    {
+      "folderPath": "labs/lab1/__labs/"
+    },
+    {
+      "folderPath": "labs/lab1/.vscode/"
+    },
+    {
+      "folderPath": "labs/"
+    },
+    {
+      "folderPath": "labs/lab2/CRTS/"
+    },
+    {
+      "folderPath": "labs/lab2/EXTS/"
+    },
+    {
+      "folderPath": "labs/lab2/FINALATTEMPT/"
+    },
+    {
+      "folderPath": "labs/lab2/Lab2/"
+    },
+    {
+      "folderPath": "labs/lab2/TOC_CHECK/"
+    },
+    {
+      "folderPath": "labs/lab2/.3.arvik.un~/"
+    },
+    {
+      "folderPath": "labs/lab2/.arvik-md4.c.un~/"
+    },
+    {
+      "folderPath": "labs/lab2/.extract.sh.un~/"
+    },
+    {
+      "folderPath": "labs/lab2/.testStat.c.un~/"
+    },
+    {
+      "folderPath": "labs/lab2/0-s.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/1-s.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/2-s.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/3-s.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/3.arvik/"
+    },
+    {
+      "folderPath": "labs/lab2/a.out/"
+    },
+    {
+      "folderPath": "labs/lab2/arvik-archive-file-4 (3).pdf/"
+    },
+    {
+      "folderPath": "labs/lab2/arvik-md4.c/"
+    },
+    {
+      "folderPath": "labs/lab2/arvik-md4.o/"
+    },
+    {
+      "folderPath": "labs/lab2/arvik.h/"
+    },
+    {
+      "folderPath": "labs/lab2/arvik.h.gch/"
+    },
+    {
+      "folderPath": "labs/lab2/chaney0.arvik/"
+    },
+    {
+      "folderPath": "labs/lab2/downloadDev.sh/"
+    },
+    {
+      "folderPath": "labs/lab2/extract.sh/"
+    },
+    {
+      "folderPath": "labs/lab2/f25-cs333-Lab2-arvik (1).pdf/"
+    },
+    {
+      "folderPath": "labs/Makefile_template/"
+    },
+    {
+      "folderPath": "labs/lab2/md4_file.c/"
+    },
+    {
+      "folderPath": "labs/lab2/md4-0.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/modiaz_lab2.tar.gz/"
+    },
+    {
+      "folderPath": "labs/lab2/myoutput.data/"
+    },
+    {
+      "folderPath": "labs/lab2/myStat.arvik/"
+    },
+    {
+      "folderPath": "labs/lab2/out.data/"
+    },
+    {
+      "folderPath": "labs/lab2/output.data/"
+    },
+    {
+      "folderPath": "labs/lab2/output.me/"
+    },
+    {
+      "folderPath": "labs/lab2/outputnow.data/"
+    },
+    {
+      "folderPath": "labs/lab2/run.sh/"
+    },
+    {
+      "folderPath": "labs/lab2/testALL.sh/"
+    },
+    {
+      "folderPath": "labs/lab2/testopen_read.c/"
+    },
+    {
+      "folderPath": "labs/lab2/testprintout.txt/"
+    },
+    {
+      "folderPath": "labs/lab2/teststat/"
+    },
+    {
+      "folderPath": "labs/lab2/testStat.c/"
+    },
+    {
+      "folderPath": "labs/lab2/toc.txt2/"
+    },
+    {
+      "folderPath": "labs/lab2/verboseSIMPLE.txt/"
+    },
+    {
+      "folderPath": "labs/lab3/"
+    },
+    {
+      "folderPath": "labs/lab2/",
+      "color": "foldercolorizer.color_66cc99"
+    }
+  ],
   "cSpell.words": [
     "arvik",
     "GATEPASS"
