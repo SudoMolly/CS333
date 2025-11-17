@@ -2,10 +2,9 @@ COMPILER = gcc
 CFLAGS =-Wall -Wextra -Wshadow -Wunreachable-code -Wredundant-decls  -Wmissing-declarations -Wold-style-definition  -Wmissing-prototypes -Wdeclaration-after-statement  -Wno-return-local-addr -Wunsafe-loop-optimizations  -Wuninitialized -Werror 
 CCC = $(COMPILER) $(CFLAGS) -c
 OCC = $(COMPILER) $(CFLAGS) -o
-FILENAME1 = cae-xor
-FILENAME2 = mystat
+FILENAME = lab1
 
-all: $(FILENAME1) $(FILENAME2)
+all: $(FILENAME)
 
 #--------------------debug
 
@@ -23,12 +22,8 @@ debug: all
 
 #---------------Normal
 
-
-$(FILENAME2): mystat.o 
-	$(OCC) $(FILENAME2) mystat.o 
-
-$(FILENAME1): cae-xor.o generalFuncs.o
-	$(OCC) $(FILENAME1) cae-xor.o generalFuncs.o
+$(FILENAME): cae-xor.o mystat.o generalFuncs.o
+	$(OCC) $(FILENAME) cae-xor.o mystat.o generalFuncs.o
 
 cae-xor.o: cae-xor.c 
 	$(CCC) cae-xor.c 
@@ -41,5 +36,4 @@ generalFuncs.o: generalFuncs.c generalFuncs.h
 
 
 clean cls: 
-	rm -f *.o cae-xor mystat *~ \#*
-#what
+	rm -f *.o lab1 DEBUG *~ \#*
