@@ -267,7 +267,9 @@ char VERBOSE_FILE_LINE_8[TOC_MD4_TOTAL_LEN];
 char VERBOSE_TIME_RESULT[TOC_MTIME_RESULT_LEN];
 static struct tm* VERBOSE_TIME_STRUCT = NULL;
 
-
+typedef struct{
+    const char header[];
+}
 static struct stat holdTheHolder;
 
 
@@ -312,11 +314,21 @@ typedef struct toc_verify_s{
     bool anyfail;
 } toc_verify_t;
 
-typedef struct arvik_lines_s{
+struct arvik_lines_s{
     char start[ARVIK_TAG_LEN];
     char header[ARVIK_HEADER_LEN];
     char footer[ARVIK_FOOTER_LEN];
-} arvik_lines_t;
+} arvik_lines_t = { "asdfasdfsdafasf", "fdasfadfa"};
+
+struct create_s{
+    char header[79];
+    char footer[67];
+} create_d = {
+    "                              DDDDDDDDD     UUUUU GGGGG MMMMMM  SS          $\n",
+    "                                                                 \n"
+};
+
+
 
 //**-----------------------------------------ALL-POINTERS--------------------------------------*/
 
