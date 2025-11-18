@@ -221,5 +221,6 @@
   "cSpell.words": [
     "arvik",
     "GATEPASS"
-  ]
+  ],
+  "function-explorer.hideFolders": false
 }
