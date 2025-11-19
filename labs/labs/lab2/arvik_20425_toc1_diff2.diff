@@ -1,0 +1,57 @@
+1,56d0
+< file name: 0-s.txt
+<     mode:       r--r-xrw-
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:               0  bytes
+<     mtime:      Jul 18 19:10 1975
+<     header md4: 9412ea2d6b0d71726748d7a5350c3c8d
+<     data md4:   31d6cfe0d16ae931b73c59d7e0c089c0
+< file name: 1-s.txt
+<     mode:       r--r-xrw-
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:              41  bytes
+<     mtime:      Jul 18 19:10 1975
+<     header md4: 063a5365dce39bd8868ef27f7429dae5
+<     data md4:   bb1a936595d591b5f9a51f8791123712
+< file name: 2-s.txt
+<     mode:       r--r-xrw-
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:              82  bytes
+<     mtime:      Aug  4 03:11 1966
+<     header md4: 1b531df369a82770abaec20dcf5a9fa8
+<     data md4:   9dd69190ec234b7d51dcaa30b0089ada
+< file name: 3-s.txt
+<     mode:       rwxr-xr-x
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:             123  bytes
+<     mtime:      Aug  4 03:11 1966
+<     header md4: bb0e902cd181427fb63a8b8be7adda9a
+<     data md4:   e95f4e32a916f95f5efcd4b2544ffea6
+< file name: 4-s.txt
+<     mode:       rwxr-xr-x
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:             164  bytes
+<     mtime:      Jun  7 08:09 1987
+<     header md4: 360eee611e7f93a9a92b20b1f084abd0
+<     data md4:   38142b308a408b1ddc063cfb5953629b
+< file name: 5-s.txt
+<     mode:       rwxr-xr-x
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:             205  bytes
+<     mtime:      Jun  7 08:09 1987
+<     header md4: a773543505bdf6d22e7779a74c041bb8
+<     data md4:   10d8327aa5c7ea553fd9a4f2f9f31419
+< file name: 6-s.txt
+<     mode:       rwxr-xr-x
+<     uid:             2631  modiaz
+<     gid:              300  them
+<     size:             246  bytes
+<     mtime:      Mar  3 03:03 1990
+<     header md4: a178279159de83f040bc986e31cc9dca
+<     data md4:   9402919307846c7330eb1f5338726b85

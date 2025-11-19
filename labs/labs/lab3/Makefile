@@ -10,10 +10,9 @@ default: all
 debug: CFLAGS += -ggdb -gdwarf-2 -g3
 debug: all
 
-$(FILENAME).o:
-	$(CCC) -c $(FILENAME).c -o $(FILENAME).o
+$(FILENAME).o: $(FILENAME).c 
+	$(CCC) -c $(FILENAME).c $(FILENAME).h 
 
-# Then link
 $(FILENAME): $(FILENAME).o
 	$(COMPILER) -o $(FILENAME) $(FILENAME).o -lcrypto
 #arvik-md4.o: arvik-md4.c arvik.h

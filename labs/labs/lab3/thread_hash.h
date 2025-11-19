@@ -1,4 +1,3 @@
-#pragma once
 #ifndef header
 //**------------------------------|DOCUMENTATION|----------------------**/
 /*
@@ -7,6 +6,47 @@
     *
     *
 */
+
+//**------------------------------| HIS                   |-----------------------**/
+
+#ifndef _THREAD_HASH_H
+// R Jesse Chaney
+// rchaney@pdx.edu
+# define _THREAD_HASH_H
+
+# define OPTIONS "i:o:d:hvt:n"
+
+# define MICROSECONDS_PER_SECOND 1000000.0
+
+# ifndef NICE_VALUE
+#  define NICE_VALUE 10
+# endif // NICE_VALUE
+
+# define FOREACH_ALGORITHM(ALGORITHM) \
+        ALGORITHM(DES)           \
+        ALGORITHM(NT)            \
+        ALGORITHM(MD5)           \
+        ALGORITHM(SHA256)        \
+        ALGORITHM(SHA512)        \
+        ALGORITHM(YESCRYPT)      \
+        ALGORITHM(GOST_YESCRYPT) \
+        ALGORITHM(BCRYPT)        \
+        ALGORITHM(ALGORITHM_MAX)
+
+# define GENERATE_ENUM(ENUM) ENUM,
+# define GENERATE_STRING(STRING) #STRING,
+
+typedef enum hash_algorithm_e {
+    FOREACH_ALGORITHM(GENERATE_ENUM)
+} hash_algorithm_t;
+
+static const char *algorithm_string[] = {
+    FOREACH_ALGORITHM(GENERATE_STRING)
+};
+#define BUF_SIZE 1000
+
+#endif // _THREAD_HASH_
+
 //**------------------------------| INCLUDES   |-----------------------**/
 #include <getopt.h>
 #include <stdbool.h>
@@ -14,6 +54,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include <fcntl.h>
 
 
 //**------------------------------| DEFINES    |-----------------------**/
@@ -35,13 +76,17 @@
 
 
 //----REQUIRED----//
-#define NICE_VALUE 10
 #define THREADS_DEF 1
-#define OPTIONS ""
+//#define 
 //**------------------------------| GLOBALS    |-----------------------**/
-static int IN;
-static int OUT;
-
+static int KIN [[maybe_unused]] = STDIN_FILENO;
+static int DIN[[maybe_unused]] = STDIN_FILENO;
+static int OUT [[maybe_unused]] = STDOUT_FILENO;
+static bool error_occurred = true;
+static bool KIN_OPEN = false;
+static bool DIN_OPEN = false;
+static char FILE_BUFFER[BUF_SIZE];
+static char** GLOBAL_HASH_LIST = NULL;
 //**------------------------------| STRUCTS    |-----------------------**/
 
 typedef struct options_s{
@@ -55,18 +100,19 @@ typedef struct options_s{
     char* args[4]; //input, output, directory, threads
 } options_t;
 
-
+typedef int HASH_COLLECTION[9];
 
 static options_t* options = NULL;
 
 //**------------------------------| PROTOTYPES |-----------------------**/
+void be_nice(void);
 
 //nice
-void help_exit();
+void help_exit(void);
 
 //Destroys and cleans up any global variables, 
 // **NOT THREAD SAFE!**
-void clean_exit();
+void clean_exit(void);
 
 //Function to get options, for compactness
 options_t* getoptions(int argc, char** argv);

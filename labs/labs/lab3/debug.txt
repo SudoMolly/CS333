@@ -1,0 +1,4 @@
+rm -f *.o thread_hash *~ \#*
+gcc  -Wall -Wextra -Wshadow -Wunreachable-code -Wredundant-decls  -Wmissing-declarations -Wold-style-definition  -Wmissing-prototypes -Wdeclaration-after-statement  -Wno-return-local-addr -Wunsafe-loop-optimizations  -Wuninitialized -Werror  -Wno-string-compare -Wno-stringop-overflow -Wno-stringop-overread -Wno-stringop-truncation -c thread_hash.c -o thread_hash.o
+gcc  -o thread_hash thread_hash.o -lcrypto
+make: *** No rule to make target '2'.  Stop.

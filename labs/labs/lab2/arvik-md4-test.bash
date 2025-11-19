@@ -1,0 +1,1 @@
+./Lab2/arvik-md4-test.bash

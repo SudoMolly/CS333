@@ -1,0 +1,3 @@
+rm -f *.o arvik-md4 *~ \#*
+gcc  -Wall -Wextra -Wshadow -Wunreachable-code -Wredundant-decls  -Wmissing-declarations -Wold-style-definition  -Wmissing-prototypes -Wdeclaration-after-statement  -Wno-return-local-addr -Wunsafe-loop-optimizations  -Wuninitialized -Werror  -c arvik-md4.c -o arvik-md4.o
+gcc  -o arvik-md4 arvik-md4.o -lcrypto

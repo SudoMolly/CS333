@@ -1,0 +1,10 @@
+help text
+	./thread_hash ...
+	Options: i:o:d:hvt:n
+		-i file		hash file name (required)
+		-o file		output file name (default stdout)
+		-d file		dictionary file name (required)
+		-t #		number of threads to create (default == 1)
+		-n		renice to 10
+		-v		enable verbose mode
+		-h		helpful text
