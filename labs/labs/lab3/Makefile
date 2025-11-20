@@ -14,7 +14,7 @@ $(FILENAME).o: $(FILENAME).c
 	$(CCC) -c $(FILENAME).c $(FILENAME).h 
 
 $(FILENAME): $(FILENAME).o
-	$(COMPILER) -o $(FILENAME) $(FILENAME).o -lcrypto
+	$(COMPILER) -o $(FILENAME) $(FILENAME).o -lcrypt
 #arvik-md4.o: arvik-md4.c arvik.h
 #$(CCC)  arvik-md4.c
 

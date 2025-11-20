@@ -1,0 +1,325 @@
+PASSED GATE INTO GETOPTIONS ON LINE 152
+Function: getoptions	File: thread_hash.c
+------
+BAD OPTARG: Success
+INPUT FOUND
+DIRECTORY FOUND
+THREADS FOUND
+PASSED GATE PASS OPTIONS IN MAIN ON LINE 416
+Function: main	File: thread_hash.c
+------
+PASSED GATE OPEN FILE ENTERED ON LINE 233
+Function: open_file	File: thread_hash.c
+------
+PASSED GATE OPENED plain FILE ON LINE 240
+Function: open_file	File: thread_hash.c
+------
+PASSED GATE OPENED HASH FILE ON LINE 248
+Function: open_file	File: thread_hash.c
+------
+PASSED GATE FILES OPENED ON LINE 419
+Function: main	File: thread_hash.c
+------
+PASSED GATE INTO READ FILE ON LINE 271
+Function: read_file	File: thread_hash.c
+------
+PASSED GATE INITIALIZING BUFFER ON LINE 259
+Function: init_buf	File: thread_hash.c
+------
+BUFFER SIZE: 182
+OUT OF READ FILE, AMOUNT READ: 182
+PASSED GATE INTO COUNT N ASSIGN ON LINE 22
+Function: count_n_assign	File: thread_hash.c
+------
+int value is zero? : 0
+COUNT OF LINES: 1
+COUNT OF LINES: 2
+COUNT OF LINES: 3
+COUNT OF LINES: 4
+COUNT OF LINES: 5
+COUNT OF LINES: 6
+COUNT OF LINES: 7
+COUNT OF LINES: 8
+COUNT OF LINES: 9
+COUNT OF LINES: 10
+COUNT OF LINES: 11
+COUNT OF LINES: 12
+COUNT OF LINES: 13
+COUNT OF LINES: 14
+COUNT OF LINES: 15
+COUNT OF LINES: 16
+COUNT OF LINES: 17
+COUNT OF LINES: 18
+COUNT OF LINES: 19
+COUNT OF LINES: 20
+COUNT TRANSFERED, NUMBER OF PLAINS: 20
+PASSED GATE PAST PLAIN ON LINE 431
+Function: main	File: thread_hash.c
+------
+PASSED GATE INTO READ FILE ON LINE 271
+Function: read_file	File: thread_hash.c
+------
+PASSED GATE INITIALIZING BUFFER ON LINE 259
+Function: init_buf	File: thread_hash.c
+------
+BUFFER SIZE: 937
+OUT OF READ FILE, AMOUNT READ: 937
+PASSED GATE INTO COUNT N ASSIGN ON LINE 22
+Function: count_n_assign	File: thread_hash.c
+------
+int value is zero? : 0
+COUNT OF LINES: 1
+COUNT OF LINES: 2
+COUNT OF LINES: 3
+COUNT OF LINES: 4
+COUNT OF LINES: 5
+COUNT OF LINES: 6
+COUNT OF LINES: 7
+COUNT OF LINES: 8
+COUNT OF LINES: 9
+COUNT OF LINES: 10
+COUNT TRANSFERED, NUMBER OF HASHES: 10
+PASSED GATE PAST HASH ON LINE 442
+Function: main	File: thread_hash.c
+------
+PASSED GATE STARTING THREADS ON LINE 448
+Function: main	File: thread_hash.c
+------
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 0
+PASSED GATE YESCRYPT ON LINE 307
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 0
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 1
+PASSED GATE SHA512 ON LINE 303
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 1
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 2
+PASSED GATE SHA512 ON LINE 303
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 2
+THREAD FOUND MATCH: 1
+CRACKED: cracked  BATS  $6$rounds=1109$CeWB67CiEYRYtM7o$Dh9kuh0Ifpg59ra..63WcXNhYXG0wZCim2PIz8/795H7q57sooo2juIddq4iJmrSYah6IyiYohn.dKbYzCLjG/
+
+SIZE WRITTEN: 134
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 3
+PASSED GATE SHA512 ON LINE 303
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 1
+THREAD FOUND MATCH: 0
+CRACKED: cracked  glinskiy  $y$j6T$gB9b.BcGvyNbhO6LcxnyX8vF9krYuMRPM8G2ZrFwhxYhacG6uEogvEPHYZep8Iaw$R2tuaLUUvpuq5m240iCBBWwKk53MX4uCxNpkD1/DujA
+
+SIZE WRITTEN: 135
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 4
+PASSED GATE SHA512 ON LINE 303
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 0
+CRACKED: *** failed to crack  $6$rounds=1297$C8gKSQmU.njunTqd$ScEwRizaDuaKW.i.C3ycpWdb2DIqzAmumdQ0YodVm0084Jtm7dvtw.oImdeCFDPpLkE3OCTIcm5D6dsCGjs.f0
+
+SIZE WRITTEN: 140
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 5
+PASSED GATE MD5 ON LINE 295
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 2
+THREAD FOUND MATCH: 2
+CRACKED: cracked  butch5000  $1$PjrNlGa8$AEiPDORrsRpKbrd4bGMlo/
+
+SIZE WRITTEN: 55
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 6
+PASSED GATE BCRYPT ON LINE 315
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 2
+THREAD FOUND MATCH: 1
+CRACKED: cracked  mood0130  $6$rounds=1025$KF0.FlWK3/gxXxRa$O15yzeKr60yq4tgm6qYdUB0/W65kyWvCAgcEJN.yTw/Qpw0uFlcbQEfS0tbLbJgXNL/v6ZhnadNexvBPPDaV01
+
+SIZE WRITTEN: 138
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 7
+PASSED GATE YESCRYPT ON LINE 307
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 1
+THREAD FOUND MATCH: 0
+CRACKED: cracked  nenormalen  $6$rounds=1081$iiZMfR/MFVSY1b7V$rBMnsGVdpYL9xn7y9ve9.KUUMdYURzj5uuJAAvaIffkpA0ia7AVtfIdZOu41cYkuC1GSkUH9UgkAftR9yb75E.
+
+SIZE WRITTEN: 140
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 8
+IN DECODE WITH THREAD: 0
+THREAD FOUND MATCH: 0
+CRACKED: cracked  bijmbi2  34ewYkMlX72VI
+
+SIZE WRITTEN: 32
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 9
+PASSED GATE SHA512 ON LINE 303
+Function: determine_type	File: thread_hash.c
+------
+IN DECODE WITH THREAD: 0
+THREAD FOUND MATCH: 0
+CRACKED: cracked  RM_08_09  $6$rounds=1484$P2I6EiPcaeICKQzJ$mabXUPqcqfO.zvYt8pYGmQ5v9SvROeYwc542BU4gID15AcHSDXcHbekQGFdkqTbO4uhZG40e/ecRlr9L/voGP0
+
+SIZE WRITTEN: 138
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 10
+THREAD FOUND MATCH: 2
+CRACKED: cracked  7031990  $2b$09$4kThdKWvgPYimLpSVYMWXuzTrdyjgyNDUVoS3ho/I/1ilxFBVSjF.
+
+SIZE WRITTEN: 79
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 11
+CRACKED: *** failed to crack  $y$j8T$qHXwaCSMK7g24fkWjUXoEiQQD7ytP1BLlGoxxxtslxqf4336GwiNJxxezonH.4VZ$rBE7jBKhmfNbzBD6vpfjaUKGThkMDLVYiEqKvVOow89
+
+SIZE WRITTEN: 137
+PASSED GATE INTO GET NEXT THREAD ON LINE 330
+Function: get_next_thread	File: thread_hash.c
+------
+RETURNING OUT OF GET NEXT THREAD: 12
+PASSED GATE ENDED THREADS ON LINE 460
+Function: main	File: thread_hash.c
+------
+PASSED GATE PASS ALL, EXIT SUCCESS! ON LINE 466
+Function: main	File: thread_hash.c
+------
+PASSED GATE INTO CLEAN EXIT ON LINE 79
+Function: clean_exit	File: thread_hash.c
+------
+PASSED GATE OPTIONS FREED SUCCESSFULLY ON LINE 93
+Function: clean_exit	File: thread_hash.c
+------
+PASSED GATE INTO CLEAN ALL RAGGED ARRAYS ON LINE 104
+Function: cleanAllRaggedArrays	File: thread_hash.c
+------
+GLOBAL HASH NUM: 0
+$y$j6T$gB9b.BcGvyNbhO6LcxnyX8vF9krYuMRPM8G2ZrFwhxYhacG6uEogvEPHYZep8Iaw$R2tuaLUUvpuq5m240iCBBWwKk53MX4uCxNpkD1/DujA
+GLOBAL CRACKED NUM: 0
+cracked  glinskiy  $y$j6T$gB9b.BcGvyNbhO6LcxnyX8vF9krYuMRPM8G2ZrFwhxYhacG6uEogvEPHYZep8Iaw$R2tuaLUUvpuq5m240iCBBWwKk53MX4uCxNpkD1/DujA
+
+GLOBAL HASH NUM: 1
+$6$rounds=1109$CeWB67CiEYRYtM7o$Dh9kuh0Ifpg59ra..63WcXNhYXG0wZCim2PIz8/795H7q57sooo2juIddq4iJmrSYah6IyiYohn.dKbYzCLjG/
+GLOBAL CRACKED NUM: 1
+cracked  BATS  $6$rounds=1109$CeWB67CiEYRYtM7o$Dh9kuh0Ifpg59ra..63WcXNhYXG0wZCim2PIz8/795H7q57sooo2juIddq4iJmrSYah6IyiYohn.dKbYzCLjG/
+
+GLOBAL HASH NUM: 2
+$6$rounds=1297$C8gKSQmU.njunTqd$ScEwRizaDuaKW.i.C3ycpWdb2DIqzAmumdQ0YodVm0084Jtm7dvtw.oImdeCFDPpLkE3OCTIcm5D6dsCGjs.f0
+GLOBAL CRACKED NUM: 2
+*** failed to crack  $6$rounds=1297$C8gKSQmU.njunTqd$ScEwRizaDuaKW.i.C3ycpWdb2DIqzAmumdQ0YodVm0084Jtm7dvtw.oImdeCFDPpLkE3OCTIcm5D6dsCGjs.f0
+
+GLOBAL HASH NUM: 3
+$6$rounds=1025$KF0.FlWK3/gxXxRa$O15yzeKr60yq4tgm6qYdUB0/W65kyWvCAgcEJN.yTw/Qpw0uFlcbQEfS0tbLbJgXNL/v6ZhnadNexvBPPDaV01
+GLOBAL CRACKED NUM: 3
+cracked  mood0130  $6$rounds=1025$KF0.FlWK3/gxXxRa$O15yzeKr60yq4tgm6qYdUB0/W65kyWvCAgcEJN.yTw/Qpw0uFlcbQEfS0tbLbJgXNL/v6ZhnadNexvBPPDaV01
+
+GLOBAL HASH NUM: 4
+$6$rounds=1081$iiZMfR/MFVSY1b7V$rBMnsGVdpYL9xn7y9ve9.KUUMdYURzj5uuJAAvaIffkpA0ia7AVtfIdZOu41cYkuC1GSkUH9UgkAftR9yb75E.
+GLOBAL CRACKED NUM: 4
+cracked  nenormalen  $6$rounds=1081$iiZMfR/MFVSY1b7V$rBMnsGVdpYL9xn7y9ve9.KUUMdYURzj5uuJAAvaIffkpA0ia7AVtfIdZOu41cYkuC1GSkUH9UgkAftR9yb75E.
+
+GLOBAL HASH NUM: 5
+$1$PjrNlGa8$AEiPDORrsRpKbrd4bGMlo/
+GLOBAL CRACKED NUM: 5
+cracked  butch5000  $1$PjrNlGa8$AEiPDORrsRpKbrd4bGMlo/
+
+GLOBAL HASH NUM: 6
+$2b$09$4kThdKWvgPYimLpSVYMWXuzTrdyjgyNDUVoS3ho/I/1ilxFBVSjF.
+GLOBAL CRACKED NUM: 6
+cracked  7031990  $2b$09$4kThdKWvgPYimLpSVYMWXuzTrdyjgyNDUVoS3ho/I/1ilxFBVSjF.
+
+GLOBAL HASH NUM: 7
+$y$j8T$qHXwaCSMK7g24fkWjUXoEiQQD7ytP1BLlGoxxxtslxqf4336GwiNJxxezonH.4VZ$rBE7jBKhmfNbzBD6vpfjaUKGThkMDLVYiEqKvVOow89
+GLOBAL CRACKED NUM: 7
+*** failed to crack  $y$j8T$qHXwaCSMK7g24fkWjUXoEiQQD7ytP1BLlGoxxxtslxqf4336GwiNJxxezonH.4VZ$rBE7jBKhmfNbzBD6vpfjaUKGThkMDLVYiEqKvVOow89
+
+GLOBAL HASH NUM: 8
+34ewYkMlX72VI
+GLOBAL CRACKED NUM: 8
+cracked  bijmbi2  34ewYkMlX72VI
+
+GLOBAL HASH NUM: 9
+$6$rounds=1484$P2I6EiPcaeICKQzJ$mabXUPqcqfO.zvYt8pYGmQ5v9SvROeYwc542BU4gID15AcHSDXcHbekQGFdkqTbO4uhZG40e/ecRlr9L/voGP0
+GLOBAL CRACKED NUM: 9
+cracked  RM_08_09  $6$rounds=1484$P2I6EiPcaeICKQzJ$mabXUPqcqfO.zvYt8pYGmQ5v9SvROeYwc542BU4gID15AcHSDXcHbekQGFdkqTbO4uhZG40e/ecRlr9L/voGP0
+
+DEINITIALIZING GLOBAL HASH LIST
+DEINITIALIZING GLOBAL CRACK LIST
+GLOBAL PLAIN NUM: 0
+RM_08_09
+GLOBAL PLAIN NUM: 1
+glinskiy
+GLOBAL PLAIN NUM: 2
+BATS
+GLOBAL PLAIN NUM: 3
+strungou
+GLOBAL PLAIN NUM: 4
+7031990
+GLOBAL PLAIN NUM: 5
+lyndelle
+GLOBAL PLAIN NUM: 6
+180937
+GLOBAL PLAIN NUM: 7
+demmax
+GLOBAL PLAIN NUM: 8
+belladan1
+GLOBAL PLAIN NUM: 9
+HXGJ6FAi
+GLOBAL PLAIN NUM: 10
+globmast
+GLOBAL PLAIN NUM: 11
+123456dbnfrbkbyf
+GLOBAL PLAIN NUM: 12
+bijmbi2
+GLOBAL PLAIN NUM: 13
+zippo96
+GLOBAL PLAIN NUM: 14
+reader43
+GLOBAL PLAIN NUM: 15
+gx1393297
+GLOBAL PLAIN NUM: 16
+nenormalen
+GLOBAL PLAIN NUM: 17
+butch5000
+GLOBAL PLAIN NUM: 18
+mood0130
+GLOBAL PLAIN NUM: 19
+kravcova
+DEINITIALIZING GLOBAL PLAIN LIST
+PASSED GATE OUT OF CLEAN ALL RAGGED ON LINE 144
+Function: cleanAllRaggedArrays	File: thread_hash.c
+------
