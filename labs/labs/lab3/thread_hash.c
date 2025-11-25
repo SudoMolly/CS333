@@ -1,6 +1,6 @@
 #include "thread_hash.h"
 #include <unistd.h>
-options_t option_init = {.inputExists = false, .output = false, .directory = false, .threads = 1, .verbose = false, .help = true, .nice = false, .args[0] = NULL, .args[1] = NULL, .args[2] = NULL, .args[3] = NULL};
+options_t option_init = {.inputExists = false, .output = false, .directory = false, .threads = 1, .verbose = false, .help = false, .nice = false, .args[0] = NULL, .args[1] = NULL, .args[2] = NULL, .args[3] = NULL};
 
 
 void SAY(const char* string) 
