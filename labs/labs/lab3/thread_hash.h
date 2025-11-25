@@ -229,6 +229,7 @@ int length_num(int num);
 void get_thread_data_pretty(thread_data* given, thread_data* last);
 void display_err(thread_data* datas);
 void display_out(void);
+void close_file(void);
 
 //Function to get options, for compactness
 options_t* getoptions(int argc, char** argv);

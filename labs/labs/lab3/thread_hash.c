@@ -1,4 +1,5 @@
 #include "thread_hash.h"
+#include <unistd.h>
 options_t option_init = {.inputExists = false, .output = false, .directory = false, .threads = 1, .verbose = false, .help = true, .nice = false, .args[0] = NULL, .args[1] = NULL, .args[2] = NULL, .args[3] = NULL};
 
 
@@ -74,6 +75,7 @@ double elapse_time(struct timeval* t0, struct timeval* t1)
 
 void be_nice(void)
 {
+    nice(NICE_VALUE);
 }
 
 void help_exit(void)
@@ -203,7 +205,6 @@ options_t* getoptions(int argc, char** argv)
             case 'h':
                 SAY("HELP EXIT");
                 options->help = true;
-                help_exit();
                 break;
             case 'n':
                 SAY("NICE TOGGLED");
@@ -285,6 +286,18 @@ void open_file(char* plain_file, char* hash_file, char* outFile)
         }
     }
     OUT_OPEN = true;
+}
+
+void close_file(void)
+{
+    GATEPASS("CLOSE FILE ENTERED");
+    if (OUT == STDOUT_FILENO)
+        SAY("OUT IS STANDARD OUT, NO CLOSE NECESSARY");
+    else
+    {
+        GATEPASS("CLOSE OUT");
+        close(OUT);
+    }
 }
 
 long init_buf(long buf_size)
@@ -525,7 +538,8 @@ int main(int argc, char** argv)
     pthread_t * threads [[maybe_unused]] = NULL;
     //----------------OPTIONS---------------------//
     options = getoptions(argc,argv);
-    
+    if (options->nice) be_nice();
+    if (options->help) help_exit();
     //----------------FILE IO---------------------//
     GATEPASS("PASS OPTIONS IN MAIN");
     open_file(options->args[2], options->args[0], options->args[1]);
