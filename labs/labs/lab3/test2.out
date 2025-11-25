@@ -1,0 +1,5 @@
+
+thread:793 26929.90 sec              DES:  8433               NT:  8462              MD5:  2829           SHA256:  5344           SHA512:  9606         YESCRYPT:  9078    GOST_YESCRYPT:  9954           BCRYPT: 12421  total: 86636791  failed: 94221657
+total returned = 97736169
+thread:765 17469.00 sec              DES:  4137               NT:  5656              MD5:  3493           SHA256:  1273           SHA512:  5052         YESCRYPT:  8835    GOST_YESCRYPT:  4368           BCRYPT:  5771  total: 97736169  failed: 75092065
+thread:  1  1536.26 sec              DES:    44               NT:    67              MD5:    54           SHA256:    48           SHA512:    83         YESCRYPT:    61    GOST_YESCRYPT:    52           BCRYPT:    59  total:      468  failed:       93

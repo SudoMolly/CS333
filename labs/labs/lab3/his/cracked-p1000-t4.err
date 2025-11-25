@@ -3,3 +3,5 @@ thread:  2   798.85 sec              DES:    31               NT:    44         
 thread:  3   799.78 sec              DES:    22               NT:    37              MD5:    21           SHA256:    27           SHA512:    35         YESCRYPT:    33    GOST_YESCRYPT:    29           BCRYPT:    25  total:      229  failed:       41
 thread:  0   800.28 sec              DES:    11               NT:    30              MD5:    28           SHA256:    18           SHA512:    36         YESCRYPT:    27    GOST_YESCRYPT:    24           BCRYPT:    26  total:      200  failed:       37
 total:   4   800.28 sec              DES:    87               NT:   144              MD5:   117           SHA256:   115           SHA512:   166         YESCRYPT:   139    GOST_YESCRYPT:   124           BCRYPT:   108  total:     1000  failed:      180
+
+thread:  0  1535.37 sec              DES:    43               NT:    77              MD5:    63           SHA256:    67           SHA512:    83         YESCRYPT:    78    GOST_YESCRYPT:    72           BCRYPT:    49  total:      532  failed:       87

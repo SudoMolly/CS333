@@ -1,7 +1,27 @@
 #include "thread_hash.h"
+options_t option_init = {.inputExists = false, .output = false, .directory = false, .threads = 1, .verbose = false, .help = true, .nice = false, .args[0] = NULL, .args[1] = NULL, .args[2] = NULL, .args[3] = NULL};
 
-options_t option_init = {.inputExists = false, .output = false, .directory = false, .threads = 1, .verbose = false, .help = true, .nice = false};
 
+void SAY(const char* string) 
+{
+    if (options != NULL && options->verbose) dprintf(VOUT,"%s\n", string);
+}
+void SHOW(const char* str1, const char* str2) 
+{
+    if (options != NULL && options->verbose) dprintf(VOUT, "%s%s", str1,str2);
+}
+void SHOWI(const char* str1, int int1) 
+{
+    if (options != NULL && options->verbose) dprintf(VOUT,"%s%d\n", str1, int1);
+}
+void GATEPASS(const char* ident) 
+{
+    if (options != NULL && options->verbose) dprintf(VOUT, "PASSED GATE %s", ident);
+}
+void LOOPI(const char* iden, int i) 
+{
+    if (options != NULL && options->verbose) dprintf(VOUT,"In loop %s%d\n", iden, i);
+}
 
 char* strnstr(char* hay, char needle, int max_count, bool flush)
 {
@@ -47,7 +67,7 @@ char** count_n_assign(char** buff, int * toAdj)
 //THIS IS JESSE'S FUNCTION FROM MM4 IN VID ASSIGNMENT 6
 double elapse_time(struct timeval* t0, struct timeval* t1)
 {
-    double et = ( ( (double) (t1->tv_usec - t0->tv_usec) )/ MCS_TO_MS) +
+    double et = ( ( (double) (t1->tv_usec - t0->tv_usec) )/ MICROSECONDS_PER_SECOND) +
                 ( (double) (t1->tv_sec - t0->tv_sec) );
     return et;
 }
@@ -152,7 +172,6 @@ options_t* getoptions(int argc, char** argv)
     GATEPASS("INTO GETOPTIONS");
     options = (options_t*) malloc(sizeof(options_t));
     *options = option_init;
-    perror("BAD OPTARG");
     while ((c = getopt(argc,argv,":i:o:d:t:vhn")) != -1)
     {
         switch(c)
@@ -228,7 +247,7 @@ options_t* getoptions(int argc, char** argv)
     return options;
 }
 
-void open_file(char* plain_file, char* hash_file)
+void open_file(char* plain_file, char* hash_file, char* outFile)
 {
     GATEPASS("OPEN FILE ENTERED");
     if (plain_file  == NULL || hash_file == NULL) 
@@ -252,6 +271,20 @@ void open_file(char* plain_file, char* hash_file)
         clean_exit();
     }
     HASH_OPEN = true;
+    if (outFile == NULL)
+    {
+        SAY("OUT FILE WAS NOT SPECIFIED");
+    }
+    else
+    {
+        OUT = open(outFile, O_WRONLY);
+        if (OUT == -1)
+        {
+            perror("Output file could not be open");
+            clean_exit();
+        }
+    }
+    OUT_OPEN = true;
 }
 
 long init_buf(long buf_size)
@@ -357,11 +390,11 @@ bool crack_attempt(char* plain, char* hash)
 
 void cracked_str(char* key, char* hash, int i)
 {
-    int size = 0;
+    int size [[maybe_unused]] = 0;
     if (key == NULL)
     {
         GLOBAL_CRACKED_LIST[i] = (char*) malloc((FAILED_ALLOC + strlen(hash) + 2) * (sizeof(char)));
-        size = sprintf(GLOBAL_CRACKED_LIST[i], "%s%s\n",FAILED_START,hash);
+        size = sprintf(GLOBAL_CRACKED_LIST[i], "%s%s\n",PROMPT_FAILED_START,hash);
     }
     else 
     {
@@ -384,13 +417,14 @@ void* decode(void* vid)
         //curr_hash = GLOBAL_HASH_LIST[i];
         //curr_hash = strdup(GLOBAL_HASH_LIST[i]);
         success = false;
-        ++(data[(long)vid].encounters[determine_type(GLOBAL_HASH_LIST[i][0], GLOBAL_HASH_LIST[i][1])]);
+        ++(data[(long) vid].total);
         SHOWI("IN DECODE WITH THREAD: ", ((int) ((long) vid)));
         for (j = 0; j < GLOBAL_PLAIN_NUM; ++j)
         {
             //curr_plain = GLOBAL_PLAIN_LIST[i];
             if (crack_attempt(GLOBAL_PLAIN_LIST[j], GLOBAL_HASH_LIST[i]))
             {
+                ++(data[(long)vid].encounters[determine_type(GLOBAL_HASH_LIST[i][0], GLOBAL_HASH_LIST[i][1])]);
                 SHOWI("THREAD FOUND MATCH: ", ((int) ((long) vid)));
                 cracked_str(GLOBAL_PLAIN_LIST[j],GLOBAL_HASH_LIST[i],i);
                 success = true;
@@ -398,9 +432,89 @@ void* decode(void* vid)
             }
         }
         if (!success)
+        {
             cracked_str(NULL,GLOBAL_HASH_LIST[i],i);
+            ++(data[(long) vid].failures);
+        }
     }
     pthread_exit(EXIT_SUCCESS);
+}
+
+//void set_thread_data(void)
+//{
+    //int curr_total, total_total;
+    //int num_t = options->threads;
+    //int total_i = num_t;
+    //total_total = 0;
+    //for (int i = 0; i < num_t; ++i)
+    //{
+        //curr_total = 0;
+        //for (int j = 0; j < ALGORITHM_MAX; ++j)
+        //{
+            //curr_total += data[i].encounters[j];
+            //data[total_i].encounters[j] += data[i].encounters[j];
+        //}
+        //data[total_i].failures += data[i].failures;
+        //data[i].total = curr_total += data[i].failures;
+        //total_total += data[i].total;
+    //}
+//}
+int length_num(int num)
+{
+    int next, places;
+    places = 0;
+    while ((next = num / 10) != 0)
+        ++places;
+    if (places == 0) return 1;
+    return places;
+}
+
+void get_thread_data_pretty(thread_data * given, thread_data* last)
+{
+    int thread, des, nt, md5, sha256, sha512, yes, gyes, b, total, failed;
+    double time;
+    time = given->time;
+    thread = given->thread_num % 1000;
+    last->encounters[DES] += des = given->encounters[DES] % 10000;
+    last->encounters[NT] += nt = given->encounters[NT]% 10000;
+    last->encounters[MD5] += md5 = given->encounters[MD5]% 10000;
+    last->encounters[SHA256] += sha256 = given->encounters[SHA256]% 10000;
+    last->encounters[SHA512] += sha512 = given->encounters[SHA512]% 10000;
+    last->encounters[YESCRYPT] += yes = given->encounters[YESCRYPT]% 10000;
+    last->encounters[GOST_YESCRYPT] += gyes = given->encounters[GOST_YESCRYPT]% 10000;
+    last->encounters[BCRYPT] += b = given->encounters[BCRYPT]% 10000;
+    last->total += total = given->total % 100000000;
+    last->failures += failed = given->failures % 100000000;
+    snprintf(given->verbose, VERBOSE_LENGTH, "thread:%3d %6.2lf sec              DES: %5d               NT: %5d              MD5: %5d           SHA256: %5d           SHA512: %5d         YESCRYPT: %5d    GOST_YESCRYPT: %5d           BCRYPT: %5d  total: %8d  failed: %8d\n", thread , time, des , nt , md5 , sha256 , sha512 , yes , gyes , b , total, failed); 
+}
+
+void display_err(thread_data* datas)
+{
+    int i;
+    for (i = 1; i < options->threads; ++i)
+    {
+        write(VOUT, datas[i].verbose, VERBOSE_LENGTH - 5);
+        write(VOUT, "\n", 1);
+    }
+    write(VOUT,data[0].verbose,VERBOSE_LENGTH - 5);
+    write(VOUT, "\n", 1);
+    snprintf(data[i].verbose, VERBOSE_LENGTH, "total: %3d %6.2lf sec              DES: %5d               NT: %5d              MD5: %5d           SHA256: %5d           SHA512: %5d         YESCRYPT: %5d    GOST_YESCRYPT: %5d           BCRYPT: %5d  total: %8d  failed: %8d\n", data[i].thread_num , data[i].time, data[i].encounters[DES] , data[i].encounters[NT]  , data[i].encounters[MD5] , data[i].encounters[SHA256] , data[i].encounters[SHA512] ,data[i].encounters[YESCRYPT]  ,data[i].encounters[GOST_YESCRYPT], data[i].encounters[BCRYPT]  , data[i].total, data[i].failures); 
+    write(VOUT,data[i].verbose, VERBOSE_LENGTH - 5);
+    write(VOUT, "\n", 1);
+}
+
+void display_out(void)
+{
+    int written;
+    for (int i = 0; i < GLOBAL_HASH_NUM; ++i)
+    {
+        written = write(OUT, GLOBAL_CRACKED_LIST[i], strlen(GLOBAL_CRACKED_LIST[i]));
+        if (written == -1) 
+        {
+            perror("FAILURE TO WRITE TO OUT");
+            clean_exit();
+        }
+    }
 }
 
 int main(int argc, char** argv)
@@ -414,15 +528,15 @@ int main(int argc, char** argv)
     
     //----------------FILE IO---------------------//
     GATEPASS("PASS OPTIONS IN MAIN");
-    open_file(options->args[2], options->args[0]);
+    open_file(options->args[2], options->args[0], options->args[1]);
 
     GATEPASS("FILES OPENED");
 
     count = read_file(PLAIN_IN);
     GLOBAL_PLAIN_LIST = count_n_assign(GLOBAL_PLAIN_LIST, &count);
     GLOBAL_PLAIN_NUM = count;
-    if (count == 0) SAY("COUNT DIDNT TRANSFER");
-    else SHOWI("COUNT TRANSFERED, NUMBER OF PLAINS: ", GLOBAL_PLAIN_NUM);
+    if (count == 0) {SAY("COUNT DIDNT TRANSFER");}
+    else {SHOWI("COUNT TRANSFERED, NUMBER OF PLAINS: ", GLOBAL_PLAIN_NUM);}
 
     free(FILE_BUFFER);
     FILE_BUFFER = NULL;
@@ -433,8 +547,8 @@ int main(int argc, char** argv)
     count = read_file(HASH_IN);
     GLOBAL_HASH_LIST = count_n_assign(GLOBAL_HASH_LIST, &count);
     GLOBAL_HASH_NUM = count;
-    if (count == 0) SAY("COUNT DIDNT TRANSFER");
-    else SHOWI("COUNT TRANSFERED, NUMBER OF HASHES: ", GLOBAL_HASH_NUM);
+    if (count == 0) {SAY("COUNT DIDNT TRANSFER");}
+    else {SHOWI("COUNT TRANSFERED, NUMBER OF HASHES: ", GLOBAL_HASH_NUM);}
     free(FILE_BUFFER);
     FILE_BUFFER = NULL;
     close(HASH_IN);
@@ -442,12 +556,15 @@ int main(int argc, char** argv)
     GATEPASS("PAST HASH");
     //----------------THREAD MAKING---------------------//
     threads = (pthread_t*) malloc(sizeof(pthread_t) * options->threads);
-    data = (thread_data*) calloc(options->threads,sizeof(thread_data));
-    times = (struct timeval*) calloc(options->threads * 2, sizeof(struct timeval));
+    data = (thread_data*) calloc(options->threads + 1,sizeof(thread_data));
+    times = (struct timeval*) calloc((options->threads * 2) + 2, sizeof(struct timeval));
     GLOBAL_CRACKED_LIST = (char**) malloc(sizeof(char*) * GLOBAL_HASH_NUM);
     GATEPASS("STARTING THREADS");
+    data[options->threads].thread_num = options->threads;
+    gettimeofday(&times[options->threads * 2], NULL);
     for (tid = 0, tid_time = 0; tid < options->threads; ++tid, tid_time += 2)
     {
+        data[tid].thread_num = tid;
         gettimeofday(&times[tid_time], NULL);
         pthread_create(&threads[tid],NULL,decode, (void*) tid);
     }
@@ -457,11 +574,24 @@ int main(int argc, char** argv)
         gettimeofday(&times[tid_time], NULL);
         data[tid].time = elapse_time(&times[tid_time - 1], &times[tid_time]);
     }
+    gettimeofday(&times[(options->threads * 2) + 1], NULL);
+    data[options->threads].time = elapse_time(&times[(options->threads) * 2], &times[((options->threads) * 2) + 1]);
+
+    for (int i = 0; i < options->threads; ++i)
+    {
+        get_thread_data_pretty(&data[i], &data[options->threads]);
+    }
+    
+    display_err(data);
+    display_out();
+
     GATEPASS("ENDED THREADS");
     free(times);
     times = NULL;
     free(threads);
     threads = NULL;
+    free(data);
+    data = NULL;
 
     GATEPASS("PASS ALL, EXIT SUCCESS!");
     error_occurred = false;
