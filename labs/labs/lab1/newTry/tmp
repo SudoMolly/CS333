@@ -1,0 +1,4 @@
+Usage: ./mystat <filename1> ... <filenameN>
+*** Failed to stat file 'tmp', skipping.
+***  File 'tmp' does not exist or we done have access.
+*** Could not stat file: No such file or directory

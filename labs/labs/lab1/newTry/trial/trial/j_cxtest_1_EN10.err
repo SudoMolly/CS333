@@ -1,0 +1,55 @@
+caesar key = '9ekWnAu4}XchZJsB@fOM2p~Dvq0atK|PwLjbigUy<NG7E6I3TFS;C>m1xd?{HRYz5Q8Vo=rl'
+xor key    = 'SF|cmQw?YXInh{aOeE;~Z4dV3RB9><6W8iPCJvjstkHTUpzqMG2bgNlLyuAo=5f7}1@xK0Dr'
+ce   shift char 9  shift num  25  char a -> z
+ce   shift char e  shift num  69  char b -> H
+ce   shift char k  shift num  75  char c -> O
+ce   shift char W  shift num  55  char d -> <
+ce   shift char n  shift num  78  char e -> T
+ce   shift char A  shift num  33  char f -> (
+ce   shift char u  shift num  85  char g -> ]
+ce   shift char 4  shift num  20  char h -> |
+ce   shift char }  shift num  93  char i -> g
+ce   shift char X  shift num  56  char j -> C
+ce   shift char c  shift num  67  char k -> O
+ce   shift char h  shift num  72  char l -> U
+ce   shift char Z  shift num  58  char m -> H
+ce   shift char J  shift num  42  char n -> 9
+ce   shift char s  shift num  83  char o -> c
+ce   shift char B  shift num  34  char p -> 3
+ce   shift char @  shift num  32  char q -> 2
+ce   shift char f  shift num  70  char r -> Y
+ce   shift char O  shift num  47  char s -> C
+ce   shift char M  shift num  45  char t -> B
+ce   shift char 2  shift num  18  char u -> (
+ce   shift char p  shift num  80  char v -> g
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char D  shift num  36  char x -> =
+ce   shift char v  shift num  86  char y -> p
+ce   shift char q  shift num  81  char z -> l
+xe   xor char S 0x53  plain 0x7a -> 0x29
+xe   xor char F 0x46  plain 0x48 -> 0x0e
+xe   xor char | 0x7c  plain 0x4f -> 0x33
+xe   xor char c 0x63  plain 0x3c -> 0x5f
+xe   xor char m 0x6d  plain 0x54 -> 0x39
+xe   xor char Q 0x51  plain 0x28 -> 0x79
+xe   xor char w 0x77  plain 0x5d -> 0x2a
+xe   xor char ? 0x3f  plain 0x7c -> 0x43
+xe   xor char Y 0x59  plain 0x67 -> 0x3e
+xe   xor char X 0x58  plain 0x43 -> 0x1b
+xe   xor char I 0x49  plain 0x4f -> 0x06
+xe   xor char n 0x6e  plain 0x55 -> 0x3b
+xe   xor char h 0x68  plain 0x48 -> 0x20
+xe   xor char { 0x7b  plain 0x39 -> 0x42
+xe   xor char a 0x61  plain 0x63 -> 0x02
+xe   xor char O 0x4f  plain 0x33 -> 0x7c
+xe   xor char e 0x65  plain 0x32 -> 0x57
+xe   xor char E 0x45  plain 0x59 -> 0x1c
+xe   xor char ; 0x3b  plain 0x43 -> 0x78
+xe   xor char ~ 0x7e  plain 0x42 -> 0x3c
+xe   xor char Z 0x5a  plain 0x28 -> 0x72
+xe   xor char 4 0x34  plain 0x67 -> 0x53
+xe   xor char d 0x64  plain 0x76 -> 0x12
+xe   xor char V 0x56  plain 0x3d -> 0x6b
+xe   xor char 3 0x33  plain 0x70 -> 0x43
+xe   xor char R 0x52  plain 0x6c -> 0x3e
+xe   xor char B 0x42  plain 0x0a -> 0x48

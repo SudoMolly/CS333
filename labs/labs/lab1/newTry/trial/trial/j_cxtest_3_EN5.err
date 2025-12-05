@@ -1,0 +1,193 @@
+caesar key = '|}z~{'
+xor key    = '}z~{|'
+ce   shift char |  shift num  92  char   -> |
+ce   shift char }  shift num  93  char ! -> ~
+ce   shift char z  shift num  90  char " -> |
+ce   shift char ~  shift num  94  char # -> "
+ce   shift char {  shift num  91  char $ ->  
+ce   shift char |  shift num  92  char % -> "
+ce   shift char }  shift num  93  char & -> $
+ce   shift char z  shift num  90  char ' -> "
+ce   shift char ~  shift num  94  char ( -> '
+ce   shift char {  shift num  91  char ) -> %
+ce   shift char |  shift num  92  char * -> '
+ce   shift char }  shift num  93  char + -> )
+ce   shift char z  shift num  90  char , -> '
+ce   shift char ~  shift num  94  char - -> ,
+ce   shift char {  shift num  91  char . -> *
+ce   shift char |  shift num  92  char / -> ,
+ce   shift char }  shift num  93  char 0 -> .
+ce   shift char z  shift num  90  char 1 -> ,
+ce   shift char ~  shift num  94  char 2 -> 1
+ce   shift char {  shift num  91  char 3 -> /
+ce   shift char |  shift num  92  char 4 -> 1
+ce   shift char }  shift num  93  char 5 -> 3
+ce   shift char z  shift num  90  char 6 -> 1
+ce   shift char ~  shift num  94  char 7 -> 6
+ce   shift char {  shift num  91  char 8 -> 4
+ce   shift char |  shift num  92  char 9 -> 6
+ce   shift char }  shift num  93  char : -> 8
+ce   shift char z  shift num  90  char ; -> 6
+ce   shift char ~  shift num  94  char < -> ;
+ce   shift char {  shift num  91  char = -> 9
+ce   shift char |  shift num  92  char > -> ;
+ce   shift char }  shift num  93  char ? -> =
+ce   shift char z  shift num  90  char @ -> ;
+ce   shift char ~  shift num  94  char A -> @
+ce   shift char {  shift num  91  char B -> >
+ce   shift char |  shift num  92  char C -> @
+ce   shift char }  shift num  93  char D -> B
+ce   shift char z  shift num  90  char E -> @
+ce   shift char ~  shift num  94  char F -> E
+ce   shift char {  shift num  91  char G -> C
+ce   shift char |  shift num  92  char H -> E
+ce   shift char }  shift num  93  char I -> G
+ce   shift char z  shift num  90  char J -> E
+ce   shift char ~  shift num  94  char K -> J
+ce   shift char {  shift num  91  char L -> H
+ce   shift char |  shift num  92  char M -> J
+ce   shift char }  shift num  93  char N -> L
+ce   shift char z  shift num  90  char O -> J
+ce   shift char ~  shift num  94  char P -> O
+ce   shift char {  shift num  91  char Q -> M
+ce   shift char |  shift num  92  char R -> O
+ce   shift char }  shift num  93  char S -> Q
+ce   shift char z  shift num  90  char T -> O
+ce   shift char ~  shift num  94  char U -> T
+ce   shift char {  shift num  91  char V -> R
+ce   shift char |  shift num  92  char W -> T
+ce   shift char }  shift num  93  char X -> V
+ce   shift char z  shift num  90  char Y -> T
+ce   shift char ~  shift num  94  char Z -> Y
+ce   shift char {  shift num  91  char [ -> W
+ce   shift char |  shift num  92  char \ -> Y
+ce   shift char }  shift num  93  char ] -> [
+ce   shift char z  shift num  90  char ^ -> Y
+ce   shift char ~  shift num  94  char _ -> ^
+ce   shift char {  shift num  91  char ` -> \
+ce   shift char |  shift num  92  char a -> ^
+ce   shift char }  shift num  93  char b -> `
+ce   shift char z  shift num  90  char c -> ^
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char {  shift num  91  char e -> a
+ce   shift char |  shift num  92  char f -> c
+ce   shift char }  shift num  93  char g -> e
+ce   shift char z  shift num  90  char h -> c
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char {  shift num  91  char j -> f
+ce   shift char |  shift num  92  char k -> h
+ce   shift char }  shift num  93  char l -> j
+ce   shift char z  shift num  90  char m -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char {  shift num  91  char o -> k
+ce   shift char |  shift num  92  char p -> m
+ce   shift char }  shift num  93  char q -> o
+ce   shift char z  shift num  90  char r -> m
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char {  shift num  91  char t -> p
+ce   shift char |  shift num  92  char u -> r
+ce   shift char }  shift num  93  char v -> t
+ce   shift char z  shift num  90  char w -> r
+ce   shift char ~  shift num  94  char x -> w
+ce   shift char {  shift num  91  char y -> u
+ce   shift char |  shift num  92  char z -> w
+ce   shift char }  shift num  93  char { -> y
+ce   shift char z  shift num  90  char | -> w
+ce   shift char ~  shift num  94  char } -> |
+ce   shift char {  shift num  91  char ~ -> z
+xe   xor char } 0x7d  plain 0x7c -> 0x01
+xe   xor char z 0x7a  plain 0x7e -> 0x04
+xe   xor char ~ 0x7e  plain 0x7c -> 0x02
+xe   xor char { 0x7b  plain 0x22 -> 0x59
+xe   xor char | 0x7c  plain 0x20 -> 0x5c
+xe   xor char } 0x7d  plain 0x22 -> 0x5f
+xe   xor char z 0x7a  plain 0x24 -> 0x5e
+xe   xor char ~ 0x7e  plain 0x22 -> 0x5c
+xe   xor char { 0x7b  plain 0x27 -> 0x5c
+xe   xor char | 0x7c  plain 0x25 -> 0x59
+xe   xor char } 0x7d  plain 0x27 -> 0x5a
+xe   xor char z 0x7a  plain 0x29 -> 0x53
+xe   xor char ~ 0x7e  plain 0x27 -> 0x59
+xe   xor char { 0x7b  plain 0x2c -> 0x57
+xe   xor char | 0x7c  plain 0x2a -> 0x56
+xe   xor char } 0x7d  plain 0x2c -> 0x51
+xe   xor char z 0x7a  plain 0x2e -> 0x54
+xe   xor char ~ 0x7e  plain 0x2c -> 0x52
+xe   xor char { 0x7b  plain 0x31 -> 0x4a
+xe   xor char | 0x7c  plain 0x2f -> 0x53
+xe   xor char } 0x7d  plain 0x31 -> 0x4c
+xe   xor char z 0x7a  plain 0x33 -> 0x49
+xe   xor char ~ 0x7e  plain 0x31 -> 0x4f
+xe   xor char { 0x7b  plain 0x36 -> 0x4d
+xe   xor char | 0x7c  plain 0x34 -> 0x48
+xe   xor char } 0x7d  plain 0x36 -> 0x4b
+xe   xor char z 0x7a  plain 0x38 -> 0x42
+xe   xor char ~ 0x7e  plain 0x36 -> 0x48
+xe   xor char { 0x7b  plain 0x3b -> 0x40
+xe   xor char | 0x7c  plain 0x39 -> 0x45
+xe   xor char } 0x7d  plain 0x3b -> 0x46
+xe   xor char z 0x7a  plain 0x3d -> 0x47
+xe   xor char ~ 0x7e  plain 0x3b -> 0x45
+xe   xor char { 0x7b  plain 0x40 -> 0x3b
+xe   xor char | 0x7c  plain 0x3e -> 0x42
+xe   xor char } 0x7d  plain 0x40 -> 0x3d
+xe   xor char z 0x7a  plain 0x42 -> 0x38
+xe   xor char ~ 0x7e  plain 0x40 -> 0x3e
+xe   xor char { 0x7b  plain 0x45 -> 0x3e
+xe   xor char | 0x7c  plain 0x43 -> 0x3f
+xe   xor char } 0x7d  plain 0x45 -> 0x38
+xe   xor char z 0x7a  plain 0x47 -> 0x3d
+xe   xor char ~ 0x7e  plain 0x45 -> 0x3b
+xe   xor char { 0x7b  plain 0x4a -> 0x31
+xe   xor char | 0x7c  plain 0x48 -> 0x34
+xe   xor char } 0x7d  plain 0x4a -> 0x37
+xe   xor char z 0x7a  plain 0x4c -> 0x36
+xe   xor char ~ 0x7e  plain 0x4a -> 0x34
+xe   xor char { 0x7b  plain 0x4f -> 0x34
+xe   xor char | 0x7c  plain 0x4d -> 0x31
+xe   xor char } 0x7d  plain 0x4f -> 0x32
+xe   xor char z 0x7a  plain 0x51 -> 0x2b
+xe   xor char ~ 0x7e  plain 0x4f -> 0x31
+xe   xor char { 0x7b  plain 0x54 -> 0x2f
+xe   xor char | 0x7c  plain 0x52 -> 0x2e
+xe   xor char } 0x7d  plain 0x54 -> 0x29
+xe   xor char z 0x7a  plain 0x56 -> 0x2c
+xe   xor char ~ 0x7e  plain 0x54 -> 0x2a
+xe   xor char { 0x7b  plain 0x59 -> 0x22
+xe   xor char | 0x7c  plain 0x57 -> 0x2b
+xe   xor char } 0x7d  plain 0x59 -> 0x24
+xe   xor char z 0x7a  plain 0x5b -> 0x21
+xe   xor char ~ 0x7e  plain 0x59 -> 0x27
+xe   xor char { 0x7b  plain 0x5e -> 0x25
+xe   xor char | 0x7c  plain 0x5c -> 0x20
+xe   xor char } 0x7d  plain 0x5e -> 0x23
+xe   xor char z 0x7a  plain 0x60 -> 0x1a
+xe   xor char ~ 0x7e  plain 0x5e -> 0x20
+xe   xor char { 0x7b  plain 0x63 -> 0x18
+xe   xor char | 0x7c  plain 0x61 -> 0x1d
+xe   xor char } 0x7d  plain 0x63 -> 0x1e
+xe   xor char z 0x7a  plain 0x65 -> 0x1f
+xe   xor char ~ 0x7e  plain 0x63 -> 0x1d
+xe   xor char { 0x7b  plain 0x68 -> 0x13
+xe   xor char | 0x7c  plain 0x66 -> 0x1a
+xe   xor char } 0x7d  plain 0x68 -> 0x15
+xe   xor char z 0x7a  plain 0x6a -> 0x10
+xe   xor char ~ 0x7e  plain 0x68 -> 0x16
+xe   xor char { 0x7b  plain 0x6d -> 0x16
+xe   xor char | 0x7c  plain 0x6b -> 0x17
+xe   xor char } 0x7d  plain 0x6d -> 0x10
+xe   xor char z 0x7a  plain 0x6f -> 0x15
+xe   xor char ~ 0x7e  plain 0x6d -> 0x13
+xe   xor char { 0x7b  plain 0x72 -> 0x09
+xe   xor char | 0x7c  plain 0x70 -> 0x0c
+xe   xor char } 0x7d  plain 0x72 -> 0x0f
+xe   xor char z 0x7a  plain 0x74 -> 0x0e
+xe   xor char ~ 0x7e  plain 0x72 -> 0x0c
+xe   xor char { 0x7b  plain 0x77 -> 0x0c
+xe   xor char | 0x7c  plain 0x75 -> 0x09
+xe   xor char } 0x7d  plain 0x77 -> 0x0a
+xe   xor char z 0x7a  plain 0x79 -> 0x03
+xe   xor char ~ 0x7e  plain 0x77 -> 0x09
+xe   xor char { 0x7b  plain 0x7c -> 0x07
+xe   xor char | 0x7c  plain 0x7a -> 0x06
+xe   xor char } 0x7d  plain 0x0a -> 0x77

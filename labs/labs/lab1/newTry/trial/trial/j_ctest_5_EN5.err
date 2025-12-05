@@ -1,0 +1,271 @@
+caesar key = '|~}{z'
+xor key    = NULL
+ce   shift char |  shift num  92  char A -> >
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char }  shift num  93  char d -> b
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char s -> n
+ce   shift char |  shift num  92  char o -> l
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char }  shift num  93  char e -> c
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char t -> o
+ce   shift char |  shift num  92  char h -> e
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char }  shift num  93  char n -> l
+ce   shift char {  shift num  91  char g -> c
+ce   shift char z  shift num  90  char s -> n
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char }  shift num  93  char h -> f
+ce   shift char {  shift num  91  char a -> ]
+ce   shift char z  shift num  90  char t -> o
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char }  shift num  93  char h -> f
+ce   shift char {  shift num  91  char o -> k
+ce   shift char z  shift num  90  char u -> p
+ce   shift char |  shift num  92  char l -> i
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char n -> j
+ce   shift char z  shift num  90  char o -> j
+ce   shift char |  shift num  92  char t -> q
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char h -> f
+ce   shift char {  shift num  91  char a -> ]
+ce   shift char z  shift num  90  char v -> q
+ce   shift char |  shift num  92  char e -> b
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char b -> `
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char n -> k
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char f -> d
+ce   shift char {  shift num  91  char o -> k
+ce   shift char z  shift num  90  char r -> m
+ce   shift char |  shift num  92  char g -> d
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char }  shift num  93  char t -> r
+ce   shift char {  shift num  91  char t -> p
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char n -> k
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char w -> u
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char r -> m
+ce   shift char |  shift num  92  char e -> b
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char l -> j
+ce   shift char {  shift num  91  char o -> k
+ce   shift char z  shift num  90  char s -> n
+ce   shift char |  shift num  92  char t -> q
+ce   shift char ~  shift num  94  char . -> -
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char H -> D
+ce   shift char z  shift num  90  char i -> d
+ce   shift char |  shift num  92  char s -> p
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char }  shift num  93  char o -> m
+ce   shift char {  shift num  91  char r -> n
+ce   shift char z  shift num  90  char y -> t
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char }  shift num  93  char e -> c
+ce   shift char {  shift num  91  char c -> _
+ce   shift char z  shift num  90  char a -> \
+ce   shift char |  shift num  92  char m -> j
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char l -> j
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char g -> b
+ce   shift char |  shift num  92  char e -> b
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char }  shift num  93  char d -> b
+ce   shift char {  shift num  91  char . -> *
+ce   shift char z  shift num  90  char   -> z
+ce   shift char |  shift num  92  char L -> I
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char g -> e
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char n -> i
+ce   shift char |  shift num  92  char d -> a
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char b -> `
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char c -> ^
+ce   shift char |  shift num  92  char a -> ^
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char }  shift num  93  char e -> c
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char m -> h
+ce   shift char |  shift num  92  char y -> v
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char }  shift num  93  char h -> f
+ce   shift char {  shift num  91  char . -> *
+ce   shift char z  shift num  90  char   -> z
+ce   shift char |  shift num  92  char A -> >
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char }  shift num  93  char d -> b
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char f -> a
+ce   shift char |  shift num  92  char o -> l
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char t -> p
+ce   shift char z  shift num  90  char w -> r
+ce   shift char |  shift num  92  char o -> l
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char a -> _
+ce   shift char {  shift num  91  char n -> j
+ce   shift char z  shift num  90  char d -> _
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char h -> d
+ce   shift char z  shift num  90  char a -> \
+ce   shift char |  shift num  92  char l -> i
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char t -> p
+ce   shift char z  shift num  90  char h -> c
+ce   shift char |  shift num  92  char o -> l
+ce   shift char ~  shift num  94  char u -> t
+ce   shift char }  shift num  93  char s -> q
+ce   shift char {  shift num  91  char a -> ]
+ce   shift char z  shift num  90  char n -> i
+ce   shift char |  shift num  92  char d -> a
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char y -> w
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char a -> \
+ce   shift char |  shift num  92  char r -> o
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char }  shift num  93  char , -> *
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char t -> o
+ce   shift char |  shift num  92  char h -> e
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char r -> n
+ce   shift char z  shift num  90  char i -> d
+ce   shift char |  shift num  92  char n -> k
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char }  shift num  93  char p -> n
+ce   shift char {  shift num  91  char a -> ]
+ce   shift char z  shift num  90  char s -> n
+ce   shift char |  shift num  92  char s -> p
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char d -> b
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char o -> j
+ce   shift char |  shift num  92  char u -> r
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char o -> k
+ce   shift char z  shift num  90  char f -> a
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char }  shift num  93  char l -> j
+ce   shift char {  shift num  91  char l -> h
+ce   shift char z  shift num  90  char   -> z
+ce   shift char |  shift num  92  char k -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char }  shift num  93  char o -> m
+ce   shift char {  shift num  91  char w -> s
+ce   shift char z  shift num  90  char l -> g
+ce   shift char |  shift num  92  char e -> b
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char }  shift num  93  char g -> e
+ce   shift char {  shift num  91  char e -> a
+ce   shift char z  shift num  90  char . -> )
+ce   shift char |  shift num  92  char - -> *
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char G -> E
+ce   shift char {  shift num  91  char a -> ]
+ce   shift char z  shift num  90  char l -> g
+ce   shift char |  shift num  92  char a -> ^
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char }  shift num  93  char r -> p
+ce   shift char {  shift num  91  char i -> e
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char l -> i
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char i -> g
+ce   shift char {  shift num  91  char n -> j
+ce   shift char z  shift num  90  char   -> z
+ce   shift char |  shift num  92  char T -> Q
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char }  shift num  93  char e -> c
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char L -> G
+ce   shift char |  shift num  92  char o -> l
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char }  shift num  93  char d -> b
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char o -> j
+ce   shift char |  shift num  92  char f -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char t -> r
+ce   shift char {  shift num  91  char h -> d
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char R -> Q
+ce   shift char }  shift num  93  char i -> g
+ce   shift char {  shift num  91  char n -> j
+ce   shift char z  shift num  90  char g -> b
+ce   shift char |  shift num  92  char s -> p
+ce   shift char ~  shift num  94  char : -> 9
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char T -> O
+ce   shift char |  shift num  92  char h -> e
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char F -> B
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char l -> i
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char }  shift num  93  char o -> m
+ce   shift char {  shift num  91  char w -> s
+ce   shift char z  shift num  90  char s -> n
+ce   shift char |  shift num  92  char h -> e
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char }  shift num  93  char p -> n
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char o -> j
+ce   shift char |  shift num  92  char f -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char t -> r
+ce   shift char {  shift num  91  char h -> d
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char R -> Q
+ce   shift char }  shift num  93  char i -> g
+ce   shift char {  shift num  91  char n -> j
+ce   shift char z  shift num  90  char g -> b
+ce   shift char |  shift num  92  char , -> )
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char }  shift num  93  char T -> R
+ce   shift char {  shift num  91  char h -> d
+ce   shift char z  shift num  90  char e -> `
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char L -> K
+ce   shift char }  shift num  93  char o -> m
+ce   shift char {  shift num  91  char r -> n
+ce   shift char z  shift num  90  char d -> _
+ce   shift char |  shift num  92  char   -> |
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char }  shift num  93  char f -> d
+ce   shift char {  shift num  91  char   -> {
+ce   shift char z  shift num  90  char t -> o
+ce   shift char |  shift num  92  char h -> e
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char }  shift num  93  char   -> }
+ce   shift char {  shift num  91  char R -> N
+ce   shift char z  shift num  90  char i -> d
+ce   shift char |  shift num  92  char n -> k
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char }  shift num  93  char s -> q
+xe   no xor key

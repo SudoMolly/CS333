@@ -1,0 +1,543 @@
+caesar key = 'KSYHNqIflPX6wc<sn1W;B~VZp@i8DbGMueg|FRL>3=y}Qj0zCE?roUaOv9{hAkm2T5t4xd7J'
+xor key    = '=qZ9rtAmF{fe|Mc}~LxpQRVH;74uE8ilT3D@zhaB<0gY2WdJ6kn>OGK5sPUN1byvwCoXS?jI'
+xd   xor char =  0x3d  plain 0x51 -> 0x6c
+xd   xor char q  0x71  plain 0x33 -> 0x42
+xd   xor char Z  0x5a  plain 0x64 -> 0x3e
+xd   xor char 9  0x39  plain 0x71 -> 0x48
+xd   xor char r  0x72  plain 0x30 -> 0x42
+xd   xor char t  0x74  plain 0x15 -> 0x61
+xd   xor char A  0x41  plain 0x76 -> 0x37
+xd   xor char m  0x6d  plain 0x21 -> 0x4c
+xd   xor char F  0x46  plain 0x2a -> 0x6c
+xd   xor char {  0x7b  plain 0x3e -> 0x45
+xd   xor char f  0x66  plain 0x27 -> 0x41
+xd   xor char e  0x65  plain 0x45 -> 0x20
+xd   xor char |  0x7c  plain 0x1a -> 0x66
+xd   xor char M  0x4d  plain 0x06 -> 0x4b
+xd   xor char c  0x63  plain 0x53 -> 0x30
+xd   xor char }  0x7d  plain 0x0e -> 0x73
+xd   xor char ~  0x7e  plain 0x1d -> 0x63
+xd   xor char L  0x4c  plain 0x35 -> 0x79
+xd   xor char x  0x78  plain 0x41 -> 0x39
+xd   xor char p  0x70  plain 0x40 -> 0x30
+xd   xor char Q  0x51  plain 0x13 -> 0x42
+xd   xor char R  0x52  plain 0x20 -> 0x72
+xd   xor char V  0x56  plain 0x69 -> 0x3f
+xd   xor char H  0x48  plain 0x02 -> 0x4a
+xd   xor char ;  0x3b  plain 0x5d -> 0x66
+xd   xor char 7  0x37  plain 0x1a -> 0x2d
+xd   xor char 4  0x34  plain 0x7a -> 0x4e
+xd   xor char u  0x75  plain 0x4d -> 0x38
+xd   xor char E  0x45  plain 0x76 -> 0x33
+xd   xor char 8  0x38  plain 0x6a -> 0x52
+xd   xor char i  0x69  plain 0x55 -> 0x3c
+xd   xor char l  0x6c  plain 0x21 -> 0x4d
+xd   xor char T  0x54  plain 0x0a -> 0x5e
+xd   xor char 3  0x33  plain 0x74 -> 0x47
+xd   xor char D  0x44  plain 0x1a -> 0x5e
+xd   xor char @  0x40  plain 0x22 -> 0x62
+xd   xor char z  0x7a  plain 0x3c -> 0x46
+xd   xor char h  0x68  plain 0x5d -> 0x35
+xd   xor char a  0x61  plain 0x53 -> 0x32
+xd   xor char B  0x42  plain 0x66 -> 0x24
+xd   xor char <  0x3c  plain 0x1e -> 0x22
+xd   xor char 0  0x30  plain 0x0d -> 0x3d
+xd   xor char g  0x67  plain 0x07 -> 0x60
+xd   xor char Y  0x59  plain 0x34 -> 0x6d
+xd   xor char 2  0x32  plain 0x76 -> 0x44
+xd   xor char W  0x57  plain 0x05 -> 0x52
+xd   xor char d  0x64  plain 0x44 -> 0x20
+xd   xor char J  0x4a  plain 0x25 -> 0x6f
+xd   xor char 6  0x36  plain 0x0e -> 0x38
+xd   xor char k  0x6b  plain 0x40 -> 0x2b
+xd   xor char n  0x6e  plain 0x40 -> 0x2e
+xd   xor char >  0x3e  plain 0x4c -> 0x72
+xd   xor char O  0x4f  plain 0x28 -> 0x67
+xd   xor char G  0x47  plain 0x7c -> 0x3b
+xd   xor char K  0x4b  plain 0x1f -> 0x54
+xd   xor char 5  0x35  plain 0x00 -> 0x35
+xd   xor char s  0x73  plain 0x05 -> 0x76
+xd   xor char P  0x50  plain 0x76 -> 0x26
+xd   xor char U  0x55  plain 0x3e -> 0x6b
+xd   xor char N  0x4e  plain 0x12 -> 0x5c
+xd   xor char 1  0x31  plain 0x07 -> 0x36
+xd   xor char b  0x62  plain 0x1b -> 0x79
+xd   xor char y  0x79  plain 0x14 -> 0x6d
+xd   xor char v  0x76  plain 0x2c -> 0x5a
+xd   xor char w  0x77  plain 0x49 -> 0x3e
+xd   xor char C  0x43  plain 0x6a -> 0x29
+xd   xor char o  0x6f  plain 0x06 -> 0x69
+xd   xor char X  0x58  plain 0x7c -> 0x24
+xd   xor char S  0x53  plain 0x38 -> 0x6b
+xd   xor char ?  0x3f  plain 0x61 -> 0x5e
+xd   xor char j  0x6a  plain 0x5d -> 0x37
+xd   xor char I  0x49  plain 0x64 -> 0x2d
+xd   xor char =  0x3d  plain 0x0c -> 0x31
+xd   xor char q  0x71  plain 0x46 -> 0x37
+xd   xor char Z  0x5a  plain 0x61 -> 0x3b
+xd   xor char 9  0x39  plain 0x0f -> 0x36
+xd   xor char r  0x72  plain 0x46 -> 0x34
+xd   xor char t  0x74  plain 0x7e -> 0x0a
+xd   xor char A  0x41  plain 0x1f -> 0x5e
+xd   xor char m  0x6d  plain 0x42 -> 0x2f
+xd   xor char F  0x46  plain 0x08 -> 0x4e
+xd   xor char {  0x7b  plain 0x29 -> 0x52
+xd   xor char f  0x66  plain 0x59 -> 0x3f
+xd   xor char e  0x65  plain 0x58 -> 0x3d
+xd   xor char |  0x7c  plain 0x38 -> 0x44
+xd   xor char M  0x4d  plain 0x3a -> 0x77
+xd   xor char c  0x63  plain 0x53 -> 0x30
+xd   xor char }  0x7d  plain 0x5f -> 0x22
+xd   xor char ~  0x7e  plain 0x25 -> 0x5b
+xd   xor char L  0x4c  plain 0x18 -> 0x54
+xd   xor char x  0x78  plain 0x58 -> 0x20
+xd   xor char p  0x70  plain 0x4c -> 0x3c
+xd   xor char Q  0x51  plain 0x6a -> 0x3b
+xd   xor char R  0x52  plain 0x77 -> 0x25
+xd   xor char V  0x56  plain 0x32 -> 0x64
+xd   xor char H  0x48  plain 0x72 -> 0x3a
+xd   xor char ;  0x3b  plain 0x07 -> 0x3c
+xd   xor char 7  0x37  plain 0x69 -> 0x5e
+xd   xor char 4  0x34  plain 0x12 -> 0x26
+xd   xor char u  0x75  plain 0x1c -> 0x69
+xd   xor char E  0x45  plain 0x63 -> 0x26
+xd   xor char 8  0x38  plain 0x06 -> 0x3e
+xd   xor char i  0x69  plain 0x3e -> 0x57
+xd   xor char l  0x6c  plain 0x5c -> 0x30
+xd   xor char T  0x54  plain 0x0f -> 0x5b
+xd   xor char 3  0x33  plain 0x46 -> 0x75
+xd   xor char D  0x44  plain 0x63 -> 0x27
+xd   xor char @  0x40  plain 0x16 -> 0x56
+xd   xor char z  0x7a  plain 0x1b -> 0x61
+xd   xor char h  0x68  plain 0x2e -> 0x46
+xd   xor char a  0x61  plain 0x58 -> 0x39
+xd   xor char B  0x42  plain 0x7e -> 0x3c
+xd   xor char <  0x3c  plain 0x0d -> 0x31
+xd   xor char 0  0x30  plain 0x03 -> 0x33
+xd   xor char g  0x67  plain 0x55 -> 0x32
+xd   xor char Y  0x59  plain 0x28 -> 0x71
+xd   xor char 2  0x32  plain 0x5f -> 0x6d
+xd   xor char W  0x57  plain 0x06 -> 0x51
+xd   xor char d  0x64  plain 0x28 -> 0x4c
+xd   xor char J  0x4a  plain 0x34 -> 0x7e
+xd   xor char 6  0x36  plain 0x69 -> 0x5f
+xd   xor char k  0x6b  plain 0x28 -> 0x43
+xd   xor char n  0x6e  plain 0x49 -> 0x27
+xd   xor char >  0x3e  plain 0x01 -> 0x3f
+xd   xor char O  0x4f  plain 0x14 -> 0x5b
+xd   xor char G  0x47  plain 0x16 -> 0x51
+xd   xor char K  0x4b  plain 0x09 -> 0x42
+xd   xor char 5  0x35  plain 0x7d -> 0x48
+xd   xor char s  0x73  plain 0x3c -> 0x4f
+xd   xor char P  0x50  plain 0x3b -> 0x6b
+xd   xor char U  0x55  plain 0x77 -> 0x22
+xd   xor char N  0x4e  plain 0x25 -> 0x6b
+xd   xor char 1  0x31  plain 0x6f -> 0x5e
+xd   xor char b  0x62  plain 0x57 -> 0x35
+xd   xor char y  0x79  plain 0x34 -> 0x4d
+xd   xor char v  0x76  plain 0x2a -> 0x5c
+xd   xor char w  0x77  plain 0x01 -> 0x76
+xd   xor char C  0x43  plain 0x17 -> 0x54
+xd   xor char o  0x6f  plain 0x40 -> 0x2f
+xd   xor char X  0x58  plain 0x02 -> 0x5a
+xd   xor char S  0x53  plain 0x26 -> 0x75
+xd   xor char ?  0x3f  plain 0x54 -> 0x6b
+xd   xor char j  0x6a  plain 0x32 -> 0x58
+xd   xor char I  0x49  plain 0x0a -> 0x43
+xd   xor char =  0x3d  plain 0x77 -> 0x4a
+xd   xor char q  0x71  plain 0x31 -> 0x40
+xd   xor char Z  0x5a  plain 0x66 -> 0x3c
+xd   xor char 9  0x39  plain 0x06 -> 0x3f
+xd   xor char r  0x72  plain 0x3a -> 0x48
+xd   xor char t  0x74  plain 0x35 -> 0x41
+xd   xor char A  0x41  plain 0x1a -> 0x5b
+xd   xor char m  0x6d  plain 0x55 -> 0x38
+xd   xor char F  0x46  plain 0x08 -> 0x4e
+xd   xor char {  0x7b  plain 0x71 -> 0x0a
+xd   xor char f  0x66  plain 0x3b -> 0x5d
+xd   xor char e  0x65  plain 0x57 -> 0x32
+xd   xor char |  0x7c  plain 0x30 -> 0x4c
+xd   xor char M  0x4d  plain 0x67 -> 0x2a
+xd   xor char c  0x63  plain 0x3e -> 0x5d
+xd   xor char }  0x7d  plain 0x35 -> 0x48
+xd   xor char ~  0x7e  plain 0x42 -> 0x3c
+xd   xor char L  0x4c  plain 0x2f -> 0x63
+xd   xor char x  0x78  plain 0x1c -> 0x64
+xd   xor char p  0x70  plain 0x56 -> 0x26
+xd   xor char Q  0x51  plain 0x06 -> 0x57
+xd   xor char R  0x52  plain 0x79 -> 0x2b
+xd   xor char V  0x56  plain 0x7f -> 0x29
+xd   xor char H  0x48  plain 0x36 -> 0x7e
+xd   xor char ;  0x3b  plain 0x03 -> 0x38
+xd   xor char 7  0x37  plain 0x70 -> 0x47
+xd   xor char 4  0x34  plain 0x69 -> 0x5d
+xd   xor char u  0x75  plain 0x35 -> 0x40
+xd   xor char E  0x45  plain 0x10 -> 0x55
+xd   xor char 8  0x38  plain 0x1f -> 0x27
+xd   xor char i  0x69  plain 0x5d -> 0x34
+xd   xor char l  0x6c  plain 0x36 -> 0x5a
+xd   xor char T  0x54  plain 0x60 -> 0x34
+xd   xor char 3  0x33  plain 0x00 -> 0x33
+xd   xor char D  0x44  plain 0x1e -> 0x5a
+xd   xor char @  0x40  plain 0x0d -> 0x4d
+xd   xor char z  0x7a  plain 0x37 -> 0x4d
+xd   xor char h  0x68  plain 0x43 -> 0x2b
+xd   xor char a  0x61  plain 0x6b -> 0x0a
+xd   xor char B  0x42  plain 0x11 -> 0x53
+xd   xor char <  0x3c  plain 0x6e -> 0x52
+xd   xor char 0  0x30  plain 0x43 -> 0x73
+xd   xor char g  0x67  plain 0x47 -> 0x20
+xd   xor char Y  0x59  plain 0x79 -> 0x20
+xd   xor char 2  0x32  plain 0x4c -> 0x7e
+xd   xor char W  0x57  plain 0x09 -> 0x5e
+xd   xor char d  0x64  plain 0x14 -> 0x70
+xd   xor char J  0x4a  plain 0x71 -> 0x3b
+xd   xor char 6  0x36  plain 0x66 -> 0x50
+xd   xor char k  0x6b  plain 0x17 -> 0x7c
+xd   xor char n  0x6e  plain 0x14 -> 0x7a
+xd   xor char >  0x3e  plain 0x13 -> 0x2d
+xd   xor char O  0x4f  plain 0x7b -> 0x34
+xd   xor char G  0x47  plain 0x78 -> 0x3f
+xd   xor char K  0x4b  plain 0x0c -> 0x47
+xd   xor char 5  0x35  plain 0x6d -> 0x58
+xd   xor char s  0x73  plain 0x48 -> 0x3b
+xd   xor char P  0x50  plain 0x31 -> 0x61
+xd   xor char U  0x55  plain 0x2e -> 0x7b
+xd   xor char N  0x4e  plain 0x28 -> 0x66
+xd   xor char 1  0x31  plain 0x1d -> 0x2c
+xd   xor char b  0x62  plain 0x02 -> 0x60
+xd   xor char y  0x79  plain 0x11 -> 0x68
+xd   xor char v  0x76  plain 0x47 -> 0x31
+xd   xor char w  0x77  plain 0x25 -> 0x52
+xd   xor char C  0x43  plain 0x2e -> 0x6d
+xd   xor char o  0x6f  plain 0x48 -> 0x27
+xd   xor char X  0x58  plain 0x65 -> 0x3d
+xd   xor char S  0x53  plain 0x29 -> 0x7a
+xd   xor char ?  0x3f  plain 0x4b -> 0x74
+xd   xor char j  0x6a  plain 0x0c -> 0x66
+xd   xor char I  0x49  plain 0x2b -> 0x62
+xd   xor char =  0x3d  plain 0x6e -> 0x53
+xd   xor char q  0x71  plain 0x0f -> 0x7e
+xd   xor char Z  0x5a  plain 0x64 -> 0x3e
+xd   xor char 9  0x39  plain 0x5c -> 0x65
+xd   xor char r  0x72  plain 0x78 -> 0x0a
+xd   xor char t  0x74  plain 0x27 -> 0x53
+xd   xor char A  0x41  plain 0x18 -> 0x59
+xd   xor char m  0x6d  plain 0x11 -> 0x7c
+xd   xor char F  0x46  plain 0x71 -> 0x37
+xd   xor char {  0x7b  plain 0x2c -> 0x57
+xd   xor char f  0x66  plain 0x2f -> 0x49
+xd   xor char e  0x65  plain 0x48 -> 0x2d
+xd   xor char |  0x7c  plain 0x2e -> 0x52
+xd   xor char M  0x4d  plain 0x70 -> 0x3d
+xd   xor char c  0x63  plain 0x26 -> 0x45
+xd   xor char }  0x7d  plain 0x5b -> 0x26
+xd   xor char ~  0x7e  plain 0x11 -> 0x6f
+xd   xor char L  0x4c  plain 0x1b -> 0x57
+xd   xor char x  0x78  plain 0x5d -> 0x25
+xd   xor char p  0x70  plain 0x2d -> 0x5d
+xd   xor char Q  0x51  plain 0x0e -> 0x5f
+xd   xor char R  0x52  plain 0x63 -> 0x31
+xd   xor char V  0x56  plain 0x11 -> 0x47
+xd   xor char H  0x48  plain 0x6a -> 0x22
+xd   xor char ;  0x3b  plain 0x79 -> 0x42
+xd   xor char 7  0x37  plain 0x44 -> 0x73
+xd   xor char 4  0x34  plain 0x0b -> 0x3f
+xd   xor char u  0x75  plain 0x35 -> 0x40
+xd   xor char E  0x45  plain 0x35 -> 0x70
+xd   xor char 8  0x38  plain 0x4a -> 0x72
+xd   xor char i  0x69  plain 0x3a -> 0x53
+xd   xor char l  0x6c  plain 0x4b -> 0x27
+xd   xor char T  0x54  plain 0x78 -> 0x2c
+xd   xor char 3  0x33  plain 0x5d -> 0x6e
+xd   xor char D  0x44  plain 0x03 -> 0x47
+xd   xor char @  0x40  plain 0x62 -> 0x22
+xd   xor char z  0x7a  plain 0x24 -> 0x5e
+xd   xor char h  0x68  plain 0x23 -> 0x4b
+xd   xor char a  0x61  plain 0x06 -> 0x67
+xd   xor char B  0x42  plain 0x0b -> 0x49
+xd   xor char <  0x3c  plain 0x0a -> 0x36
+xd   xor char 0  0x30  plain 0x75 -> 0x45
+xd   xor char g  0x67  plain 0x56 -> 0x31
+xd   xor char Y  0x59  plain 0x67 -> 0x3e
+xd   xor char 2  0x32  plain 0x11 -> 0x23
+xd   xor char W  0x57  plain 0x73 -> 0x24
+xd   xor char d  0x64  plain 0x1d -> 0x79
+xd   xor char J  0x4a  plain 0x38 -> 0x72
+xd   xor char 6  0x36  plain 0x0c -> 0x3a
+xd   xor char k  0x6b  plain 0x3b -> 0x50
+xd   xor char n  0x6e  plain 0x5e -> 0x30
+xd   xor char >  0x3e  plain 0x73 -> 0x4d
+xd   xor char O  0x4f  plain 0x62 -> 0x2d
+xd   xor char G  0x47  plain 0x73 -> 0x34
+xd   xor char K  0x4b  plain 0x6c -> 0x27
+xd   xor char 5  0x35  plain 0x53 -> 0x66
+xd   xor char s  0x73  plain 0x79 -> 0x0a
+cd   shift char K  shift num  43  char l -> A
+cd   shift char S  shift num  51  char B -> n
+cd   shift char Y  shift num  57  char > -> d
+cd   shift char H  shift num  40  char H ->  
+cd   shift char N  shift num  46  char B -> s
+cd   shift char q  shift num  81  char a -> o
+cd   shift char I  shift num  41  char 7 -> m
+cd   shift char f  shift num  70  char L -> e
+cd   shift char l  shift num  76  char l ->  
+cd   shift char P  shift num  48  char E -> t
+cd   shift char X  shift num  56  char A -> h
+cd   shift char 6  shift num  22  char   -> i
+cd   shift char w  shift num  87  char f -> n
+cd   shift char c  shift num  67  char K -> g
+cd   shift char <  shift num  28  char 0 -> s
+cd   shift char s  shift num  83  char s ->  
+cd   shift char n  shift num  78  char c -> t
+cd   shift char 1  shift num  17  char y -> h
+cd   shift char W  shift num  55  char 9 -> a
+cd   shift char ;  shift num  27  char 0 -> t
+cd   shift char B  shift num  34  char B ->  
+cd   shift char ~  shift num  94  char r -> s
+cd   shift char V  shift num  54  char ? -> h
+cd   shift char Z  shift num  58  char J -> o
+cd   shift char p  shift num  80  char f -> u
+cd   shift char @  shift num  32  char - -> l
+cd   shift char i  shift num  73  char N -> d
+cd   shift char 8  shift num  24  char 8 ->  
+cd   shift char D  shift num  36  char 3 -> n
+cd   shift char b  shift num  66  char R -> o
+cd   shift char G  shift num  39  char < -> t
+cd   shift char M  shift num  45  char M ->  
+cd   shift char u  shift num  85  char ^ -> h
+cd   shift char e  shift num  69  char G -> a
+cd   shift char g  shift num  71  char ^ -> v
+cd   shift char |  shift num  92  char b -> e
+cd   shift char F  shift num  38  char F ->  
+cd   shift char R  shift num  50  char 5 -> b
+cd   shift char L  shift num  44  char 2 -> e
+cd   shift char >  shift num  30  char $ -> e
+cd   shift char 3  shift num  19  char " -> n
+cd   shift char =  shift num  29  char = ->  
+cd   shift char y  shift num  89  char ` -> f
+cd   shift char }  shift num  93  char m -> o
+cd   shift char Q  shift num  49  char D -> r
+cd   shift char j  shift num  74  char R -> g
+cd   shift char 0  shift num  16  char   -> o
+cd   shift char z  shift num  90  char o -> t
+cd   shift char C  shift num  35  char 8 -> t
+cd   shift char E  shift num  37  char + -> e
+cd   shift char ?  shift num  31  char . -> n
+cd   shift char r  shift num  82  char r ->  
+cd   shift char o  shift num  79  char g -> w
+cd   shift char U  shift num  53  char ; -> e
+cd   shift char a  shift num  65  char T -> r
+cd   shift char O  shift num  47  char 5 -> e
+cd   shift char v  shift num  86  char v ->  
+cd   shift char 9  shift num  25  char & -> l
+cd   shift char {  shift num  91  char k -> o
+cd   shift char h  shift num  72  char \ -> s
+cd   shift char A  shift num  33  char 6 -> t
+cd   shift char k  shift num  75  char y -> .
+cd   shift char m  shift num  77  char m ->  
+cd   shift char 2  shift num  18  char Z -> H
+cd   shift char T  shift num  52  char > -> i
+cd   shift char 5  shift num  21  char ) -> s
+cd   shift char t  shift num  84  char i -> t
+cd   shift char 4  shift num  20  char $ -> o
+cd   shift char x  shift num  88  char k -> r
+cd   shift char d  shift num  68  char ^ -> y
+cd   shift char 7  shift num  23  char 7 ->  
+cd   shift char J  shift num  42  char - -> b
+cd   shift char K  shift num  43  char 1 -> e
+cd   shift char S  shift num  51  char 7 -> c
+cd   shift char Y  shift num  57  char ; -> a
+cd   shift char H  shift num  40  char 6 -> m
+cd   shift char N  shift num  46  char 4 -> e
+cd   shift char q  shift num  81  char ^ -> l
+cd   shift char I  shift num  41  char / -> e
+cd   shift char f  shift num  70  char N -> g
+cd   shift char l  shift num  76  char R -> e
+cd   shift char P  shift num  48  char ? -> n
+cd   shift char X  shift num  56  char = -> d
+cd   shift char 6  shift num  22  char D -> .
+cd   shift char w  shift num  87  char w ->  
+cd   shift char c  shift num  67  char 0 -> L
+cd   shift char <  shift num  28  char " -> e
+cd   shift char s  shift num  83  char [ -> g
+cd   shift char n  shift num  78  char T -> e
+cd   shift char 1  shift num  17  char   -> n
+cd   shift char W  shift num  55  char < -> d
+cd   shift char ;  shift num  27  char ; ->  
+cd   shift char B  shift num  34  char % -> b
+cd   shift char ~  shift num  94  char d -> e
+cd   shift char V  shift num  54  char : -> c
+cd   shift char Z  shift num  58  char < -> a
+cd   shift char p  shift num  80  char ^ -> m
+cd   shift char @  shift num  32  char & -> e
+cd   shift char i  shift num  73  char i ->  
+cd   shift char 8  shift num  24  char & -> m
+cd   shift char D  shift num  36  char > -> y
+cd   shift char b  shift num  66  char W -> t
+cd   shift char G  shift num  39  char 0 -> h
+cd   shift char M  shift num  45  char [ -> .
+cd   shift char u  shift num  85  char u ->  
+cd   shift char e  shift num  69  char ' -> A
+cd   shift char g  shift num  71  char V -> n
+cd   shift char |  shift num  92  char a -> d
+cd   shift char F  shift num  38  char F ->  
+cd   shift char R  shift num  50  char 9 -> f
+cd   shift char L  shift num  44  char < -> o
+cd   shift char >  shift num  30  char 1 -> r
+cd   shift char 3  shift num  19  char 3 ->  
+cd   shift char =  shift num  29  char 2 -> t
+cd   shift char y  shift num  89  char q -> w
+cd   shift char }  shift num  93  char m -> o
+cd   shift char Q  shift num  49  char Q ->  
+cd   shift char j  shift num  74  char L -> a
+cd   shift char 0  shift num  16  char ~ -> n
+cd   shift char z  shift num  90  char _ -> d
+cd   shift char C  shift num  35  char C ->  
+cd   shift char E  shift num  37  char ' -> a
+cd   shift char ?  shift num  31  char ? ->  
+cd   shift char r  shift num  82  char [ -> h
+cd   shift char o  shift num  79  char Q -> a
+cd   shift char U  shift num  53  char B -> l
+cd   shift char a  shift num  65  char H -> f
+cd   shift char O  shift num  47  char O ->  
+cd   shift char v  shift num  86  char k -> t
+cd   shift char 9  shift num  25  char " -> h
+cd   shift char {  shift num  91  char k -> o
+cd   shift char h  shift num  72  char ^ -> u
+cd   shift char A  shift num  33  char 5 -> s
+cd   shift char k  shift num  75  char M -> a
+cd   shift char m  shift num  77  char \ -> n
+cd   shift char 2  shift num  18  char v -> d
+cd   shift char T  shift num  52  char T ->  
+cd   shift char 5  shift num  21  char / -> y
+cd   shift char t  shift num  84  char Z -> e
+cd   shift char 4  shift num  20  char u -> a
+cd   shift char x  shift num  88  char k -> r
+cd   shift char d  shift num  68  char X -> s
+cd   shift char 7  shift num  23  char C -> ,
+cd   shift char J  shift num  42  char J ->  
+cd   shift char K  shift num  43  char @ -> t
+cd   shift char S  shift num  51  char < -> h
+cd   shift char Y  shift num  57  char ? -> e
+cd   shift char H  shift num  40  char H ->  
+cd   shift char N  shift num  46  char A -> r
+cd   shift char q  shift num  81  char [ -> i
+cd   shift char I  shift num  41  char 8 -> n
+cd   shift char f  shift num  70  char N -> g
+cd   shift char l  shift num  76  char ] -> p
+cd   shift char P  shift num  48  char 2 -> a
+cd   shift char X  shift num  56  char L -> s
+cd   shift char 6  shift num  22  char * -> s
+cd   shift char w  shift num  87  char ] -> e
+cd   shift char c  shift num  67  char H -> d
+cd   shift char <  shift num  28  char < ->  
+cd   shift char s  shift num  83  char c -> o
+cd   shift char n  shift num  78  char d -> u
+cd   shift char 1  shift num  17  char & -> t
+cd   shift char W  shift num  55  char W ->  
+cd   shift char ;  shift num  27  char + -> o
+cd   shift char B  shift num  34  char ) -> f
+cd   shift char ~  shift num  94  char ~ ->  
+cd   shift char V  shift num  54  char 8 -> a
+cd   shift char Z  shift num  58  char G -> l
+cd   shift char p  shift num  80  char ] -> l
+cd   shift char @  shift num  32  char @ ->  
+cd   shift char i  shift num  73  char U -> k
+cd   shift char 8  shift num  24  char ' -> n
+cd   shift char D  shift num  36  char 4 -> o
+cd   shift char b  shift num  66  char Z -> w
+cd   shift char G  shift num  39  char 4 -> l
+cd   shift char M  shift num  45  char 3 -> e
+cd   shift char u  shift num  85  char Z -> d
+cd   shift char e  shift num  69  char M -> g
+cd   shift char g  shift num  71  char M -> e
+cd   shift char |  shift num  92  char + -> .
+cd   shift char F  shift num  38  char S -> -
+cd   shift char R  shift num  50  char R ->  
+cd   shift char L  shift num  44  char s -> G
+cd   shift char >  shift num  30  char   -> a
+cd   shift char 3  shift num  19  char   -> l
+cd   shift char =  shift num  29  char ~ -> a
+cd   shift char y  shift num  89  char ^ -> d
+cd   shift char }  shift num  93  char p -> r
+cd   shift char Q  shift num  49  char ; -> i
+cd   shift char j  shift num  74  char P -> e
+cd   shift char 0  shift num  16  char | -> l
+cd   shift char z  shift num  90  char z ->  
+cd   shift char C  shift num  35  char - -> i
+cd   shift char E  shift num  37  char 4 -> n
+cd   shift char ?  shift num  31  char ? ->  
+cd   shift char r  shift num  82  char G -> T
+cd   shift char o  shift num  79  char X -> h
+cd   shift char U  shift num  53  char ; -> e
+cd   shift char a  shift num  65  char a ->  
+cd   shift char O  shift num  47  char { -> L
+cd   shift char v  shift num  86  char f -> o
+cd   shift char 9  shift num  25  char , -> r
+cd   shift char {  shift num  91  char ` -> d
+cd   shift char h  shift num  72  char h ->  
+cd   shift char A  shift num  33  char 1 -> o
+cd   shift char k  shift num  75  char R -> f
+cd   shift char m  shift num  77  char m ->  
+cd   shift char 2  shift num  18  char ' -> t
+cd   shift char T  shift num  52  char = -> h
+cd   shift char 5  shift num  21  char z -> e
+cd   shift char t  shift num  84  char t ->  
+cd   shift char 4  shift num  20  char f -> R
+cd   shift char x  shift num  88  char b -> i
+cd   shift char d  shift num  68  char S -> n
+cd   shift char 7  shift num  23  char ~ -> g
+cd   shift char J  shift num  42  char > -> s
+cd   shift char K  shift num  43  char e -> :
+cd   shift char S  shift num  51  char S ->  
+cd   shift char Y  shift num  57  char Y ->  
+cd   shift char H  shift num  40  char | -> T
+cd   shift char N  shift num  46  char 7 -> h
+cd   shift char q  shift num  81  char W -> e
+cd   shift char I  shift num  41  char I ->  
+cd   shift char f  shift num  70  char - -> F
+cd   shift char l  shift num  76  char R -> e
+cd   shift char P  shift num  48  char = -> l
+cd   shift char X  shift num  56  char E -> l
+cd   shift char 6  shift num  22  char & -> o
+cd   shift char w  shift num  87  char o -> w
+cd   shift char c  shift num  67  char W -> s
+cd   shift char <  shift num  28  char % -> h
+cd   shift char s  shift num  83  char ] -> i
+cd   shift char n  shift num  78  char _ -> p
+cd   shift char 1  shift num  17  char 1 ->  
+cd   shift char W  shift num  55  char G -> o
+cd   shift char ;  shift num  27  char " -> f
+cd   shift char B  shift num  34  char B ->  
+cd   shift char ~  shift num  94  char s -> t
+cd   shift char V  shift num  54  char ? -> h
+cd   shift char Z  shift num  58  char @ -> e
+cd   shift char p  shift num  80  char p ->  
+cd   shift char @  shift num  32  char r -> R
+cd   shift char i  shift num  73  char S -> i
+cd   shift char 8  shift num  24  char ' -> n
+cd   shift char D  shift num  36  char , -> g
+cd   shift char b  shift num  66  char n -> ,
+cd   shift char G  shift num  39  char G ->  
+cd   shift char M  shift num  45  char " -> T
+cd   shift char u  shift num  85  char ^ -> h
+cd   shift char e  shift num  69  char K -> e
+cd   shift char g  shift num  71  char g ->  
+cd   shift char |  shift num  92  char I -> L
+cd   shift char F  shift num  38  char 6 -> o
+cd   shift char R  shift num  50  char E -> r
+cd   shift char L  shift num  44  char 1 -> d
+cd   shift char >  shift num  30  char > ->  
+cd   shift char 3  shift num  19  char # -> o
+cd   shift char =  shift num  29  char $ -> f
+cd   shift char y  shift num  89  char y ->  
+cd   shift char }  shift num  93  char r -> t
+cd   shift char Q  shift num  49  char : -> h
+cd   shift char j  shift num  74  char P -> e
+cd   shift char 0  shift num  16  char 0 ->  
+cd   shift char z  shift num  90  char M -> R
+cd   shift char C  shift num  35  char - -> i
+cd   shift char E  shift num  37  char 4 -> n
+cd   shift char ?  shift num  31  char ' -> g
+cd   shift char r  shift num  82  char f -> s

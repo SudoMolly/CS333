@@ -1,0 +1,20 @@
+File: .
+  File type:                directory
+  Device ID number:         70
+  I-node number:            8501598
+  Mode:                     drwx------        (700 in octal)
+  Link count:               2
+  Owner Id:                 modiaz            (UID = 2631)
+  Group Id:                 them              (GID = 300)
+  Preferred I/O block size: 1048576 bytes
+  File size:                10 bytes
+  Blocks allocated:         22
+  Last file access:         1764461314 (seconds since the epoch)
+  Last file modification:   1764814670 (seconds since the epoch)
+  Last status change:       1764814670 (seconds since the epoch)
+  Last file access:         2025-11-29 16:08:34 -0800 (PST) Sat (local)
+  Last file modification:   2025-12-03 18:17:50 -0800 (PST) Wed (local)
+  Last status change:       2025-12-03 18:17:50 -0800 (PST) Wed (local)
+  Last file access:         2025-11-30 00:08:34 +0000 (GMT) Sun (GMT)
+  Last file modification:   2025-12-04 02:17:50 +0000 (GMT) Thu (GMT)
+  Last status change:       2025-12-04 02:17:50 +0000 (GMT) Thu (GMT)

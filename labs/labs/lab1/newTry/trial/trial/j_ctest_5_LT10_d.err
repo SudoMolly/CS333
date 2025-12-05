@@ -1,0 +1,271 @@
+caesar key = 'E9ulx8sq6d23nPzgTNt7Q0OLi4XCbopHmZwRWYM1AJSfry5vUV'
+xor key    = NULL
+xd   no xor key
+cd   shift char E  shift num  37  char f -> A
+cd   shift char 9  shift num  25  char ( -> n
+cd   shift char u  shift num  85  char Z -> d
+cd   shift char l  shift num  76  char l ->  
+cd   shift char x  shift num  88  char l -> s
+cd   shift char 8  shift num  24  char ( -> o
+cd   shift char s  shift num  83  char a -> m
+cd   shift char q  shift num  81  char W -> e
+cd   shift char 6  shift num  22  char 6 ->  
+cd   shift char d  shift num  68  char Y -> t
+cd   shift char 2  shift num  18  char z -> h
+cd   shift char 3  shift num  19  char | -> i
+cd   shift char n  shift num  78  char ] -> n
+cd   shift char P  shift num  48  char 8 -> g
+cd   shift char z  shift num  90  char n -> s
+cd   shift char g  shift num  71  char g ->  
+cd   shift char T  shift num  52  char I -> t
+cd   shift char N  shift num  46  char 7 -> h
+cd   shift char t  shift num  84  char V -> a
+cd   shift char 7  shift num  23  char , -> t
+cd   shift char Q  shift num  49  char Q ->  
+cd   shift char 0  shift num  16  char $ -> s
+cd   shift char O  shift num  47  char 8 -> h
+cd   shift char L  shift num  44  char < -> o
+cd   shift char i  shift num  73  char _ -> u
+cd   shift char 4  shift num  20  char ! -> l
+cd   shift char X  shift num  56  char = -> d
+cd   shift char C  shift num  35  char C ->  
+cd   shift char b  shift num  66  char Q -> n
+cd   shift char o  shift num  79  char _ -> o
+cd   shift char p  shift num  80  char e -> t
+cd   shift char H  shift num  40  char H ->  
+cd   shift char m  shift num  77  char V -> h
+cd   shift char Z  shift num  58  char < -> a
+cd   shift char w  shift num  87  char n -> v
+cd   shift char R  shift num  50  char 8 -> e
+cd   shift char W  shift num  55  char W ->  
+cd   shift char Y  shift num  57  char < -> b
+cd   shift char M  shift num  45  char 3 -> e
+cd   shift char 1  shift num  17  char v -> e
+cd   shift char A  shift num  33  char 0 -> n
+cd   shift char J  shift num  42  char J ->  
+cd   shift char S  shift num  51  char : -> f
+cd   shift char f  shift num  70  char V -> o
+cd   shift char r  shift num  82  char e -> r
+cd   shift char y  shift num  89  char a -> g
+cd   shift char 5  shift num  21  char % -> o
+cd   shift char v  shift num  86  char k -> t
+cd   shift char U  shift num  53  char J -> t
+cd   shift char V  shift num  54  char < -> e
+cd   shift char E  shift num  37  char 4 -> n
+cd   shift char 9  shift num  25  char 9 ->  
+cd   shift char u  shift num  85  char m -> w
+cd   shift char l  shift num  76  char R -> e
+cd   shift char x  shift num  88  char k -> r
+cd   shift char 8  shift num  24  char } -> e
+cd   shift char s  shift num  83  char s ->  
+cd   shift char q  shift num  81  char ^ -> l
+cd   shift char 6  shift num  22  char & -> o
+cd   shift char d  shift num  68  char X -> s
+cd   shift char 2  shift num  18  char ' -> t
+cd   shift char 3  shift num  19  char A -> .
+cd   shift char n  shift num  78  char n ->  
+cd   shift char P  shift num  48  char x -> H
+cd   shift char z  shift num  90  char d -> i
+cd   shift char g  shift num  71  char [ -> s
+cd   shift char T  shift num  52  char I -> t
+cd   shift char N  shift num  46  char > -> o
+cd   shift char t  shift num  84  char g -> r
+cd   shift char 7  shift num  23  char 1 -> y
+cd   shift char Q  shift num  49  char Q ->  
+cd   shift char 0  shift num  16  char r -> b
+cd   shift char O  shift num  47  char 5 -> e
+cd   shift char L  shift num  44  char 0 -> c
+cd   shift char i  shift num  73  char K -> a
+cd   shift char 4  shift num  20  char " -> m
+cd   shift char X  shift num  56  char > -> e
+cd   shift char C  shift num  35  char 0 -> l
+cd   shift char b  shift num  66  char H -> e
+cd   shift char o  shift num  79  char W -> g
+cd   shift char p  shift num  80  char V -> e
+cd   shift char H  shift num  40  char 7 -> n
+cd   shift char m  shift num  77  char R -> d
+cd   shift char Z  shift num  58  char h -> .
+cd   shift char w  shift num  87  char w ->  
+cd   shift char R  shift num  50  char ~ -> L
+cd   shift char W  shift num  55  char = -> e
+cd   shift char Y  shift num  57  char A -> g
+cd   shift char M  shift num  45  char 3 -> e
+cd   shift char 1  shift num  17  char   -> n
+cd   shift char A  shift num  33  char & -> d
+cd   shift char J  shift num  42  char J ->  
+cd   shift char S  shift num  51  char 6 -> b
+cd   shift char f  shift num  70  char L -> e
+cd   shift char r  shift num  82  char V -> c
+cd   shift char y  shift num  89  char [ -> a
+cd   shift char 5  shift num  21  char # -> m
+cd   shift char v  shift num  86  char \ -> e
+cd   shift char U  shift num  53  char U ->  
+cd   shift char V  shift num  54  char D -> m
+cd   shift char E  shift num  37  char ? -> y
+cd   shift char 9  shift num  25  char . -> t
+cd   shift char u  shift num  85  char ^ -> h
+cd   shift char l  shift num  76  char z -> .
+cd   shift char x  shift num  88  char x ->  
+cd   shift char 8  shift num  24  char Y -> A
+cd   shift char s  shift num  83  char b -> n
+cd   shift char q  shift num  81  char V -> d
+cd   shift char 6  shift num  22  char 6 ->  
+cd   shift char d  shift num  68  char K -> f
+cd   shift char 2  shift num  18  char " -> o
+cd   shift char 3  shift num  19  char & -> r
+cd   shift char n  shift num  78  char n ->  
+cd   shift char P  shift num  48  char E -> t
+cd   shift char z  shift num  90  char r -> w
+cd   shift char g  shift num  71  char W -> o
+cd   shift char T  shift num  52  char T ->  
+cd   shift char N  shift num  46  char 0 -> a
+cd   shift char t  shift num  84  char c -> n
+cd   shift char 7  shift num  23  char { -> d
+cd   shift char Q  shift num  49  char Q ->  
+cd   shift char 0  shift num  16  char q -> a
+cd   shift char O  shift num  47  char O ->  
+cd   shift char L  shift num  44  char 5 -> h
+cd   shift char i  shift num  73  char K -> a
+cd   shift char 4  shift num  20  char ! -> l
+cd   shift char X  shift num  56  char ? -> f
+cd   shift char C  shift num  35  char C ->  
+cd   shift char b  shift num  66  char W -> t
+cd   shift char o  shift num  79  char X -> h
+cd   shift char p  shift num  80  char ` -> o
+cd   shift char H  shift num  40  char > -> u
+cd   shift char m  shift num  77  char a -> s
+cd   shift char Z  shift num  58  char < -> a
+cd   shift char w  shift num  87  char f -> n
+cd   shift char R  shift num  50  char 7 -> d
+cd   shift char W  shift num  55  char W ->  
+cd   shift char Y  shift num  57  char S -> y
+cd   shift char M  shift num  45  char 3 -> e
+cd   shift char 1  shift num  17  char r -> a
+cd   shift char A  shift num  33  char 4 -> r
+cd   shift char J  shift num  42  char > -> s
+cd   shift char S  shift num  51  char _ -> ,
+cd   shift char f  shift num  70  char f ->  
+cd   shift char r  shift num  82  char g -> t
+cd   shift char y  shift num  89  char b -> h
+cd   shift char 5  shift num  21  char z -> e
+cd   shift char v  shift num  86  char v ->  
+cd   shift char U  shift num  53  char H -> r
+cd   shift char V  shift num  54  char @ -> i
+cd   shift char E  shift num  37  char 4 -> n
+cd   shift char 9  shift num  25  char ! -> g
+cd   shift char u  shift num  85  char f -> p
+cd   shift char l  shift num  76  char N -> a
+cd   shift char x  shift num  88  char l -> s
+cd   shift char 8  shift num  24  char , -> s
+cd   shift char s  shift num  83  char Y -> e
+cd   shift char q  shift num  81  char V -> d
+cd   shift char 6  shift num  22  char 6 ->  
+cd   shift char d  shift num  68  char T -> o
+cd   shift char 2  shift num  18  char ( -> u
+cd   shift char 3  shift num  19  char ( -> t
+cd   shift char n  shift num  78  char n ->  
+cd   shift char P  shift num  48  char @ -> o
+cd   shift char z  shift num  90  char a -> f
+cd   shift char g  shift num  71  char g ->  
+cd   shift char T  shift num  52  char 6 -> a
+cd   shift char N  shift num  46  char ; -> l
+cd   shift char t  shift num  84  char a -> l
+cd   shift char 7  shift num  23  char 7 ->  
+cd   shift char Q  shift num  49  char = -> k
+cd   shift char 0  shift num  16  char ~ -> n
+cd   shift char O  shift num  47  char ? -> o
+cd   shift char L  shift num  44  char D -> w
+cd   shift char i  shift num  73  char V -> l
+cd   shift char 4  shift num  20  char y -> e
+cd   shift char X  shift num  56  char = -> d
+cd   shift char C  shift num  35  char + -> g
+cd   shift char b  shift num  66  char H -> e
+cd   shift char o  shift num  79  char } -> .
+cd   shift char p  shift num  80  char } -> -
+cd   shift char H  shift num  40  char H ->  
+cd   shift char m  shift num  77  char 5 -> G
+cd   shift char Z  shift num  58  char < -> a
+cd   shift char w  shift num  87  char d -> l
+cd   shift char R  shift num  50  char 4 -> a
+cd   shift char W  shift num  55  char < -> d
+cd   shift char Y  shift num  57  char L -> r
+cd   shift char M  shift num  45  char 7 -> i
+cd   shift char 1  shift num  17  char v -> e
+cd   shift char A  shift num  33  char . -> l
+cd   shift char J  shift num  42  char J ->  
+cd   shift char S  shift num  51  char = -> i
+cd   shift char f  shift num  70  char U -> n
+cd   shift char r  shift num  82  char r ->  
+cd   shift char y  shift num  89  char N -> T
+cd   shift char 5  shift num  21  char } -> h
+cd   shift char v  shift num  86  char \ -> e
+cd   shift char U  shift num  53  char U ->  
+cd   shift char V  shift num  54  char # -> L
+cd   shift char E  shift num  37  char 5 -> o
+cd   shift char 9  shift num  25  char , -> r
+cd   shift char u  shift num  85  char Z -> d
+cd   shift char l  shift num  76  char l ->  
+cd   shift char x  shift num  88  char h -> o
+cd   shift char 8  shift num  24  char ~ -> f
+cd   shift char s  shift num  83  char s ->  
+cd   shift char q  shift num  81  char f -> t
+cd   shift char 6  shift num  22  char ~ -> h
+cd   shift char d  shift num  68  char J -> e
+cd   shift char 2  shift num  18  char 2 ->  
+cd   shift char 3  shift num  19  char e -> R
+cd   shift char n  shift num  78  char X -> i
+cd   shift char P  shift num  48  char ? -> n
+cd   shift char z  shift num  90  char b -> g
+cd   shift char g  shift num  71  char [ -> s
+cd   shift char T  shift num  52  char n -> :
+cd   shift char N  shift num  46  char N ->  
+cd   shift char t  shift num  84  char t ->  
+cd   shift char 7  shift num  23  char k -> T
+cd   shift char Q  shift num  49  char : -> h
+cd   shift char 0  shift num  16  char u -> e
+cd   shift char O  shift num  47  char O ->  
+cd   shift char L  shift num  44  char r -> F
+cd   shift char i  shift num  73  char O -> e
+cd   shift char 4  shift num  20  char ! -> l
+cd   shift char X  shift num  56  char E -> l
+cd   shift char C  shift num  35  char 3 -> o
+cd   shift char b  shift num  66  char Z -> w
+cd   shift char o  shift num  79  char c -> s
+cd   shift char p  shift num  80  char Y -> h
+cd   shift char H  shift num  40  char 2 -> i
+cd   shift char m  shift num  77  char ^ -> p
+cd   shift char Z  shift num  58  char Z ->  
+cd   shift char w  shift num  87  char g -> o
+cd   shift char R  shift num  50  char 9 -> f
+cd   shift char W  shift num  55  char W ->  
+cd   shift char Y  shift num  57  char N -> t
+cd   shift char M  shift num  45  char 6 -> h
+cd   shift char 1  shift num  17  char v -> e
+cd   shift char A  shift num  33  char A ->  
+cd   shift char J  shift num  42  char | -> R
+cd   shift char S  shift num  51  char = -> i
+cd   shift char f  shift num  70  char U -> n
+cd   shift char r  shift num  82  char Z -> g
+cd   shift char y  shift num  89  char & -> ,
+cd   shift char 5  shift num  21  char 5 ->  
+cd   shift char v  shift num  86  char K -> T
+cd   shift char U  shift num  53  char > -> h
+cd   shift char V  shift num  54  char < -> e
+cd   shift char E  shift num  37  char E ->  
+cd   shift char 9  shift num  25  char e -> L
+cd   shift char u  shift num  85  char e -> o
+cd   shift char l  shift num  76  char _ -> r
+cd   shift char x  shift num  88  char ] -> d
+cd   shift char 8  shift num  24  char 8 ->  
+cd   shift char s  shift num  83  char c -> o
+cd   shift char q  shift num  81  char X -> f
+cd   shift char 6  shift num  22  char 6 ->  
+cd   shift char d  shift num  68  char Y -> t
+cd   shift char 2  shift num  18  char z -> h
+cd   shift char 3  shift num  19  char x -> e
+cd   shift char n  shift num  78  char n ->  
+cd   shift char P  shift num  48  char # -> R
+cd   shift char z  shift num  90  char d -> i
+cd   shift char g  shift num  71  char V -> n
+cd   shift char T  shift num  52  char < -> g
+cd   shift char N  shift num  46  char B -> s

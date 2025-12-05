@@ -1,0 +1,29 @@
+caesar key = 's81J2MR5zX6NZ9OUptL40niwPmTrlA7vxQbgS3YCHdyqVoWufE'
+xor key    = NULL
+ce   shift char s  shift num  83  char a -> U
+ce   shift char 8  shift num  24  char b -> z
+ce   shift char 1  shift num  17  char c -> t
+ce   shift char J  shift num  42  char d -> /
+ce   shift char 2  shift num  18  char e -> w
+ce   shift char M  shift num  45  char f -> 4
+ce   shift char R  shift num  50  char g -> :
+ce   shift char 5  shift num  21  char h -> }
+ce   shift char z  shift num  90  char i -> d
+ce   shift char X  shift num  56  char j -> C
+ce   shift char 6  shift num  22  char k -> "
+ce   shift char N  shift num  46  char l -> ;
+ce   shift char Z  shift num  58  char m -> H
+ce   shift char 9  shift num  25  char n -> (
+ce   shift char O  shift num  47  char o -> ?
+ce   shift char U  shift num  53  char p -> F
+ce   shift char p  shift num  80  char q -> b
+ce   shift char t  shift num  84  char r -> g
+ce   shift char L  shift num  44  char s -> @
+ce   shift char 4  shift num  20  char t -> )
+ce   shift char 0  shift num  16  char u -> &
+ce   shift char n  shift num  78  char v -> e
+ce   shift char i  shift num  73  char w -> a
+ce   shift char w  shift num  87  char x -> p
+ce   shift char P  shift num  48  char y -> J
+ce   shift char m  shift num  77  char z -> h
+xe   no xor key

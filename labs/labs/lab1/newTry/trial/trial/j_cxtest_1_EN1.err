@@ -1,0 +1,55 @@
+caesar key = '~'
+xor key    = 'a'
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char ~  shift num  94  char c -> b
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char j -> i
+ce   shift char ~  shift num  94  char k -> j
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char p -> o
+ce   shift char ~  shift num  94  char q -> p
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char u -> t
+ce   shift char ~  shift num  94  char v -> u
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char ~  shift num  94  char x -> w
+ce   shift char ~  shift num  94  char y -> x
+ce   shift char ~  shift num  94  char z -> y
+xe   xor char a 0x61  plain 0x60 -> 0x01
+xe   xor char a 0x61  plain 0x61 -> 0x00
+xe   xor char a 0x61  plain 0x62 -> 0x03
+xe   xor char a 0x61  plain 0x63 -> 0x02
+xe   xor char a 0x61  plain 0x64 -> 0x05
+xe   xor char a 0x61  plain 0x65 -> 0x04
+xe   xor char a 0x61  plain 0x66 -> 0x07
+xe   xor char a 0x61  plain 0x67 -> 0x06
+xe   xor char a 0x61  plain 0x68 -> 0x09
+xe   xor char a 0x61  plain 0x69 -> 0x08
+xe   xor char a 0x61  plain 0x6a -> 0x0b
+xe   xor char a 0x61  plain 0x6b -> 0x0a
+xe   xor char a 0x61  plain 0x6c -> 0x0d
+xe   xor char a 0x61  plain 0x6d -> 0x0c
+xe   xor char a 0x61  plain 0x6e -> 0x0f
+xe   xor char a 0x61  plain 0x6f -> 0x0e
+xe   xor char a 0x61  plain 0x70 -> 0x11
+xe   xor char a 0x61  plain 0x71 -> 0x10
+xe   xor char a 0x61  plain 0x72 -> 0x13
+xe   xor char a 0x61  plain 0x73 -> 0x12
+xe   xor char a 0x61  plain 0x74 -> 0x15
+xe   xor char a 0x61  plain 0x75 -> 0x14
+xe   xor char a 0x61  plain 0x76 -> 0x17
+xe   xor char a 0x61  plain 0x77 -> 0x16
+xe   xor char a 0x61  plain 0x78 -> 0x19
+xe   xor char a 0x61  plain 0x79 -> 0x18
+xe   xor char a 0x61  plain 0x0a -> 0x6b

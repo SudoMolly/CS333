@@ -1,0 +1,29 @@
+caesar key = 'DBaec'
+xor key    = NULL
+xd   no xor key
+cd   shift char D  shift num  36  char & -> a
+cd   shift char B  shift num  34  char % -> b
+cd   shift char a  shift num  65  char E -> c
+cd   shift char e  shift num  69  char J -> d
+cd   shift char c  shift num  67  char I -> e
+cd   shift char D  shift num  36  char + -> f
+cd   shift char B  shift num  34  char * -> g
+cd   shift char a  shift num  65  char J -> h
+cd   shift char e  shift num  69  char O -> i
+cd   shift char c  shift num  67  char N -> j
+cd   shift char D  shift num  36  char 0 -> k
+cd   shift char B  shift num  34  char / -> l
+cd   shift char a  shift num  65  char O -> m
+cd   shift char e  shift num  69  char T -> n
+cd   shift char c  shift num  67  char S -> o
+cd   shift char D  shift num  36  char 5 -> p
+cd   shift char B  shift num  34  char 4 -> q
+cd   shift char a  shift num  65  char T -> r
+cd   shift char e  shift num  69  char Y -> s
+cd   shift char c  shift num  67  char X -> t
+cd   shift char D  shift num  36  char : -> u
+cd   shift char B  shift num  34  char 9 -> v
+cd   shift char a  shift num  65  char Y -> w
+cd   shift char e  shift num  69  char ^ -> x
+cd   shift char c  shift num  67  char ] -> y
+cd   shift char D  shift num  36  char ? -> z

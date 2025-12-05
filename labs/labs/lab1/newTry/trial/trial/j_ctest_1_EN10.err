@@ -1,0 +1,29 @@
+caesar key = '|~{zywvx}u'
+xor key    = NULL
+ce   shift char |  shift num  92  char a -> ^
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char {  shift num  91  char c -> _
+ce   shift char z  shift num  90  char d -> _
+ce   shift char y  shift num  89  char e -> _
+ce   shift char w  shift num  87  char f -> ^
+ce   shift char v  shift num  86  char g -> ^
+ce   shift char x  shift num  88  char h -> a
+ce   shift char }  shift num  93  char i -> g
+ce   shift char u  shift num  85  char j -> `
+ce   shift char |  shift num  92  char k -> h
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char {  shift num  91  char m -> i
+ce   shift char z  shift num  90  char n -> i
+ce   shift char y  shift num  89  char o -> i
+ce   shift char w  shift num  87  char p -> h
+ce   shift char v  shift num  86  char q -> h
+ce   shift char x  shift num  88  char r -> k
+ce   shift char }  shift num  93  char s -> q
+ce   shift char u  shift num  85  char t -> j
+ce   shift char |  shift num  92  char u -> r
+ce   shift char ~  shift num  94  char v -> u
+ce   shift char {  shift num  91  char w -> s
+ce   shift char z  shift num  90  char x -> s
+ce   shift char y  shift num  89  char y -> s
+ce   shift char w  shift num  87  char z -> r
+xe   no xor key

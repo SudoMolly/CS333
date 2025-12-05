@@ -1,4 +1,4 @@
 default: all
 all: test
 test: tester.c
-	gcc tester.c -o test
+	gcc -lcrypt tester.c -o test -lcrypt

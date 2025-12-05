@@ -1,0 +1,20 @@
+File: FUNNYbroken
+  File type:                Symbolic link - with dangling destination
+  Device ID number:         70
+  I-node number:            7795297
+  Mode:                     lrwxrwxrwx        (777 in octal)
+  Link count:               1
+  Owner Id:                 modiaz            (UID = 2631)
+  Group Id:                 them              (GID = 300)
+  Preferred I/O block size: 1048576 bytes
+  File size:                16 bytes
+  Blocks allocated:         1
+  Last file access:         1764918844 (seconds since the epoch)
+  Last file modification:   1764918844 (seconds since the epoch)
+  Last status change:       1764918844 (seconds since the epoch)
+  Last file access:         2025-12-04 23:14:04 -0800 (PST) Thu (local)
+  Last file modification:   2025-12-04 23:14:04 -0800 (PST) Thu (local)
+  Last status change:       2025-12-04 23:14:04 -0800 (PST) Thu (local)
+  Last file access:         2025-12-05 07:14:04 +0000 (GMT) Fri (GMT)
+  Last file modification:   2025-12-05 07:14:04 +0000 (GMT) Fri (GMT)
+  Last status change:       2025-12-05 07:14:04 +0000 (GMT) Fri (GMT)

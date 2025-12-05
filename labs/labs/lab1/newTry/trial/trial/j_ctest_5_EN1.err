@@ -1,0 +1,271 @@
+caesar key = '~'
+xor key    = NULL
+ce   shift char ~  shift num  94  char A -> @
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char u -> t
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char v -> u
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char . -> -
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char H -> G
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char y -> x
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char c -> b
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char . -> -
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char L -> K
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char b -> a
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char c -> b
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char m -> l
+ce   shift char ~  shift num  94  char y -> x
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char . -> -
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char A -> @
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char u -> t
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char y -> x
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char , -> +
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char p -> o
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char u -> t
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char k -> j
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char . -> -
+ce   shift char ~  shift num  94  char - -> ,
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char G -> F
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char a -> `
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char T -> S
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char L -> K
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char R -> Q
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char : -> 9
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char T -> S
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char F -> E
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char l -> k
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char w -> v
+ce   shift char ~  shift num  94  char s -> r
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char p -> o
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char R -> Q
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char , -> +
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char T -> S
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char L -> K
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char r -> q
+ce   shift char ~  shift num  94  char d -> c
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char o -> n
+ce   shift char ~  shift num  94  char f -> e
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char t -> s
+ce   shift char ~  shift num  94  char h -> g
+ce   shift char ~  shift num  94  char e -> d
+ce   shift char ~  shift num  94  char   -> ~
+ce   shift char ~  shift num  94  char R -> Q
+ce   shift char ~  shift num  94  char i -> h
+ce   shift char ~  shift num  94  char n -> m
+ce   shift char ~  shift num  94  char g -> f
+ce   shift char ~  shift num  94  char s -> r
+xe   no xor key

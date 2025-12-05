@@ -1,0 +1,13 @@
+SYNTAX:
+thread:3d
+6d.2d sec              
+DES: 5d               
+NT: 5d              
+MD5: 5d           
+SHA256: 5d           
+SHA512: 5d         
+YESCRYPT: 5d    
+GOST_YESCRYPT: 5d           
+BCRYPT: 5d  
+total: 8d  
+failed: 8d\n
