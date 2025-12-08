@@ -100,6 +100,7 @@ int main(int argc, char *argv[]) {
         // add 1000 to usleep_time
         break;
       case 'h':
+        SAY("HELP AND EXIT");
         fprintf(stderr, "%s ...\n\tOptions: %s\n", argv[0], CLIENT_OPTIONS);
         fprintf(stderr, "\t-i str\t\tIPv4 address of the server (default %s)\n",
                 ip_addr);
@@ -133,6 +134,7 @@ int main(int argc, char *argv[]) {
     exit(EXIT_FAILURE);
   } else if (command == DIR) {
     VERB_ADD(verbose_ch, "DIRECTORY COMMAND FOUND, ARGUMENTS IGNORED", 1);
+    SAY("DIRECTORY");
     list_dir();
   } else {
     threads = (pthread_t *)malloc(sizeof(pthread_t) * (argc - optind));
@@ -172,7 +174,9 @@ int get_socket(char *addr, int port) {
   // int force = 1;
   struct sockaddr_in servaddr;
 
+  SAY("GETTING SOCKET");
   sockfd = socket(AF_INET, SOCK_STREAM, 0);
+  SAY("SOCKETTTED");
   IF_FAIL(sockfd, "Failed to socket self")
   memset(&servaddr, 0, sizeof(servaddr));
   // more stuff in here
@@ -183,8 +187,10 @@ int get_socket(char *addr, int port) {
   servaddr.sin_port = htons(port);
   servaddr.sin_addr.s_addr = inet_addr(addr);
 
+  SAY("CONNECTING");
   connect_status =
       connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
+  SAY("CONNECTED");
 
   IF_FAIL(connect_status, "Failed to connect socket to addr")
 
@@ -194,7 +200,6 @@ int get_socket(char *addr, int port) {
 // get one file
 void get_file(char *file_name) {
   cmd_t cmd;
-  int sockfd;
   int fd;
   ssize_t sent;
   ssize_t bytes_read;
@@ -210,10 +215,11 @@ void get_file(char *file_name) {
   }
 
   // get the new socket to the server (get_socket(...)
-  sockfd = get_socket(ip_addr, ip_port);
+  cmd.sock = get_socket(ip_addr, ip_port);
   // write the command to the socket
-  sent = send(sockfd, CMD_GET, strlen(CMD_GET), 0);
-  if (sent != strlen(CMD_GET)) {
+  sent = send(cmd.sock, &cmd, sizeof(cmd), 0);
+  if (sent < (long)sizeof(cmd)) {
+    SHOWd("NUMBER SENT", sent);
     fprintf(stderr, "couldn't send command? is server down..?, EXITING");
     exit(EXIT_FAILURE);
   }
@@ -221,7 +227,7 @@ void get_file(char *file_name) {
   fd = open(file_name, O_CREAT | O_TRUNC | O_RDWR, S_IRUSR | S_IWUSR);
   IF_FAIL(fd, "Coudln't create file? I HAVE NO IDEA!");
   do {
-    bytes_read = read(sockfd, buffer, MAXLINE);
+    bytes_read = read(cmd.sock, buffer, MAXLINE);
     if (bytes_read == 0)
       break;
     if (bytes_read == -1) {
@@ -234,14 +240,13 @@ void get_file(char *file_name) {
   // loop reading from the socket, writing to the file
   //   until the socket read is zero
   close(fd);
-  close(sockfd);
+  close(cmd.sock);
   // close the file
   // close the socket
 }
 
 void put_file(char *file_name) {
   cmd_t cmd;
-  int sockfd;
   int fd;
   ssize_t bytes_wrote;
   ssize_t bytes_read;
@@ -256,14 +261,14 @@ void put_file(char *file_name) {
   if (is_verbose) {
     fprintf(stderr, "put to server: %s %s %d\n", cmd.cmd, cmd.name, __LINE__);
   }
-  sockfd = get_socket(ip_addr, ip_port);
+  cmd.sock = get_socket(ip_addr, ip_port);
 
   // get the new socket to the server (get_socket(...)
   fd = open(file_name, O_RDWR);
   IF_FAIL(fd, "\nCouldn't open file to send.. AY CARUMBA! (i can't speel)")
   // write the command to the socket
-  bytes_wrote = send(sockfd, CMD_PUT, strlen(CMD_PUT), 0);
-  if (bytes_wrote != strlen(CMD_PUT)) {
+  bytes_wrote = send(cmd.sock, &cmd, sizeof(cmd), 0);
+  if (bytes_wrote < (long)sizeof(cmd)) {
     fprintf(stderr, "Couldn't get through socket to send command :(-- AAAAA");
     exit(EXIT_FAILURE);
   }
@@ -271,15 +276,15 @@ void put_file(char *file_name) {
   do {
     bytes_read = read(fd, buffer, MAXLINE);
     if (bytes_read == 0)
-      close(sockfd);
+      close(cmd.sock);
     else if (bytes_read == -1) {
       fprintf(stderr, "SOMETHING WENT WRONG TRYING TO READ FILE");
       exit(EXIT_FAILURE);
     } else {
-      bytes_wrote = send(sockfd, buffer, bytes_read, 0);
+      bytes_wrote = send(cmd.sock, buffer, bytes_read, 0);
       if (bytes_wrote == 0) {
         fprintf(stderr, "not sure if error...butttt sent 0 bytes? for put?");
-        close(sockfd);
+        close(cmd.sock);
       } else
         IF_FAIL(bytes_wrote, "couldn't send my file :(");
     }

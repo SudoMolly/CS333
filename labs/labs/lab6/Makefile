@@ -1,9 +1,12 @@
 COMPILER = gcc 
 CFLAGS =-Wall -Wextra -Wshadow -Wunreachable-code -Wredundant-decls  -Wmissing-declarations -Wold-style-definition  -Wmissing-prototypes -Wdeclaration-after-statement  -Wno-return-local-addr -Wunsafe-loop-optimizations  -Wuninitialized -Werror -pthread
 CCC = $(COMPILER) $(CFLAGS)
-SERVER = ./server/rockem_server
-CLIENT = ./client/rockem_client
-HEADER = ./rockem_hdr
+CLIENTD= ./server
+SERVERD= ./client
+SERVER = rockem_server
+CLIENT = rockem_client
+HEADER = rockem_hdr
+MKDIR  = mkdir -p
 
 default: all
 
@@ -22,6 +25,15 @@ $(CLIENT): $(CLIENT).o $(HEADER).h
 $(CLIENT).o: $(CLIENT).c $(HEADER).h
 	$(CCC) -c $(CLIENT).c -o $(CLIENT).o
 
+$(CLIENTD): 
+	if [ -d "$(CLIENTD)"]; then $(MDKIR) $(CLIENTD); fi
+$(SERVERD):
+	if [ -d "$(SERVERD)"]; then $(MKDIR) $(SERVERD); fi
+
+MKDIRS: $(CLIENTD)
+MKDIRS: $(SERVERD)
+
+
 # Then link
 #$(FILENAME): $(FILENAME).o
 #	$(COMPILER) -o $(FILENAME) $(FILENAME).o -lcrypto
@@ -32,5 +44,6 @@ clean cls:
 	rm -f *.o client/rockem_client.o client/rockem_client server/rockem_server.o server/rockem_server.o *~ \#*
 
 all: clean
+all: MKDIRS
 all: $(SERVER)
 all: $(CLIENT)

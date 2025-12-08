@@ -3,5 +3,18 @@
 	"editor.formatOnPaste": true,
 	"[c]": {
 		"editor.defaultFormatter": "ebextensions.clang-format-2025"
+	},
+	"files.exclude": {
+		"tests": false,
+		"server": false,
+		"his_copy": false,
+		".vscode": false,
+		"update_debug.bash": false,
+		"update_all.bash": false,
+		"server.data": false,
+		".rockem_hdr.h.un~": false,
+		"mans": false,
+		"his": false,
+		"client": false
 	}
 }

@@ -69,6 +69,7 @@ int main(int argc, char *argv[]) {
   struct sockaddr_in cliaddr;
   struct sockaddr_in servaddr;
   pthread_t cmd_thread;
+  cmd_t cmd;
 
 #define VERBMAX(i) min(i, 3)
 #define CLRBUF CLEARCSTRS(buf, MAXLINE, 1)
@@ -191,14 +192,14 @@ int main(int argc, char *argv[]) {
         listenfd = accept(sockfd, (struct sockaddr *)&cliaddr, &clilen);
         IF_FAIL(listenfd, "ACCEPT FAIL?");
         // if (listenfd < 0)  AUTO BLOCKS!
-
+        memset(&cmd, 0, sizeof(cmd));
         // loop forever accepting connections
         // You REALLY want to memset to all zeroes before you get bytes from
         // the socket.
-        memset(buf, 0, sizeof(buf));
         // read a cmd_t structure from the socket.
         // if zro bytes are read, close the scoket
         n = read(listenfd, buf, MAXLINE);
+        memcpy(&cmd, buf, sizeof(cmd));
 
         // process the command from the client
         // in the process_connection() is where I divy out the put/get/dir
@@ -209,6 +210,7 @@ int main(int argc, char *argv[]) {
           if (is_verbose) {
             fprintf(stdout, "Connection from client: <%s>\n", buf);
           }
+          IF_FAIL(n, "failure to read command structure");
           ADD_VERB(verbose_ch, "\nHEARD COMMAND", 2);
           while (current_connections >= MAXCONNECT) {
             fprintf(stderr, "TOO MANY CONNECTIONS, SLOWING IT DOWN");
@@ -247,7 +249,7 @@ void process_connection(int listenfd, void *buf, int n [[maybe_unused]]) {
   // The thread is responsible for calling free on it.
   cmd_t *cmd = (cmd_t *)malloc(sizeof(cmd_t));
   int ret, thread_id;
-  pthread_attr_t *attr = NULL;
+  pthread_attr_t attr;
   // pthread_t *tid = tids[(thread_id = current_connections)] = (pthread_t*)
   // malloc(sizeof(pthread_t));
 
@@ -260,42 +262,46 @@ void process_connection(int listenfd, void *buf, int n [[maybe_unused]]) {
     fprintf(stderr, "Request from client: <%s> <%s>\n", cmd->cmd, cmd->name);
   }
 
-  ret = pthread_attr_init(attr);
+  ret = pthread_attr_init(&attr);
   IF_FAIL(ret, "PTHREAD ATTRIBUTE STRUCT FAILED");
-  ret = pthread_attr_setdetachstate(attr, PTHREAD_CREATE_JOINABLE);
+  ret = pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
   IF_FAIL(ret, "PTHREAD ATTRIBUTE STRUCT DETACHED FAILED");
-  ret = pthread_attr_setscope(attr, PTHREAD_SCOPE_SYSTEM);
+  ret = pthread_attr_setscope(&attr, PTHREAD_SCOPE_SYSTEM);
   IF_FAIL(ret, "PTHREAD ATTRIBUTE STRUCT SCOPE FAILED");
   // ret = pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
   // IF_FAIL(ret, "PTHREAD ATTRIBUTE STRUCT DETACHED FAILED");
+  SHOWs("COMPARISON BEGIN", cmd->cmd);
 
-  if (strcmp(cmd->cmd, CMD_GET) == 0) {
+  if (strstr(cmd->cmd, CMD_GET) != NULL) {
     // create thread to handle get file
     tids[thread_id = current_connections] =
         (pthread_t *)malloc(sizeof(pthread_t));
     tids_t[thread_id] = GET;
-    ret = pthread_create((tids[thread_id]), attr, thread_get, (void *)cmd);
+    SAY("INTO GET THREAD");
+    ret = pthread_create((tids[thread_id]), &attr, thread_get, (void *)cmd);
     IF_FAIL(ret, "FAILED TO CREATE GET THREAD");
-  } else if (strcmp(cmd->cmd, CMD_PUT) == 0) {
+  } else if (strstr(cmd->cmd, CMD_PUT) != NULL) {
     // create thread to handle put file
     tids[thread_id = current_connections] =
         (pthread_t *)malloc(sizeof(pthread_t));
     tids_t[thread_id] = PUT;
-    ret = pthread_create(tids[thread_id], attr, thread_put, (void *)cmd);
+    SAY("INTO PUT THREAD");
+    ret = pthread_create(tids[thread_id], &attr, thread_put, (void *)cmd);
     IF_FAIL(ret, "FAILED TO CREATE PUT THREAD");
-  } else if (strcmp(cmd->cmd, CMD_DIR) == 0) {
+  } else if (strstr(cmd->cmd, CMD_DIR) != NULL) {
     // create thread to handle dir
+    SAY("INTO DIR THREAD");
     tids[thread_id = current_connections] =
         (pthread_t *)malloc(sizeof(pthread_t));
     tids_t[thread_id] = DIR;
-    ret = pthread_create(tids[thread_id], attr, thread_dir, (void *)cmd);
+    ret = pthread_create(tids[thread_id], &attr, thread_dir, (void *)cmd);
     IF_FAIL(ret, "FAILED TO CREATE DIR THREAD");
   } else {
     // This should never happen since the checks are made on
     // the client side.
     fprintf(stderr, "ERROR: unknown command >%s< %d\n", cmd->cmd, __LINE__);
     close(listenfd);
-    pthread_attr_destroy(attr);
+    pthread_attr_destroy(&attr);
     return;
     // close the socket
   }
@@ -303,7 +309,7 @@ void process_connection(int listenfd, void *buf, int n [[maybe_unused]]) {
   free(tids[thread_id]);
   tids[thread_id] = NULL;
   tids_t[thread_id] = 0;
-  pthread_attr_destroy(attr);
+  pthread_attr_destroy(&attr);
   if (ret == EXIT_SUCCESS) {
     VERB_ADD(verbose_ch, "\nTHREAD SUCCESS!", 1);
     VERB_PRINT(verbose_ch, is_verbose);
@@ -335,33 +341,33 @@ void *server_commands(void *p [[maybe_unused]]) {
 
     if (strlen(cmd) == 0) {
       continue;
-    } else if (strcmp(cmd, SERVER_CMD_EXIT) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_EXIT) != NULL) {
       // I really should do something better than this.
       break;
-    } else if (strcmp(cmd, SERVER_CMD_COUNT) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_COUNT) != NULL) {
       printf("total connections   %lu\n", tcount);
       printf("current connections %u\n", current_connections_get());
       printf("verbose             %d\n", is_verbose);
       printf("usleep_time         %d\n", usleep_time);
-    } else if (strcmp(cmd, SERVER_CMD_VPLUS) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_VPLUS) != NULL) {
       is_verbose++;
       printf("verbose set to %d\n", is_verbose);
-    } else if (strcmp(cmd, SERVER_CMD_VMINUS) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_VMINUS) != NULL) {
       is_verbose--;
       if (is_verbose < 0) {
         is_verbose = 0;
       }
       printf("verbose set to %d\n", is_verbose);
-    } else if (strcmp(cmd, SERVER_CMD_UPLUS) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_UPLUS) != NULL) {
       usleep_time += USLEEP_INCREMENT;
       printf("usleep_time set to %d\n", usleep_time);
-    } else if (strcmp(cmd, SERVER_CMD_UMINUS) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_UMINUS) != NULL) {
       usleep_time -= USLEEP_INCREMENT;
       if (usleep_time < 0) {
         usleep_time = 0;
       }
       printf("usleep_time set to %d\n", usleep_time);
-    } else if (strcmp(cmd, SERVER_CMD_HELP) == 0) {
+    } else if (strstr(cmd, SERVER_CMD_HELP) != NULL) {
       server_help();
     } else {
       printf("command not recognized >>%s<<\n", cmd);
@@ -412,47 +418,66 @@ void *thread_get(void *p) {
   }
   // ope the file in cmd->name, read-only
   fd = open(cmd->name, O_RDONLY);
-  if (fd < 0) {
-    // barf
-    // close things up, free() things up and leave
-    // decrement
+  IF_FAIL(fd, "CANNOT OPEN SOCKET STREAM, EXITING!");
+  // barf
+  // close things up, free() things up and leave
+  // decrement
 
-    do {
-      memset(buffer, 0, MAXLINE);
-      if (usleep_time > 0)
-        usleep(usleep_time * USLEEP_INCREMENT);
-      bytes_read = read(fd, buffer, MAXLINE);
-      if (bytes_read < 0) {
-        close(fd);
-        close(cmd->sock);
-        free(cmd);
-        cmd = NULL;
-        fprintf(stderr, "\nREADING FAILED!\n");
-        current_connections_dec();
-        pthread_exit((void *)EXIT_FAILURE);
-      } else if (bytes_read > 0) {
-        bytes_sent = send(cmd->sock, buffer, bytes_read, 0);
-        if (bytes_sent != bytes_read) {
-          fprintf(stderr,
-                  "\nbytes sent (%ld) != bytes received (%ld)\nBytes not "
-                  "received = ",
-                  bytes_sent, bytes_read);
-          for (int i = (bytes_read - bytes_sent); i < bytes_read; ++i) {
-            fprintf(stderr, "%.8B | ch(%c) | int(%d) \t", buffer[i], buffer[i],
-                    buffer[i]);
-            if (i % 3 == 0)
-              fprintf(stderr, "\n");
-          }
+  do {
+    memset(buffer, 0, sizeof(buffer));
+    if (usleep_time > 0)
+      usleep(usleep_time * USLEEP_INCREMENT);
+    bytes_read = read(fd, buffer, MAXLINE);
+    if (bytes_read < 0) {
+      close(fd);
+      close(cmd->sock);
+      free(cmd);
+      cmd = NULL;
+      SAY("SOMETHING IS WRONG DETERMINE: \n");
+      buffer[MAXLINE - 1] = '\0';
+      SHOWs("\nbuffer: ", buffer);
+      SHOWd("\nbytes_read: ", bytes_read);
+      SHOWd("\nbytes_sent: ", bytes_sent);
+      SHOWs("\ncommand: ", cmd->cmd);
+      SHOWs("\nfile name: ", cmd->name);
+      SHOWi("\nsocket fd: ", cmd->sock);
+      SHOWi("\nfile fd: ", fd);
+      SHOWs("\ntid: ", hold);
+      fprintf(stderr, "\nREADING FAILED!\n");
+      current_connections_dec();
+      pthread_exit((void *)EXIT_FAILURE);
+    } else if (bytes_read > 0) {
+      SHOWd("\nbytes_read: ", bytes_read);
+      SHOWs("\ncommand: ", cmd->cmd);
+      SHOWs("\nfile name: ", cmd->name);
+      SHOWi("\nsocket fd: ", cmd->sock);
+      SHOWi("\nfile fd: ", fd);
+      SHOWs("\ntid: ", hold);
+      SAY("\nSENDING...");
+      bytes_sent = send(cmd->sock, buffer, bytes_read, 0);
+      SHOWd("\nbytes_sent: ", bytes_sent);
+      buffer[MAXLINE - 1] = '\0';
+      SHOWs("\nbuffer: ", buffer);
+      if (bytes_sent != bytes_read) {
+        fprintf(stderr,
+                "\nbytes sent (%ld) != bytes received (%ld)\nBytes not "
+                "received = ",
+                bytes_sent, bytes_read);
+        for (int i = (bytes_read - bytes_sent); i < bytes_read; ++i) {
+          fprintf(stderr, "%.8B | ch(%c) | int(%d) \t", buffer[i], buffer[i],
+                  buffer[i]);
+          if (i % 3 == 0)
+            fprintf(stderr, "\n");
         }
-      } else {
-        ADD_VERB(verbose_ch, " CLOSED GFILE ", 1);
-        close(cmd->sock);
-        close(fd);
-        free(cmd);
-        cmd = NULL;
       }
-    } while (bytes_read != 0);
-  }
+    } else {
+      ADD_VERB(verbose_ch, " CLOSED GFILE ", 1);
+      close(cmd->sock);
+      close(fd);
+      free(cmd);
+      cmd = NULL;
+    }
+  } while (bytes_read != 0);
   // in a while loop, read from the file and write to the socket
   // within the while loop, if sleep_flap > 0, usleep()
 
@@ -483,12 +508,17 @@ void *thread_put(void *p) {
   // truncate it if it aready exists
   fd = open(cmd->name, O_WRONLY | O_TRUNC | O_CREAT,
             S_IRWXG | S_IRWXO | S_IRWXU);
+  IF_FAIL(fd, "FAILED TO OPEN STREAM...EXITING!");
   do {
     memset(buffer, 0, MAXLINE);
     if (usleep_time > 0)
       usleep(usleep_time * USLEEP_INCREMENT);
     bytes_read = read(cmd->sock, buffer, MAXLINE);
+    SHOWd("READ", bytes_read);
     if (bytes_read < 0) {
+      SAY("FAILED TO READ FROM SOCKET");
+      SHOWi("SOCKET FD", cmd->sock);
+      SHOWs("CMD 'NAME'", cmd->name);
       ADD_VERB(verbose_ch, " : FAILED READ ON PUT SOCKET : TID =", 1);
       snprintf(hold, 20, "%ld\n", tid);
       ADD_VERB(verbose_ch, hold, 1);
@@ -509,7 +539,15 @@ void *thread_put(void *p) {
             buffer[bytes_read - 1], buffer[bytes_read - 3],
             buffer[bytes_read - 2], buffer[bytes_read - 1]);
       }
-      bytes_wrote = write(fd, buffer, MAXLINE);
+      SHOWd("\n----\nbytes_read: ", bytes_read);
+      SHOWs("\ncommand: ", cmd->cmd);
+      SHOWs("\nfile name: ", cmd->name);
+      SHOWi("\nsocket fd: ", cmd->sock);
+      SHOWi("\nfile fd: ", fd);
+      SHOWs("\ntid: ", hold);
+      SAY("\nSENDING...");
+      bytes_wrote = write(fd, buffer, bytes_read);
+      SHOWd("\nWROTE: ", bytes_wrote);
       if (bytes_read != bytes_wrote) {
         fprintf(stderr,
                 "\nbytes wrote (%ld) != bytes received (%ld)\nBytes not "
@@ -579,7 +617,7 @@ void *thread_dir(void *p) {
       free(cmd);
       cmd = NULL;
       current_connections_dec();
-      pthread_exit((void *)EXIT_FAILURE);
+      pthread_exit((void *)EXIT_SUCCESS);
     } else if (strm != NULL) {
       bytes_sent = send(cmd->sock, buffer, strlen(buffer), 0);
       IF_FAIL(bytes_sent, "ERROR IN DIR THREAD SENDING BUFFER");

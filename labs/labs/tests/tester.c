@@ -313,5 +313,6 @@ void print_some_network_info(void) {
 int main(void) {
   // printbyteVal('\n', '\t');
   // print_known_socket_type("131.252.208.23");
-  print_some_network_info();
+  // print_some_network_info();
+  print10000seq();
 }

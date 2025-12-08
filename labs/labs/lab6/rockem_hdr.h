@@ -179,9 +179,9 @@ typedef struct cmd_s {
 #define IF_FAIL(net, error) if (net < 0) {perror(error); exit(errno);}
 #define max(a,b) (a < b ? b : a)
 #define min(a,b) (b < a ? b : a)
-#define IF_GET(cmd) if (strncmp(cmd,CMD_GET, CMD_LEN) == 0)
-#define IF_PUT(cmd) if (strncmp(cmd,CMD_PUT, CMD_LEN) == 0)
-#define IF_DIR(cmd) if (strncmp(cmd,CMD_DIR, CMD_LEN) == 0)
+#define IF_GET(cmd) if (strstr(cmd,CMD_GET) != NULL)
+#define IF_PUT(cmd) if (strstr(cmd,CMD_PUT) != NULL)
+#define IF_DIR(cmd) if (strstr(cmd,CMD_DIR) != NULL)
 #define ADD_VERB(ptr, str, section) strcat(ptr[section - 1], str);
 #define VERB_ADD(p,st,se) ADD_VERB(p,st,se) //KEEP SCREWING UP!
 typedef enum { UNKNOWN = 0, GET = 1, PUT = 2, DIR = 3 } command_types_e;
