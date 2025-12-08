@@ -1,0 +1,7 @@
+{
+	"editor.defaultFormatter": null,
+	"editor.formatOnPaste": true,
+	"[c]": {
+		"editor.defaultFormatter": "ebextensions.clang-format-2025"
+	}
+}
