@@ -12,6 +12,7 @@
 #include <netdb.h>
 #include <netinet/in.h>
 #include <pthread.h>
+// #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,7 +49,6 @@ void *thread_put(void *);
 
 //============[----MAIN---]===========//
 int main(int argc, char *argv[]) {
-  pthread_attr_t attr;
   cmd_t cmd;
   int command;
   pthread_t *threads;
@@ -137,18 +137,31 @@ int main(int argc, char *argv[]) {
     SAY("DIRECTORY");
     list_dir();
   } else {
-    threads = (pthread_t *)malloc(sizeof(pthread_t) * (argc - optind));
-    pthread_attr_init(&attr);
-    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+    SHOWi("OPTIND", optind);
+    SHOWi("argc", argc);
+    SHOWi("diff", argc - optind);
+    // threads = (pthread_t *)malloc(sizeof(pthread_t) * (argc - optind));
+    SHOWd("ALLOCATING BYTES", (argc - optind) * sizeof(pthread_t));
+    threads = (pthread_t *)calloc((argc - optind), sizeof(pthread_t));
+    if (is_verbose >= 2) {
+      j = 0;
+      for (i = optind; i < argc; ++i) {
+        fprintf(stderr, "Thread  %d Created at loc: 0x%p", i, &threads[j]);
+        ++j;
+      }
+      j = 0;
+    }
+    // pthread_attr_init(&attr);
+    // pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
     j = 0;
     for (i = optind; i < argc; ++i) {
       VERB_ADD(verbose_ch, "-- NEW THREAD --\n", 2);
       switch (command) {
       case GET:
-        pthread_create(&threads[j], &attr, thread_get, (void *)argv[i]);
+        pthread_create(&threads[j], NULL, thread_get, (void *)argv[i]);
         break;
       case PUT:
-        pthread_create(&threads[j], &attr, thread_put, (void *)argv[i]);
+        pthread_create(&threads[j], NULL, thread_put, (void *)argv[i]);
         break;
       }
       ++j;
@@ -157,7 +170,12 @@ int main(int argc, char *argv[]) {
   // process the files left on the command line, creating a threas for
   // each file to connect to the server
 
+  free(threads);
+  threads = NULL;
+  //  free(&threads[j]);
+  // pthread_attr_destroy(&attr);
   pthread_exit(NULL);
+  pthread_testcancel();
 }
 
 //============[---OTHER---]===========//
@@ -205,6 +223,7 @@ void get_file(char *file_name) {
   ssize_t bytes_read;
   char buffer[MAXLINE];
 
+  memset(&cmd, 0, sizeof(cmd));
   strcpy(cmd.cmd, CMD_GET);
   if (is_verbose) {
     fprintf(stderr, "next file: <%s> %d\n", file_name, __LINE__);
@@ -331,29 +350,32 @@ void list_dir(void) {
 
 void *thread_get(void *info) {
   char *file_name = (char *)info;
-  pthread_t tid [[maybe_unused]] = pthread_self();
-  SHOWd("GET THREAD ", tid);
-  // pthread_detach(tid);
-  //  detach this thread 'man pthread_detach' Look at the EXMAPLES
+  ////pthread_t tid [[maybe_unused]] = pthread_self();
+  // SHOWd("GET THREAD ", tid);
+  //  pthread_detach(tid);
+  //   detach this thread 'man pthread_detach' Look at the EXMAPLES
+  pthread_detach(pthread_self());
+  SHOWd("GET THREAD", pthread_self());
 
   // process one file
   get_file(file_name);
 
-  SHOWd("EXIT GTHREAD ", tid);
+  SHOWd("EXIT GTHREAD ", pthread_self());
   pthread_exit(NULL);
 }
 
 void *thread_put(void *info) {
 
   char *file_name = (char *)info;
-  pthread_t tid = pthread_self();
-  SHOWd("PUT THREAD ", tid);
-  pthread_detach(tid);
+  // pthread_t tid = pthread_self();
+  SHOWd("PUT THREAD ", pthread_self());
   // detach this thread 'man pthread_detach' Look at the EXMAPLES
+  pthread_detach(pthread_self());
 
   // process one file
   put_file(file_name);
 
-  SHOWd("EXIT PTHREAD ", tid);
+  SHOWd("EXIT PTHREAD ", pthread_self());
   pthread_exit(NULL);
+  pthread_testcancel();
 }

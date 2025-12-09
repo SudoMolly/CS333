@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
   int n = 0;
   int opt = 0;
   short ip_port = DEFAULT_SERVER_PORT;
-  pthread_attr_t *attr = (pthread_attr_t *)malloc(sizeof(pthread_attr_t));
+  pthread_attr_t attr;
   char buf[MAXLINE];
   socklen_t clilen;
   struct sockaddr_in cliaddr;
@@ -173,16 +173,18 @@ int main(int argc, char *argv[]) {
       fprintf(stdout, "Port:     %d\n", ip_port);
       fprintf(stdout, "verbose     %d\n", is_verbose);
       fprintf(stdout, "usleep_time %d\n", usleep_time);
+      host_entry = NULL;
+      IPbuffer = NULL;
     }
 
     // create the input handler thread
     {
-      pthread_attr_init(attr);
-      pthread_attr_setdetachstate(attr, PTHREAD_CREATE_DETACHED);
-      pthread_create((&cmd_thread), attr, server_commands, NULL);
+      pthread_attr_init(&attr);
+      pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+      pthread_create((&cmd_thread), &attr, server_commands, NULL);
       // client length
-      memset(tids_t, 0, sizeof(tids_t));
-      memset(tids, 0, sizeof(tids));
+      // memset(tids_t, 0, sizeof(tids_t));
+      // memset(tids, 0, sizeof(tids));
       CLRVRB
       clilen = sizeof(cliaddr);
       // Accept connections on the listenfd.
@@ -228,9 +230,10 @@ int main(int argc, char *argv[]) {
     printf("Closing listen socket\n");
   }
   // this could be pthread_exit, I guess...
-  pthread_attr_destroy(attr);
+  pthread_attr_destroy(&attr);
 
-  return (EXIT_SUCCESS);
+  pthread_exit(EXIT_SUCCESS);
+  pthread_testcancel();
 }
 
 //============[---OTHER---]===========//
@@ -282,7 +285,7 @@ void process_connection(int listenfd, void *buf, int n [[maybe_unused]]) {
     IF_FAIL(ret, "FAILED TO CREATE GET THREAD");
   } else if (strstr(cmd->cmd, CMD_PUT) != NULL) {
     // create thread to handle put file
-    tids[thread_id = current_connections] =
+    tids[(thread_id = current_connections)] =
         (pthread_t *)malloc(sizeof(pthread_t));
     tids_t[thread_id] = PUT;
     SAY("INTO PUT THREAD");
@@ -305,7 +308,8 @@ void process_connection(int listenfd, void *buf, int n [[maybe_unused]]) {
     return;
     // close the socket
   }
-  pthread_join(*tids[thread_id], (void *)&ret);
+  pthread_join(pthread_self(), (void *)&ret);
+  // free(tids[thread_id]);
   free(tids[thread_id]);
   tids[thread_id] = NULL;
   tids_t[thread_id] = 0;
@@ -488,6 +492,7 @@ void *thread_get(void *p) {
   current_connections_dec();
 
   pthread_exit((void *)EXIT_SUCCESS);
+  pthread_testcancel();
 }
 
 void *thread_put(void *p) {
@@ -506,8 +511,7 @@ void *thread_put(void *p) {
   }
   // open the file in cmd->name as write-only
   // truncate it if it aready exists
-  fd = open(cmd->name, O_WRONLY | O_TRUNC | O_CREAT,
-            S_IRWXG | S_IRWXO | S_IRWXU);
+  fd = open(cmd->name, O_WRONLY | O_TRUNC | O_CREAT, S_IWUSR | S_IRUSR);
   IF_FAIL(fd, "FAILED TO OPEN STREAM...EXITING!");
   do {
     memset(buffer, 0, MAXLINE);
@@ -579,6 +583,7 @@ void *thread_put(void *p) {
   current_connections_dec();
 
   pthread_exit((void *)EXIT_SUCCESS);
+  pthread_testcancel();
 }
 
 void *thread_dir(void *p) {
@@ -636,6 +641,7 @@ void *thread_dir(void *p) {
   current_connections_dec();
 
   pthread_exit((void *)EXIT_SUCCESS);
+  pthread_testcancel();
 }
 
 // I should REALLY put these fucntions and their related variables

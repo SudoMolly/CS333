@@ -159,10 +159,11 @@ typedef struct cmd_s {
 //#define DEBUG
 #ifdef DEBUG
     #define SAY(str) fprintf(stderr, "\n-On line %d-\n %s\n", __LINE__, str)
-    #define SHOWs(str, s) fprintf(stderr, "#%d - %s : %s\n", __LINE__, str, s)
-    #define SHOWi(str, i) fprintf(stderr, "#%d - %s : %d\n", __LINE__, str, i)
-    #define SHOWd(str, d) fprintf(stderr, "#%d - %s : %ld\n", __LINE__,str,d)
-    #define SHOWc(str, c) fprintf(stderr, "#%d - %s : %c\n", __LINE__, str, c)
+    #define SHOWs(str, s) fprintf(stderr, "%s:%d - %s : %s\n",__FILE__, __LINE__, str, s)
+    #define SHOWi(str, i) fprintf(stderr, "%s:%d - %s : %d\n", __FILE__, __LINE__, str, i)
+    #define SHOWd(str, d) fprintf(stderr, "%s:%d - %s : %ld\n",  __FILE__,__LINE__,str,d)
+    #define SHOWc(str, c) fprintf(stderr, "%s:%d - %s : %c\n", _ __FILE__, _LINE__, str, c)
+    #define SHOWx(str, addr) fprintf(stderr, "%s:%d - %s : 0x%p\n", __FILE__, __LINE__, str,c)
     //#define SHOWT(str, T)
 #endif
 #ifndef DEBUG
@@ -171,6 +172,7 @@ typedef struct cmd_s {
     #define SHOWi(str, integer)
     #define SHOWd(str, double)
     #define SHOWc(str, character)
+    #define SHOWx(str, addr)
 #endif
 
 //#define VERBOSE_MSG(vint, str)
