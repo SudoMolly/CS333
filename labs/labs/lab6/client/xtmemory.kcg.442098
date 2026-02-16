@@ -1,0 +1,1021 @@
+# callgrind format
+version: 1
+creator: xtree-1
+pid: 442098
+cmd: ./rockem_client -vvvc get TEST.txt
+
+positions: line
+event: curB : currently allocated Bytes
+event: curBk : currently allocated Blocks
+event: totB : total allocated Bytes
+event: totBk : total allocated Blocks
+event: totFdB : total Freed Bytes
+event: totFdBk : total Freed Blocks
+events: curB  curBk  totB  totBk  totFdB  totFdBk 
+fl=(1) /u/modiaz/UPPER_DIVISION/Fall25/CS333/CS333/labs/labs/lab6/./client/rockem_client.c
+fn=(1) main
+149 0 0 8 1 0 0
+
+fl=(1)
+fn=(1)
+168
+cfi=(2) ./nptl/./nptl/allocatestack.c
+cfn=(2) pthread_create@@GLIBC_2.34
+calls=0 429
+168 272 1 272 1 0 0
+fl=(2)
+fn=(2)
+429
+cfi=(3) ./elf/../include/rtld-malloc.h
+cfn=(3) _dl_allocate_tls
+calls=0 44
+429 272 1 272 1 0 0
+fl=(3)
+fn=(3)
+44 272 1 272 1 0 0
+
+fl=(1)
+fn=(1)
+185 0 0 0 0 8 1
+
+fl=(4) ./elf/./elf/dl-catch.c
+fn=(4) _dl_catch_error
+256
+cfi=(4)
+cfn=(5) _dl_catch_exception
+calls=0 237
+256 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5) ./elf/./elf/dl-libc.c
+cfn=(6) do_dlopen
+calls=0 95
+237 0 0 36 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6) ./elf/./elf/dl-open.c
+cfn=(7) _dl_open
+calls=0 905
+95 0 0 36 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8) dl_open_worker
+calls=0 803
+237 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9) dl_open_worker_begin
+calls=0 578
+237 0 0 36 1 0 0
+fl=(6)
+fn=(9)
+578
+cfi=(7) ./elf/./elf/dl-load.c
+cfn=(10) _dl_map_object
+calls=0 2135
+578 0 0 36 1 0 0
+fl=(7)
+fn=(10)
+2135
+cfi=(8) ./elf/./elf/dl-cache.c
+cfn=(11) _dl_load_cache_lookup
+calls=0 515
+2135 0 0 36 1 0 0
+fl=(8)
+fn=(11)
+515
+cfi=(9) ./string/../include/rtld-malloc.h
+cfn=(12) strdup
+calls=0 56
+515 0 0 36 1 0 0
+fl=(9)
+fn=(12)
+56 0 0 36 1 0 0
+
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 1254 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 1254 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 1254 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 1254 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 1254 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 1254 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 578
+237 0 0 1254 1 0 0
+fl=(6)
+fn=(9)
+578
+cfi=(7)
+cfn=(10)
+calls=0 2268
+578 0 0 1254 1 0 0
+fl=(7)
+fn=(10)
+2268
+cfi=(7)
+cfn=(13) _dl_map_object_from_fd
+calls=0 1053
+2268 0 0 1254 1 0 0
+fl=(7)
+fn=(13)
+1053
+cfi=(3)
+cfn=(14) _dl_new_object
+calls=0 44
+1053 0 0 1254 1 0 0
+fl=(3)
+fn=(14)
+44 0 0 1254 1 0 0
+
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 36 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 36 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 36 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 578
+237 0 0 36 1 0 0
+fl=(6)
+fn=(9)
+578
+cfi=(7)
+cfn=(10)
+calls=0 2268
+578 0 0 36 1 0 0
+fl=(7)
+fn=(10)
+2268
+cfi=(7)
+cfn=(13)
+calls=0 1053
+2268 0 0 36 1 0 0
+fl=(7)
+fn=(13)
+1053
+cfi=(3)
+cfn=(14)
+calls=0 56
+1053 0 0 36 1 0 0
+fl=(3)
+fn=(14)
+56 0 0 36 1 0 0
+
+fl=(10) ./misc/./misc/unwind-link.c
+fn=(15) __libc_unwind_link_get
+51
+cfi=(5)
+cfn=(16) __libc_dlopen_mode
+calls=0 45
+51 0 0 56 1 0 0
+fl=(5)
+fn=(16)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 56 1 0 0
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 56 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 56 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 56 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 56 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 56 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 56 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 638
+237 0 0 56 1 0 0
+fl=(6)
+fn=(9)
+638
+cfi=(3)
+cfn=(17) _dl_map_object_deps
+calls=0 56
+638 0 0 56 1 0 0
+fl=(3)
+fn=(17)
+56 0 0 56 1 0 0
+
+fl=(10)
+fn=(15)
+51
+cfi=(5)
+cfn=(16)
+calls=0 45
+51 0 0 576 1 0 0
+fl=(5)
+fn=(16)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 576 1 0 0
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 576 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 576 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 576 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 576 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 576 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 576 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 646
+237 0 0 576 1 0 0
+fl=(6)
+fn=(9)
+646
+cfi=(3)
+cfn=(18) _dl_check_map_versions
+calls=0 44
+646 0 0 576 1 0 0
+fl=(3)
+fn=(18)
+44 0 0 576 1 0 0
+
+fl=(10)
+fn=(15)
+51
+cfi=(5)
+cfn=(16)
+calls=0 45
+51 0 0 8 1 0 0
+fl=(5)
+fn=(16)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 8 1 0 0
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 8 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 8 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 8 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 8 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 8 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 8 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 756
+237 0 0 8 1 0 0
+fl=(6)
+fn=(9)
+756
+cfi=(3)
+cfn=(19) _dl_find_object_update
+calls=0 56
+756 0 0 8 1 0 0
+fl=(3)
+fn=(19)
+56 0 0 8 1 0 0
+
+fl=(10)
+fn=(15)
+51
+cfi=(5)
+cfn=(16)
+calls=0 45
+51 0 0 2304 1 0 0
+fl=(5)
+fn=(16)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 2304 1 0 0
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 2304 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 2304 1 0 0
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 2304 1 0 0
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 2304 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 2304 1 0 0
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 2304 1 0 0
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 756
+237 0 0 2304 1 0 0
+fl=(6)
+fn=(9)
+756
+cfi=(3)
+cfn=(19)
+calls=0 56
+756 0 0 2304 1 0 0
+fl=(3)
+fn=(19)
+56 0 0 2304 1 0 0
+
+fl=(10)
+fn=(15)
+51
+cfi=(5)
+cfn=(16)
+calls=0 45
+51 0 0 0 0 8 1
+fl=(5)
+fn=(16)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 0 0 8 1
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 0 0 8 1
+fl=(4)
+fn=(5)
+237
+cfi=(5)
+cfn=(6)
+calls=0 95
+237 0 0 0 0 8 1
+fl=(5)
+fn=(6)
+95
+cfi=(6)
+cfn=(7)
+calls=0 905
+95 0 0 0 0 8 1
+fl=(6)
+fn=(7)
+905
+cfi=(4)
+cfn=(5)
+calls=0 237
+905 0 0 0 0 8 1
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(8)
+calls=0 803
+237 0 0 0 0 8 1
+fl=(6)
+fn=(8)
+803
+cfi=(4)
+cfn=(5)
+calls=0 237
+803 0 0 0 0 8 1
+fl=(4)
+fn=(5)
+237
+cfi=(6)
+cfn=(9)
+calls=0 756
+237 0 0 0 0 8 1
+fl=(6)
+fn=(9)
+756
+cfi=(3)
+cfn=(19)
+calls=0 50
+756 0 0 0 0 8 1
+fl=(3)
+fn=(19)
+50 0 0 0 0 8 1
+
+fl=(11) ./misc/../sysdeps/unix/sysv/linux/x86_64/clone.S
+fn=(20) clone
+100
+cfi=(12) ./nptl/./nptl/pthread_create.c
+cfn=(21) start_thread
+calls=0 496
+100 0 0 0 0 56 1
+fl=(12)
+fn=(21)
+496
+cfi=(13) ./stdlib/./stdlib/exit.c
+cfn=(22) exit
+calls=0 138
+496 0 0 0 0 56 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23) __run_exit_handlers
+calls=0 131
+138 0 0 0 0 56 1
+fl=(13)
+fn=(23)
+131
+cfi=(14) UnknownFile???
+cfn=(24) _vgnU_freeres
+calls=0 0
+131 0 0 0 0 56 1
+fl=(14)
+fn=(24)
+0
+cfi=(15) ./malloc/./malloc/set-freeres.c
+cfn=(25) __libc_freeres
+calls=0 139
+0 0 0 0 0 56 1
+fl=(15)
+fn=(25)
+139
+cfi=(5)
+cfn=(26) __dl_libc_freemem
+calls=0 293
+139 0 0 0 0 56 1
+fl=(5)
+fn=(26)
+293 0 0 0 0 56 1
+
+fl=(12)
+fn=(21)
+496
+cfi=(13)
+cfn=(22)
+calls=0 138
+496 0 0 0 0 576 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23)
+calls=0 131
+138 0 0 0 0 576 1
+fl=(13)
+fn=(23)
+131
+cfi=(14)
+cfn=(24)
+calls=0 0
+131 0 0 0 0 576 1
+fl=(14)
+fn=(24)
+0
+cfi=(15)
+cfn=(25)
+calls=0 184
+0 0 0 0 0 576 1
+fl=(15)
+fn=(25)
+184
+cfi=(10)
+cfn=(27) __libc_unwind_link_freeres
+calls=0 139
+184 0 0 0 0 576 1
+fl=(10)
+fn=(27)
+139
+cfi=(5)
+cfn=(28) __libc_dlclose
+calls=0 45
+139 0 0 0 0 576 1
+fl=(5)
+fn=(28)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 0 0 576 1
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 0 0 576 1
+fl=(4)
+fn=(5)
+237
+cfi=(16) ./elf/./elf/dl-close.c
+cfn=(29) _dl_close
+calls=0 120
+237 0 0 0 0 576 1
+fl=(16)
+fn=(29)
+120
+cfi=(3)
+cfn=(30) _dl_close_worker.part.0
+calls=0 50
+120 0 0 0 0 576 1
+fl=(3)
+fn=(30)
+50 0 0 0 0 576 1
+
+fl=(12)
+fn=(21)
+496
+cfi=(13)
+cfn=(22)
+calls=0 138
+496 0 0 0 0 36 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23)
+calls=0 131
+138 0 0 0 0 36 1
+fl=(13)
+fn=(23)
+131
+cfi=(14)
+cfn=(24)
+calls=0 0
+131 0 0 0 0 36 1
+fl=(14)
+fn=(24)
+0
+cfi=(15)
+cfn=(25)
+calls=0 184
+0 0 0 0 0 36 1
+fl=(15)
+fn=(25)
+184
+cfi=(10)
+cfn=(27)
+calls=0 139
+184 0 0 0 0 36 1
+fl=(10)
+fn=(27)
+139
+cfi=(5)
+cfn=(28)
+calls=0 45
+139 0 0 0 0 36 1
+fl=(5)
+fn=(28)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 0 0 36 1
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 0 0 36 1
+fl=(4)
+fn=(5)
+237
+cfi=(16)
+cfn=(29)
+calls=0 120
+237 0 0 0 0 36 1
+fl=(16)
+fn=(29)
+120
+cfi=(3)
+cfn=(30)
+calls=0 50
+120 0 0 0 0 36 1
+fl=(3)
+fn=(30)
+50 0 0 0 0 36 1
+
+fl=(12)
+fn=(21)
+496
+cfi=(13)
+cfn=(22)
+calls=0 138
+496 0 0 0 0 36 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23)
+calls=0 131
+138 0 0 0 0 36 1
+fl=(13)
+fn=(23)
+131
+cfi=(14)
+cfn=(24)
+calls=0 0
+131 0 0 0 0 36 1
+fl=(14)
+fn=(24)
+0
+cfi=(15)
+cfn=(25)
+calls=0 184
+0 0 0 0 0 36 1
+fl=(15)
+fn=(25)
+184
+cfi=(10)
+cfn=(27)
+calls=0 139
+184 0 0 0 0 36 1
+fl=(10)
+fn=(27)
+139
+cfi=(5)
+cfn=(28)
+calls=0 45
+139 0 0 0 0 36 1
+fl=(5)
+fn=(28)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 0 0 36 1
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 0 0 36 1
+fl=(4)
+fn=(5)
+237
+cfi=(16)
+cfn=(29)
+calls=0 120
+237 0 0 0 0 36 1
+fl=(16)
+fn=(29)
+120
+cfi=(3)
+cfn=(30)
+calls=0 50
+120 0 0 0 0 36 1
+fl=(3)
+fn=(30)
+50 0 0 0 0 36 1
+
+fl=(12)
+fn=(21)
+496
+cfi=(13)
+cfn=(22)
+calls=0 138
+496 0 0 0 0 1254 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23)
+calls=0 131
+138 0 0 0 0 1254 1
+fl=(13)
+fn=(23)
+131
+cfi=(14)
+cfn=(24)
+calls=0 0
+131 0 0 0 0 1254 1
+fl=(14)
+fn=(24)
+0
+cfi=(15)
+cfn=(25)
+calls=0 184
+0 0 0 0 0 1254 1
+fl=(15)
+fn=(25)
+184
+cfi=(10)
+cfn=(27)
+calls=0 139
+184 0 0 0 0 1254 1
+fl=(10)
+fn=(27)
+139
+cfi=(5)
+cfn=(28)
+calls=0 45
+139 0 0 0 0 1254 1
+fl=(5)
+fn=(28)
+45
+cfi=(4)
+cfn=(4)
+calls=0 256
+45 0 0 0 0 1254 1
+fl=(4)
+fn=(4)
+256
+cfi=(4)
+cfn=(5)
+calls=0 237
+256 0 0 0 0 1254 1
+fl=(4)
+fn=(5)
+237
+cfi=(16)
+cfn=(29)
+calls=0 120
+237 0 0 0 0 1254 1
+fl=(16)
+fn=(29)
+120
+cfi=(3)
+cfn=(30)
+calls=0 50
+120 0 0 0 0 1254 1
+fl=(3)
+fn=(30)
+50 0 0 0 0 1254 1
+
+fl=(11)
+fn=(20)
+100
+cfi=(12)
+cfn=(21)
+calls=0 496
+100 0 0 0 0 2304 1
+fl=(12)
+fn=(21)
+496
+cfi=(13)
+cfn=(22)
+calls=0 138
+496 0 0 0 0 2304 1
+fl=(13)
+fn=(22)
+138
+cfi=(13)
+cfn=(23)
+calls=0 131
+138 0 0 0 0 2304 1
+fl=(13)
+fn=(23)
+131
+cfi=(14)
+cfn=(24)
+calls=0 0
+131 0 0 0 0 2304 1
+fl=(14)
+fn=(24)
+0
+cfi=(15)
+cfn=(25)
+calls=0 190
+0 0 0 0 0 2304 1
+fl=(15)
+fn=(25)
+190
+cfi=(3)
+cfn=(31) _dl_find_object_freeres
+calls=0 50
+190 0 0 0 0 2304 1
+fl=(3)
+fn=(31)
+50 0 0 0 0 2304 1
+
+totals: 272 1 4550 9 4278 8

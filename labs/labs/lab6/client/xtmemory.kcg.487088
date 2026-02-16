@@ -1,0 +1,1113 @@
+# callgrind format
+version: 1
+creator: xtree-1
+pid: 487088
+cmd: ./rockem_client -vvvc get TEST.txt
+
+positions: line
+event: curB : currently allocated Bytes
+event: curBk : currently allocated Blocks
+event: totB : total allocated Bytes
+event: totBk : total allocated Blocks
+event: totFdB : total Freed Bytes
+event: totFdBk : total Freed Blocks
+events: curB  curBk  totB  totBk  totFdB  totFdBk 
+fl=(1) /u/modiaz/UPPER_DIVISION/Fall25/CS333/CS333/labs/labs/lab6/./client/rockem_client.c
+fn=(1) main
+153
+cfi=(2) ./nptl/./nptl/allocatestack.c
+cfn=(2) pthread_create@@GLIBC_2.34
+calls=0 429
+153 0 0 272 1 0 0
+fl=(2)
+fn=(2)
+429
+cfi=(3) ./elf/../include/rtld-malloc.h
+cfn=(3) _dl_allocate_tls
+calls=0 44
+429 0 0 272 1 0 0
+fl=(3)
+fn=(3)
+44 0 0 272 1 0 0
+
+fl=(4) ./misc/../sysdeps/unix/sysv/linux/x86_64/clone.S
+fn=(4) clone
+100
+cfi=(5) ./nptl/./nptl/pthread_create.c
+cfn=(5) start_thread
+calls=0 447
+100 0 0 8 1 0 0
+fl=(5)
+fn=(5)
+447
+cfi=(1)
+cfn=(6) thread_commander
+calls=0 211
+447 0 0 8 1 0 0
+fl=(1)
+fn=(6)
+211 0 0 8 1 0 0
+
+fl=(4)
+fn=(4)
+100
+cfi=(5)
+cfn=(5)
+calls=0 447
+100 272 1 272 1 0 0
+fl=(5)
+fn=(5)
+447
+cfi=(1)
+cfn=(6)
+calls=0 216
+447 272 1 272 1 0 0
+fl=(1)
+fn=(6)
+216
+cfi=(2)
+cfn=(2)
+calls=0 429
+216 272 1 272 1 0 0
+fl=(2)
+fn=(2)
+429
+cfi=(3)
+cfn=(3)
+calls=0 44
+429 272 1 272 1 0 0
+fl=(3)
+fn=(3)
+44 272 1 272 1 0 0
+
+fl=(4)
+fn=(4)
+100
+cfi=(5)
+cfn=(5)
+calls=0 447
+100 0 0 0 0 8 1
+fl=(5)
+fn=(5)
+447
+cfi=(1)
+cfn=(6)
+calls=0 224
+447 0 0 0 0 8 1
+fl=(1)
+fn=(6)
+224 0 0 0 0 8 1
+
+fl=(6) ./elf/./elf/dl-catch.c
+fn=(7) _dl_catch_error
+256
+cfi=(6)
+cfn=(8) _dl_catch_exception
+calls=0 237
+256 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7) ./elf/./elf/dl-libc.c
+cfn=(9) do_dlopen
+calls=0 95
+237 0 0 36 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8) ./elf/./elf/dl-open.c
+cfn=(10) _dl_open
+calls=0 905
+95 0 0 36 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11) dl_open_worker
+calls=0 803
+237 0 0 36 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12) dl_open_worker_begin
+calls=0 578
+237 0 0 36 1 0 0
+fl=(8)
+fn=(12)
+578
+cfi=(9) ./elf/./elf/dl-load.c
+cfn=(13) _dl_map_object
+calls=0 2135
+578 0 0 36 1 0 0
+fl=(9)
+fn=(13)
+2135
+cfi=(10) ./elf/./elf/dl-cache.c
+cfn=(14) _dl_load_cache_lookup
+calls=0 515
+2135 0 0 36 1 0 0
+fl=(10)
+fn=(14)
+515
+cfi=(11) ./string/../include/rtld-malloc.h
+cfn=(15) strdup
+calls=0 56
+515 0 0 36 1 0 0
+fl=(11)
+fn=(15)
+56 0 0 36 1 0 0
+
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 1254 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 1254 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 1254 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 1254 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 1254 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 1254 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 578
+237 0 0 1254 1 0 0
+fl=(8)
+fn=(12)
+578
+cfi=(9)
+cfn=(13)
+calls=0 2268
+578 0 0 1254 1 0 0
+fl=(9)
+fn=(13)
+2268
+cfi=(9)
+cfn=(16) _dl_map_object_from_fd
+calls=0 1053
+2268 0 0 1254 1 0 0
+fl=(9)
+fn=(16)
+1053
+cfi=(3)
+cfn=(17) _dl_new_object
+calls=0 44
+1053 0 0 1254 1 0 0
+fl=(3)
+fn=(17)
+44 0 0 1254 1 0 0
+
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 36 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 36 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 36 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 36 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 578
+237 0 0 36 1 0 0
+fl=(8)
+fn=(12)
+578
+cfi=(9)
+cfn=(13)
+calls=0 2268
+578 0 0 36 1 0 0
+fl=(9)
+fn=(13)
+2268
+cfi=(9)
+cfn=(16)
+calls=0 1053
+2268 0 0 36 1 0 0
+fl=(9)
+fn=(16)
+1053
+cfi=(3)
+cfn=(17)
+calls=0 56
+1053 0 0 36 1 0 0
+fl=(3)
+fn=(17)
+56 0 0 36 1 0 0
+
+fl=(12) ./misc/./misc/unwind-link.c
+fn=(18) __libc_unwind_link_get
+51
+cfi=(7)
+cfn=(19) __libc_dlopen_mode
+calls=0 45
+51 0 0 56 1 0 0
+fl=(7)
+fn=(19)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 56 1 0 0
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 56 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 56 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 56 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 56 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 56 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 56 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 638
+237 0 0 56 1 0 0
+fl=(8)
+fn=(12)
+638
+cfi=(3)
+cfn=(20) _dl_map_object_deps
+calls=0 56
+638 0 0 56 1 0 0
+fl=(3)
+fn=(20)
+56 0 0 56 1 0 0
+
+fl=(12)
+fn=(18)
+51
+cfi=(7)
+cfn=(19)
+calls=0 45
+51 0 0 576 1 0 0
+fl=(7)
+fn=(19)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 576 1 0 0
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 576 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 576 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 576 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 576 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 576 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 576 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 646
+237 0 0 576 1 0 0
+fl=(8)
+fn=(12)
+646
+cfi=(3)
+cfn=(21) _dl_check_map_versions
+calls=0 44
+646 0 0 576 1 0 0
+fl=(3)
+fn=(21)
+44 0 0 576 1 0 0
+
+fl=(12)
+fn=(18)
+51
+cfi=(7)
+cfn=(19)
+calls=0 45
+51 0 0 8 1 0 0
+fl=(7)
+fn=(19)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 8 1 0 0
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 8 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 8 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 8 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 8 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 8 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 8 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 756
+237 0 0 8 1 0 0
+fl=(8)
+fn=(12)
+756
+cfi=(3)
+cfn=(22) _dl_find_object_update
+calls=0 56
+756 0 0 8 1 0 0
+fl=(3)
+fn=(22)
+56 0 0 8 1 0 0
+
+fl=(12)
+fn=(18)
+51
+cfi=(7)
+cfn=(19)
+calls=0 45
+51 0 0 2304 1 0 0
+fl=(7)
+fn=(19)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 2304 1 0 0
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 2304 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 2304 1 0 0
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 2304 1 0 0
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 2304 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 2304 1 0 0
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 2304 1 0 0
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 756
+237 0 0 2304 1 0 0
+fl=(8)
+fn=(12)
+756
+cfi=(3)
+cfn=(22)
+calls=0 56
+756 0 0 2304 1 0 0
+fl=(3)
+fn=(22)
+56 0 0 2304 1 0 0
+
+fl=(12)
+fn=(18)
+51
+cfi=(7)
+cfn=(19)
+calls=0 45
+51 0 0 0 0 8 1
+fl=(7)
+fn=(19)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 0 0 8 1
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 0 0 8 1
+fl=(6)
+fn=(8)
+237
+cfi=(7)
+cfn=(9)
+calls=0 95
+237 0 0 0 0 8 1
+fl=(7)
+fn=(9)
+95
+cfi=(8)
+cfn=(10)
+calls=0 905
+95 0 0 0 0 8 1
+fl=(8)
+fn=(10)
+905
+cfi=(6)
+cfn=(8)
+calls=0 237
+905 0 0 0 0 8 1
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(11)
+calls=0 803
+237 0 0 0 0 8 1
+fl=(8)
+fn=(11)
+803
+cfi=(6)
+cfn=(8)
+calls=0 237
+803 0 0 0 0 8 1
+fl=(6)
+fn=(8)
+237
+cfi=(8)
+cfn=(12)
+calls=0 756
+237 0 0 0 0 8 1
+fl=(8)
+fn=(12)
+756
+cfi=(3)
+cfn=(22)
+calls=0 50
+756 0 0 0 0 8 1
+fl=(3)
+fn=(22)
+50 0 0 0 0 8 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13) ./stdlib/./stdlib/exit.c
+cfn=(23) exit
+calls=0 138
+192 0 0 0 0 56 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24) __run_exit_handlers
+calls=0 131
+138 0 0 0 0 56 1
+fl=(13)
+fn=(24)
+131
+cfi=(14) UnknownFile???
+cfn=(25) _vgnU_freeres
+calls=0 0
+131 0 0 0 0 56 1
+fl=(14)
+fn=(25)
+0
+cfi=(15) ./malloc/./malloc/set-freeres.c
+cfn=(26) __libc_freeres
+calls=0 139
+0 0 0 0 0 56 1
+fl=(15)
+fn=(26)
+139
+cfi=(7)
+cfn=(27) __dl_libc_freemem
+calls=0 293
+139 0 0 0 0 56 1
+fl=(7)
+fn=(27)
+293 0 0 0 0 56 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 272 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 272 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 272 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 181
+0 0 0 0 0 272 1
+fl=(15)
+fn=(26)
+181
+cfi=(16) ./nptl/./nptl/nptl-stack.c
+cfn=(28) __nptl_free_stacks
+calls=0 79
+181 0 0 0 0 272 1
+fl=(16)
+fn=(28)
+79
+cfi=(3)
+cfn=(29) _dl_deallocate_tls
+calls=0 50
+79 0 0 0 0 272 1
+fl=(3)
+fn=(29)
+50 0 0 0 0 272 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 576 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 576 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 576 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 184
+0 0 0 0 0 576 1
+fl=(15)
+fn=(26)
+184
+cfi=(12)
+cfn=(30) __libc_unwind_link_freeres
+calls=0 139
+184 0 0 0 0 576 1
+fl=(12)
+fn=(30)
+139
+cfi=(7)
+cfn=(31) __libc_dlclose
+calls=0 45
+139 0 0 0 0 576 1
+fl=(7)
+fn=(31)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 0 0 576 1
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 0 0 576 1
+fl=(6)
+fn=(8)
+237
+cfi=(17) ./elf/./elf/dl-close.c
+cfn=(32) _dl_close
+calls=0 120
+237 0 0 0 0 576 1
+fl=(17)
+fn=(32)
+120
+cfi=(3)
+cfn=(33) _dl_close_worker.part.0
+calls=0 50
+120 0 0 0 0 576 1
+fl=(3)
+fn=(33)
+50 0 0 0 0 576 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 36 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 36 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 36 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 184
+0 0 0 0 0 36 1
+fl=(15)
+fn=(26)
+184
+cfi=(12)
+cfn=(30)
+calls=0 139
+184 0 0 0 0 36 1
+fl=(12)
+fn=(30)
+139
+cfi=(7)
+cfn=(31)
+calls=0 45
+139 0 0 0 0 36 1
+fl=(7)
+fn=(31)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 0 0 36 1
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 0 0 36 1
+fl=(6)
+fn=(8)
+237
+cfi=(17)
+cfn=(32)
+calls=0 120
+237 0 0 0 0 36 1
+fl=(17)
+fn=(32)
+120
+cfi=(3)
+cfn=(33)
+calls=0 50
+120 0 0 0 0 36 1
+fl=(3)
+fn=(33)
+50 0 0 0 0 36 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 36 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 36 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 36 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 184
+0 0 0 0 0 36 1
+fl=(15)
+fn=(26)
+184
+cfi=(12)
+cfn=(30)
+calls=0 139
+184 0 0 0 0 36 1
+fl=(12)
+fn=(30)
+139
+cfi=(7)
+cfn=(31)
+calls=0 45
+139 0 0 0 0 36 1
+fl=(7)
+fn=(31)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 0 0 36 1
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 0 0 36 1
+fl=(6)
+fn=(8)
+237
+cfi=(17)
+cfn=(32)
+calls=0 120
+237 0 0 0 0 36 1
+fl=(17)
+fn=(32)
+120
+cfi=(3)
+cfn=(33)
+calls=0 50
+120 0 0 0 0 36 1
+fl=(3)
+fn=(33)
+50 0 0 0 0 36 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 1254 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 1254 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 1254 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 184
+0 0 0 0 0 1254 1
+fl=(15)
+fn=(26)
+184
+cfi=(12)
+cfn=(30)
+calls=0 139
+184 0 0 0 0 1254 1
+fl=(12)
+fn=(30)
+139
+cfi=(7)
+cfn=(31)
+calls=0 45
+139 0 0 0 0 1254 1
+fl=(7)
+fn=(31)
+45
+cfi=(6)
+cfn=(7)
+calls=0 256
+45 0 0 0 0 1254 1
+fl=(6)
+fn=(7)
+256
+cfi=(6)
+cfn=(8)
+calls=0 237
+256 0 0 0 0 1254 1
+fl=(6)
+fn=(8)
+237
+cfi=(17)
+cfn=(32)
+calls=0 120
+237 0 0 0 0 1254 1
+fl=(17)
+fn=(32)
+120
+cfi=(3)
+cfn=(33)
+calls=0 50
+120 0 0 0 0 1254 1
+fl=(3)
+fn=(33)
+50 0 0 0 0 1254 1
+
+fl=(1)
+fn=(1)
+192
+cfi=(13)
+cfn=(23)
+calls=0 138
+192 0 0 0 0 2304 1
+fl=(13)
+fn=(23)
+138
+cfi=(13)
+cfn=(24)
+calls=0 131
+138 0 0 0 0 2304 1
+fl=(13)
+fn=(24)
+131
+cfi=(14)
+cfn=(25)
+calls=0 0
+131 0 0 0 0 2304 1
+fl=(14)
+fn=(25)
+0
+cfi=(15)
+cfn=(26)
+calls=0 190
+0 0 0 0 0 2304 1
+fl=(15)
+fn=(26)
+190
+cfi=(3)
+cfn=(34) _dl_find_object_freeres
+calls=0 50
+190 0 0 0 0 2304 1
+fl=(3)
+fn=(34)
+50 0 0 0 0 2304 1
+
+totals: 272 1 4822 10 4550 9
